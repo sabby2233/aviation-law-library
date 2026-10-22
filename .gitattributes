@@ -1,0 +1,4 @@
+# 记录文件由脚本以 CRLF + indent=2 写盘（见 scripts/ 各 collector 的 newline="\r\n"）。
+# 关闭 Git 的自动换行转换：否则 Windows 检出/提交会反复改写行尾，
+# 造成「内容没变但 diff 全红」的假变更，并让 validate 的字节级比对漂移。
+* -text

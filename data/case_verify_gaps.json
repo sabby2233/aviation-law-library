@@ -1,0 +1,61 @@
+{
+ "aggregator_hit": [
+  "AVA-ES-ADP-A-001",
+  "AVA-ES-ADP-A-002",
+  "AVA-ES-ADP-A-003",
+  "AVA-ES-ADP-A-005",
+  "AVA-ES-ADP-A-009",
+  "AVA-ES-ADP-A-010",
+  "AVA-GB-ADP-A-003",
+  "AVA-BE-ADP-A-001",
+  "AVA-IT-ADP-A-002",
+  "AVA-RO-ADP-A-001",
+  "AVA-CY-ADP-A-001"
+ ],
+ "court": [
+  "AVA-BE-ADP-C-001",
+  "AVA-US-ADP-C-001",
+  "AVA-US-ADP-C-002",
+  "AVA-US-ADP-C-003",
+  "AVA-CN-ADP-C-001"
+ ],
+ "non_gdpr": [
+  "AVA-TR-ADP-A-001",
+  "AVA-TR-ADP-A-002",
+  "AVA-CA-ADP-A-001",
+  "AVA-AU-ADP-A-001",
+  "AVA-KR-ADP-A-001",
+  "AVA-IN-ADP-A-001",
+  "AVA-SG-ADP-A-001",
+  "AVA-HK-ADP-A-001"
+ ],
+ "us_regulator": [
+  "AVA-US-ADP-A-001",
+  "AVA-US-ADP-A-002",
+  "AVA-US-ADP-A-003",
+  "AVA-US-ADP-A-004"
+ ],
+ "gdpr_but_missing": [
+  "AVA-ES-ADP-A-004",
+  "AVA-ES-ADP-A-006",
+  "AVA-ES-ADP-A-007",
+  "AVA-ES-ADP-A-008",
+  "AVA-GB-ADP-A-001",
+  "AVA-GB-ADP-A-002",
+  "AVA-FR-ADP-A-001",
+  "AVA-FR-ADP-A-002",
+  "AVA-DE-ADP-A-001",
+  "AVA-IT-ADP-A-001",
+  "AVA-IT-ADP-A-003",
+  "AVA-SE-ADP-A-001",
+  "AVA-NO-ADP-A-001",
+  "AVA-NL-ADP-A-001",
+  "AVA-HU-ADP-A-001",
+  "AVA-CH-ADP-A-001",
+  "AVA-AT-ADP-A-001",
+  "AVA-PT-ADP-A-001",
+  "AVA-IE-ADP-A-001",
+  "AVA-PL-ADP-A-001",
+  "AVA-DK-ADP-A-001"
+ ]
+}

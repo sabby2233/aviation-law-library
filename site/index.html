@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>航空法律资料库</title>
+<meta name="description" content="可检索的航空法律资料库：法规、案例与标准原文直达。">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%232563eb'/><path d='M3 11h10M5 8h6M7 5h2' stroke='%23fff' stroke-width='1.6' stroke-linecap='round'/></svg>">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <h1>航空法律资料库</h1>
+        <p class="brand-sub">Aviation Law Library</p>
+      </div>
+    </div>
+    <div class="header-meta" id="header-meta"></div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- 检索区 -->
+  <section class="search-panel" aria-label="检索">
+    <div class="search-row">
+      <input type="search" id="q" class="search-input" autocomplete="off"
+             placeholder="搜索标题、摘要、文号、机构、主题关键词… 支持 cfr:14:39 / fr:91:66283 精确查"
+             aria-label="全文检索">
+      <button id="btn-reset" class="btn-ghost" type="button">重置</button>
+    </div>
+
+    <div id="warnings" class="warnings hidden" role="status" aria-live="polite"></div>
+
+    <div class="filter-row">
+      <label class="filter">
+        <span>法域</span>
+        <select id="f-jurisdiction"><option value="">全部</option></select>
+      </label>
+      <label class="filter">
+        <span>类型</span>
+        <select id="f-type">
+          <option value="">全部</option>
+          <option value="legislation">法规</option>
+          <option value="case">案例</option>
+          <option value="standard">标准</option>
+          <option value="guidance">指南</option>
+          <option value="policy">政策</option>
+        </select>
+      </label>
+      <label class="filter">
+        <span>状态</span>
+        <select id="f-status"><option value="">全部</option></select>
+      </label>
+      <label class="filter">
+        <span>证据等级</span>
+        <select id="f-evidence">
+          <option value="">全部</option>
+          <option value="L0">L0 官方一手</option>
+          <option value="L1">L1 官方二手</option>
+          <option value="L2">L2 国际组织文件</option>
+          <option value="L3">L3 专业二手</option>
+        </select>
+      </label>
+      <label class="filter">
+        <span>核验状态</span>
+        <select id="f-pending">
+          <option value="">全部</option>
+          <option value="1">仅待核验条目</option>
+        </select>
+      </label>
+      <label class="filter filter-date">
+        <span>发布于</span>
+        <input type="date" id="f-from" aria-label="起始日期">
+        <span class="dash">—</span>
+        <input type="date" id="f-to" aria-label="截止日期">
+      </label>
+    </div>
+
+    <div class="topic-row" id="topic-row" aria-label="主题筛选"></div>
+  </section>
+
+  <!-- 结果统计 -->
+  <div class="result-bar">
+    <p id="result-count" role="status" aria-live="polite">正在加载…</p>
+    <p class="result-hint">按相关度与日期排序 · 每条均可直达官方原文</p>
+  </div>
+
+  <!-- 结果列表 -->
+  <main id="results" class="results"></main>
+
+  <p id="empty" class="empty hidden">没有匹配的记录。试试放宽筛选条件，或更换关键词。</p>
+</div>
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="notice" id="notice"></p>
+    <p class="meta-line" id="footer-meta"></p>
+  </div>
+</footer>
+
+<script src="js/glossary.js"></script>
+<script src="js/search.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+name: Data Quality Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # 每月 1 日 03:17 UTC —— 错开整点，降低 GitHub 调度拥塞
+    - cron: '17 3 1 * *'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 需要 git 历史取 commit SHA
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          # 本仓库有 requirements.txt，故 cache 安全。
+          # 若日后删除 requirements.txt，务必同时移除这一行，
+          # 否则 setup-python 会因找不到依赖文件而直接失败（会拖垮整条流水线）。
+          # —— 这正是本项目旧仓库自动更新停摆 4 个月的根因，勿删。
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Data quality assertions
+        run: python scripts/validate.py --data data/manifest.json
+
+      - name: Search engine regression test
+        run: node site/test_search.js
+
+      - name: Check manifest is in sync with records
+        run: |
+          python scripts/build_manifest.py
+          git diff --exit-code data/manifest.json \
+            || echo "::error::manifest 与记录文件不同步，请重跑 build_manifest.py 并提交"
+
+      - name: Check browse index is in sync
+        run: |
+          python scripts/build_browse.py
+          git diff --exit-code data/browse.json \
+            || echo "::error::browse 索引与记录不同步，请重跑 build_browse.py 并提交"
+
+      - name: Check API output is in sync
+        run: |
+          node scripts/build_api.js
+          git diff --exit-code site/api/ \
+            || echo "::error::API 出口与数据不同步，请重跑 build_api.js 并提交"
+
+      - name: Check browse index keeps full-corpus recall
+        run: node site/test_browse_parity.js
+
+  collect:
+    runs-on: ubuntu-latest
+    needs: validate
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Collect new records
+        run: |
+          python scripts/collect_federal_register.py
+          python scripts/collect_aviation_data_cases.py \
+            --source-url data/snapshots/cases_source.json
+          python scripts/collect_caac.py
+          python scripts/collect_lexcom.py
+          # EUR-Lex：分批执行。运行环境对长任务的网络请求会拦截并返回 403，
+          # 单批 2 条可稳定通过；采集器支持增量合并，多次执行结果累积。
+          python scripts/collect_eurlex.py --celex 32018R1139,32019R0947
+          python scripts/collect_eurlex.py --celex 32019R0945,32021R0664
+          python scripts/collect_eurlex.py --celex 32016R0679,31995L0046
+          python scripts/collect_eurlex.py --celex 32018R1725
+          python scripts/build_sources.py
+          python scripts/build_manifest.py
+          python scripts/build_browse.py
+          node scripts/build_api.js
+
+      - name: Validate after collection
+        run: python scripts/validate.py --data data/manifest.json
+
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ site/api/
+          if git diff --staged --quiet; then
+            echo "无新数据"
+          else
+            git commit -m "chore(data): 自动采集更新 $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error title=采集失败::月度采集未成功，请检查信源可达性与脚本"

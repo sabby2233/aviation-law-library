@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "albumId": "2923696623472345089",
+    "biz": "Mzg3MzUyMDU2NA==",
+    "albumTitle": "ICAO 国际民航公约附件",
+    "platform": "微信公众号相册",
+    "form": "图片形式（正文为图片，非文本）",
+    "retrievedAt": "2026-10-21T17:26:39Z",
+    "articleCount": 30,
+    "annexCovered": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "annexMissing": [],
+    "note": "仅收录标题与链接等元数据。正文图片所载 SARPs 条文属 ICAO 保留版权材料，不入库、不转录。"
+  },
+  "articles": [
+    {
+      "title": "ICAO 国际民航公约附件 1 至 18 简介",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247487500&idx=1&sn=c441f2bed317c0d824407d0d6ad7fb12&chksm=cedf9cd7f9a815c15df98d0f485b0d7db76f7ecca595e6e8f64b2f4a790b64c2a88d05ce44eb#rd",
+      "msgid": "2247487500",
+      "itemidx": "1",
+      "createTime": "1683858055",
+      "date": "2023-05-12",
+      "annexNo": 1
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 1 — 人员执照的颁发",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247487500&idx=2&sn=e8b1f932d34dc4baf4c75f41665e02c6&chksm=cedf9cd7f9a815c1f0066d767ed0c17895a363384080f2429e1d306814c116797de53941d73f#rd",
+      "msgid": "2247487500",
+      "itemidx": "2",
+      "createTime": "1683858055",
+      "date": "2023-05-12",
+      "annexNo": 1
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 2 — 空中规则",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247487500&idx=3&sn=a06009faa4bba718dfd94b357694ee3f&chksm=cedf9cd7f9a815c1dffb04139132f45e1c7247cbc7603ce88f611375bc4694d46a469d8d6268#rd",
+      "msgid": "2247487500",
+      "itemidx": "3",
+      "createTime": "1683858055",
+      "date": "2023-05-12",
+      "annexNo": 2
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 3 — 国际空中航行气象服务",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247488103&idx=2&sn=850086f773d3cc4db01c4e752ce9d9a3&chksm=cedf9ebcf9a817aa9feffdd307b9d654695054ddc69c5b0fcd3e8f92c3adaccd308a4d75a686#rd",
+      "msgid": "2247488103",
+      "itemidx": "2",
+      "createTime": "1684218716",
+      "date": "2023-05-16",
+      "annexNo": 3
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 4 — 航图",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247488103&idx=3&sn=1c65fd7ebac15d7c986067f24ad1d2e0&chksm=cedf9ebcf9a817aa2f4042b5c40a537b700a27bd106b74be433fce4ad0e1e528a345460c365f#rd",
+      "msgid": "2247488103",
+      "itemidx": "3",
+      "createTime": "1684218716",
+      "date": "2023-05-16",
+      "annexNo": 4
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 5 — 空中和地面运行中所使用的计量单位",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247488103&idx=4&sn=33038cd2a95f14939556488fa7932b49&chksm=cedf9ebcf9a817aa18d9f4c4917d2729f5be6c08a9da03a92f8a966295a3cb0d69b2ee42a371#rd",
+      "msgid": "2247488103",
+      "itemidx": "4",
+      "createTime": "1684218716",
+      "date": "2023-05-16",
+      "annexNo": 5
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 6 — 航空器的运行 第Ⅰ部分 国际商业航空运输—飞机",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247488760&idx=2&sn=75830aa6b8bbe147a3523eebd99c59e8&chksm=cedf9823f9a8113547e6d6cf57333910963bcc6046ee67e5c2b1c3b9e21588df56937bf0f238#rd",
+      "msgid": "2247488760",
+      "itemidx": "2",
+      "createTime": "1684462909",
+      "date": "2023-05-19",
+      "annexNo": 6
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 6 — 航空器的运行 第Ⅱ部分 国际通用航空—飞机",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247488760&idx=3&sn=5a35ce321c13bff8e5b0cf2c11b63f86&chksm=cedf9823f9a81135beffde88b6de8ffa35f14f56a6538240519d764137ff07e2616e0d15d19b#rd",
+      "msgid": "2247488760",
+      "itemidx": "3",
+      "createTime": "1684462909",
+      "date": "2023-05-19",
+      "annexNo": 6
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 6 — 航空器的运行 第Ⅲ部分 国际运行—直升机",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247488760&idx=4&sn=e3db44c3f475986e21990bc193db9bcb&chksm=cedf9823f9a81135ca181fd2ebe005c82ed1a55aa91a02cc7e72a4c6091b756fb949cbacdf7e#rd",
+      "msgid": "2247488760",
+      "itemidx": "4",
+      "createTime": "1684462909",
+      "date": "2023-05-19",
+      "annexNo": 6
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 7 — 航空器国籍和登记标志",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247488831&idx=2&sn=acc09179982fd61ce8aef880849c5d8c&chksm=cedf99e4f9a810f243d5ee2a62af2f47710cbba6ec6df563dc21f9a565ef1d2c041e1a976cfd#rd",
+      "msgid": "2247488831",
+      "itemidx": "2",
+      "createTime": "1683858055",
+      "date": "2023-05-12",
+      "annexNo": 7
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 8 — 航空器适航性",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247489106&idx=2&sn=84aaf077283634879c32feba4e3fb9bc&chksm=cedf9a89f9a8139f566f0b6d792080fef0c8091c07b347edaa26bfc3b96e64210480e44e61dc#rd",
+      "msgid": "2247489106",
+      "itemidx": "2",
+      "createTime": "1685667998",
+      "date": "2023-06-02",
+      "annexNo": 8
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 9 — 简化手续",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247489206&idx=2&sn=71559d84516403293688766c6853f848&chksm=cedf9a6df9a8137b9e33f9314c5092b2157fa7dbe6adff8652edf18876f694cf8fdfe19fd44f#rd",
+      "msgid": "2247489206",
+      "itemidx": "2",
+      "createTime": "1686271993",
+      "date": "2023-06-09",
+      "annexNo": 9
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 10 — 航空电信 第Ⅰ卷 无线电导航设备",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247489932&idx=2&sn=1e3f47c364d0a5b0e1ae0f4cb301d8a2&chksm=cedf9557f9a81c411c327ffa6a2b19010edeb49d19e143fb2d77d0642421e8c9aa4abd1adafb#rd",
+      "msgid": "2247489932",
+      "itemidx": "2",
+      "createTime": "1686271993",
+      "date": "2023-06-09",
+      "annexNo": 10
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 10 — 航空电信 第Ⅱ卷 通信程序—包括具有PAN地位的程序",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247489932&idx=3&sn=5fbafabff72655526066eb900c44c3dd&chksm=cedf9557f9a81c412e36a6a9cc27750d0fd5f9498666829f9eb7469764e42988ecb0bca234e7#rd",
+      "msgid": "2247489932",
+      "itemidx": "3",
+      "createTime": "1686271993",
+      "date": "2023-06-09",
+      "annexNo": 10
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 10 — 航空电信 第Ⅲ卷 通信系统",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247490667&idx=2&sn=8f29002ef1093f5c974bc3ef7f22b29f&chksm=cedf90b0f9a819a60d266f3465703cb79dc84883a152e12d760b0faade4c23fc4ae448e40660#rd",
+      "msgid": "2247490667",
+      "itemidx": "2",
+      "createTime": "1687157834",
+      "date": "2023-06-19",
+      "annexNo": 10
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 10 — 航空电信 第Ⅳ卷 监视和防撞系统",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247490667&idx=3&sn=57063dcf3ad69ee2880629d3438fa01b&chksm=cedf90b0f9a819a60aaa4c9094d0167a790fcd6fb97a4befd9e5c8e1e27ea69d16083c7d1c63#rd",
+      "msgid": "2247490667",
+      "itemidx": "3",
+      "createTime": "1687157834",
+      "date": "2023-06-19",
+      "annexNo": 10
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 10 — 航空电信 第Ⅴ卷 航空无线电频谱的利用",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247492642&idx=2&sn=4345dc4aea4e1c479cfffb2b806c557c&chksm=cedc68f9f9abe1ef7ea823c4f3a7f4537f6ebaeb8e23ff58946b362fbc27f37af86b4eebfc8e#rd",
+      "msgid": "2247492642",
+      "itemidx": "2",
+      "createTime": "1687915772",
+      "date": "2023-06-28",
+      "annexNo": 10
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 11 — 空中交通服务",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247490928&idx=2&sn=7b156c14c56dd0343ac4e44cc47408f7&chksm=cedf91abf9a818bd9b369926bf4caa792beb724446f03491323b89a7657da0eaaacf4b79cd62#rd",
+      "msgid": "2247490928",
+      "itemidx": "2",
+      "createTime": "1687915772",
+      "date": "2023-06-28",
+      "annexNo": 11
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 12 — 搜寻与援救",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247490928&idx=3&sn=dbfca01461836ffb947cc77afdd94c5a&chksm=cedf91abf9a818bd1b2c4f22bd40128101cdb4e835b04589a7b144eb0fdcbec3c8bf38e009fd#rd",
+      "msgid": "2247490928",
+      "itemidx": "3",
+      "createTime": "1687915772",
+      "date": "2023-06-28",
+      "annexNo": 12
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 13 — 航空器事故和事故征候调查",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247490928&idx=4&sn=d21e15ca75b955cad7f88fff1c440979&chksm=cedf91abf9a818bd54610c1216423e9e570fb7ce1aab5e0202f7efd37a50bc8dcbf6d700aad4#rd",
+      "msgid": "2247490928",
+      "itemidx": "4",
+      "createTime": "1687915772",
+      "date": "2023-06-28",
+      "annexNo": 13
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 14 — 机场 第Ⅰ卷 机场设计和运行",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247491307&idx=2&sn=64a4bf3bc902c2a30663982833cd4251&chksm=cedf9230f9a81b26b9dedf42c7c4912bc702a5c56cc947fcff96cd320af2194cb20f476827b2#rd",
+      "msgid": "2247491307",
+      "itemidx": "2",
+      "createTime": "1689318269",
+      "date": "2023-07-14",
+      "annexNo": 14
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 14 — 机场 第Ⅱ卷 直升机场",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247491481&idx=3&sn=4994e30e3ab24339c7acabd3349f35cc&chksm=cedf9342f9a81a540e69e3c049f2476bf26722369d945a6a03a2c66d0190f73539440a2402cb#rd",
+      "msgid": "2247491481",
+      "itemidx": "3",
+      "createTime": "1690936978",
+      "date": "2023-08-02",
+      "annexNo": 14
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 15 — 航空情报服务",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247491739&idx=2&sn=e99c749d5a44cc596657d1dd5064284f&chksm=cedc6c40f9abe55628a3f44b5935dec2e433dc97dff59ecfd0e38ec4862313589c53320670b7#rd",
+      "msgid": "2247491739",
+      "itemidx": "2",
+      "createTime": "1691383757",
+      "date": "2023-08-07",
+      "annexNo": 15
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 16 — 环境保护 第Ⅰ卷 航空器噪声",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247492403&idx=2&sn=d001c9c85c43e0b7ce2a5647c0017d5a&chksm=cedc6fe8f9abe6fe0aa082100f49ad6a09ec6a066f32093db7de846763a7c9cb917cf552e829#rd",
+      "msgid": "2247492403",
+      "itemidx": "2",
+      "createTime": "1691383757",
+      "date": "2023-08-07",
+      "annexNo": 16
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 16 — 环境保护 第Ⅱ卷 航空器发动机的排放物",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247492403&idx=3&sn=8dda70bcd95428f36495b1c1fad94444&chksm=cedc6fe8f9abe6fee8fe0fbb60728de215bc650720d8b5baee281f3a6c91e60a477e172628f0#rd",
+      "msgid": "2247492403",
+      "itemidx": "3",
+      "createTime": "1691383757",
+      "date": "2023-08-07",
+      "annexNo": 16
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 16 — 环境保护 第Ⅲ卷 飞机二氧化碳排放",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247492403&idx=4&sn=c47e524f15bd6efaabe9cde7dd2a0717&chksm=cedc6fe8f9abe6feb8a8ae3b935a686da3febebb38e6c05b903f10c8f260f30bd8eb18d21803#rd",
+      "msgid": "2247492403",
+      "itemidx": "4",
+      "createTime": "1691383757",
+      "date": "2023-08-07",
+      "annexNo": 16
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 16 — 环境保护 第Ⅳ卷 国际航空碳抵消和减排计划",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247492403&idx=5&sn=645af36458f360980b2081f98808e23b&chksm=cedc6fe8f9abe6fec1c24011414569e29e3e60b23cbda22751f4cd641ee0ef64e47e536897a6#rd",
+      "msgid": "2247492403",
+      "itemidx": "5",
+      "createTime": "1691383757",
+      "date": "2023-08-07",
+      "annexNo": 16
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 17 — 安保",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247492642&idx=3&sn=10a566729dd1cb4ab5a930b7d05c4548&chksm=cedc68f9f9abe1efcea4e546724c0fa234e1fcaa70c3d1e6f53c0145c063bd5706baa5d1d57c#rd",
+      "msgid": "2247492642",
+      "itemidx": "3",
+      "createTime": "1692337999",
+      "date": "2023-08-18",
+      "annexNo": 17
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 18 — 危险物品的安全航空运输",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247492642&idx=4&sn=85f5e9c7ce11dbdc3e08dbf0e4b8823d&chksm=cedc68f9f9abe1ef4ed13fc5a4bcf27032fd0ef926e13768fcec1c9b7224f2c802eb8150725c#rd",
+      "msgid": "2247492642",
+      "itemidx": "4",
+      "createTime": "1692337999",
+      "date": "2023-08-18",
+      "annexNo": 18
+    },
+    {
+      "title": "ICAO 国际民用航空公约附件 19 — 安全管理",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MzUyMDU2NA==&mid=2247492642&idx=5&sn=bb2e64de9580a2617025a5755f254ea4&chksm=cedc68f9f9abe1efa31ecce20f49fdf1393f8496bbbdd6f5c58bf3461f391abebbd72411022b#rd",
+      "msgid": "2247492642",
+      "itemidx": "5",
+      "createTime": "1692337999",
+      "date": "2023-08-18",
+      "annexNo": 19
+    }
+  ]
+}

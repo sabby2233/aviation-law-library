@@ -1,0 +1,5766 @@
+[
+  {
+    "recordId": "AVA-CN-LAW-40",
+    "recordType": "legislation",
+    "title": "中华人民共和国民用航空法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related",
+      "法律"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "2025-12-27",
+      "effectiveDate": "2026-07-01",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B0%91%E7%94%A8%E8%88%AA%E7%A9%BA%E6%B3%95_%E5%B0%9A%E6%9C%AA%E7%94%9F%E6%95%88.pdf",
+    "recordLevel": {
+      "lexcomId": "40",
+      "lawCategoryCode": 1,
+      "lawCategoryName": "法律",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "全国人大常委会",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "中华人民共和国民用航空法_尚未生效.pdf",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "40",
+        "sourceId": "LEXCOM-AVA-CN-LAW-40",
+        "locator": "法通网记录 id=40",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "中华人民共和国民用航空法",
+        "sourceId": "LEXCOM-AVA-CN-LAW-40",
+        "locator": "法通网记录 id=40",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "全国人大常委会",
+        "sourceId": "LEXCOM-AVA-CN-LAW-40",
+        "locator": "法通网记录 id=40",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "2025-12-27",
+        "sourceId": "LEXCOM-AVA-CN-LAW-40",
+        "locator": "法通网记录 id=40",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "2026-07-01",
+        "sourceId": "LEXCOM-AVA-CN-LAW-40",
+        "locator": "法通网记录 id=40",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "法律",
+        "sourceId": "LEXCOM-AVA-CN-LAW-40",
+        "locator": "法通网记录 id=40",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-40",
+        "locator": "法通网记录 id=40",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-4077",
+    "recordType": "legislation",
+    "title": "民用航空运输不定期飞行管理暂行规定",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related",
+      "flight-ops",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "2024-12-06",
+      "effectiveDate": "2025-01-20",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E6%B0%91%E7%94%A8%E8%88%AA%E7%A9%BA%E8%BF%90%E8%BE%93%E4%B8%8D%E5%AE%9A%E6%9C%9F%E9%A3%9E%E8%A1%8C%E7%AE%A1%E7%90%86%E6%9A%82%E8%A1%8C%E8%A7%84%E5%AE%9A.pdf",
+    "recordLevel": {
+      "lexcomId": "4077",
+      "lawCategoryCode": 4,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "民用航空运输不定期飞行管理暂行规定.pdf",
+      "matchedKeywords": [
+        "航空",
+        "航空运输",
+        "飞行"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "4077",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4077",
+        "locator": "法通网记录 id=4077",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空运输不定期飞行管理暂行规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4077",
+        "locator": "法通网记录 id=4077",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4077",
+        "locator": "法通网记录 id=4077",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "2024-12-06",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4077",
+        "locator": "法通网记录 id=4077",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "2025-01-20",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4077",
+        "locator": "法通网记录 id=4077",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4077",
+        "locator": "法通网记录 id=4077",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4077",
+        "locator": "法通网记录 id=4077",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-120094",
+    "recordType": "legislation",
+    "title": "外国民用航空器飞行管理规则",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related",
+      "flight-ops",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "2024-12-06",
+      "effectiveDate": "2025-01-20",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/48_%E5%A4%96%E5%9B%BD%E6%B0%91%E7%94%A8%E8%88%AA%E7%A9%BA%E5%99%A8%E9%A3%9E%E8%A1%8C%E7%AE%A1%E7%90%86%E8%A7%84%E5%88%99.pdf",
+    "recordLevel": {
+      "lexcomId": "120094",
+      "lawCategoryCode": 2,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "48_外国民用航空器飞行管理规则.pdf",
+      "matchedKeywords": [
+        "航空",
+        "航空器",
+        "飞行"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "120094",
+        "sourceId": "LEXCOM-AVA-CN-LAW-120094",
+        "locator": "法通网记录 id=120094",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "外国民用航空器飞行管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-120094",
+        "locator": "法通网记录 id=120094",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-120094",
+        "locator": "法通网记录 id=120094",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "2024-12-06",
+        "sourceId": "LEXCOM-AVA-CN-LAW-120094",
+        "locator": "法通网记录 id=120094",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "2025-01-20",
+        "sourceId": "LEXCOM-AVA-CN-LAW-120094",
+        "locator": "法通网记录 id=120094",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-120094",
+        "locator": "法通网记录 id=120094",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-120094",
+        "locator": "法通网记录 id=120094",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-4074",
+    "recordType": "legislation",
+    "title": "无人驾驶航空器飞行管理暂行条例",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related",
+      "flight-ops",
+      "uav",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "2023-05-31",
+      "effectiveDate": "2024-01-01",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E6%97%A0%E4%BA%BA%E9%A9%BE%E9%A9%B6%E8%88%AA%E7%A9%BA%E5%99%A8%E9%A3%9E%E8%A1%8C%E7%AE%A1%E7%90%86%E6%9A%82%E8%A1%8C%E6%9D%A1%E4%BE%8B.pdf",
+    "recordLevel": {
+      "lexcomId": "4074",
+      "lawCategoryCode": 4,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "无人驾驶航空器飞行管理暂行条例.pdf",
+      "matchedKeywords": [
+        "航空",
+        "航空器",
+        "飞行",
+        "无人驾驶"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "4074",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4074",
+        "locator": "法通网记录 id=4074",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "无人驾驶航空器飞行管理暂行条例",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4074",
+        "locator": "法通网记录 id=4074",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4074",
+        "locator": "法通网记录 id=4074",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "2023-05-31",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4074",
+        "locator": "法通网记录 id=4074",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "2024-01-01",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4074",
+        "locator": "法通网记录 id=4074",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4074",
+        "locator": "法通网记录 id=4074",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4074",
+        "locator": "法通网记录 id=4074",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-4071",
+    "recordType": "legislation",
+    "title": "中华人民共和国民用航空器国籍登记条例",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "2020-11-29",
+      "effectiveDate": "2020-11-29",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B0%91%E7%94%A8%E8%88%AA%E7%A9%BA%E5%99%A8%E5%9B%BD%E7%B1%8D%E7%99%BB%E8%AE%B0%E6%9D%A1%E4%BE%8B.pdf",
+    "recordLevel": {
+      "lexcomId": "4071",
+      "lawCategoryCode": 4,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "中华人民共和国民用航空器国籍登记条例.pdf",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "4071",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4071",
+        "locator": "法通网记录 id=4071",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "中华人民共和国民用航空器国籍登记条例",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4071",
+        "locator": "法通网记录 id=4071",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4071",
+        "locator": "法通网记录 id=4071",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "2020-11-29",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4071",
+        "locator": "法通网记录 id=4071",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "2020-11-29",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4071",
+        "locator": "法通网记录 id=4071",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4071",
+        "locator": "法通网记录 id=4071",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4071",
+        "locator": "法通网记录 id=4071",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-4078",
+    "recordType": "legislation",
+    "title": "中华人民共和国民用航空安全保卫条例",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "2011-01-08",
+      "effectiveDate": "2011-01-08",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B0%91%E7%94%A8%E8%88%AA%E7%A9%BA%E5%AE%89%E5%85%A8%E4%BF%9D%E5%8D%AB%E6%9D%A1%E4%BE%8B.pdf",
+    "recordLevel": {
+      "lexcomId": "4078",
+      "lawCategoryCode": 4,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "中华人民共和国民用航空安全保卫条例.pdf",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "4078",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4078",
+        "locator": "法通网记录 id=4078",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "中华人民共和国民用航空安全保卫条例",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4078",
+        "locator": "法通网记录 id=4078",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4078",
+        "locator": "法通网记录 id=4078",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "2011-01-08",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4078",
+        "locator": "法通网记录 id=4078",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "2011-01-08",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4078",
+        "locator": "法通网记录 id=4078",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4078",
+        "locator": "法通网记录 id=4078",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4078",
+        "locator": "法通网记录 id=4078",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-4075",
+    "recordType": "legislation",
+    "title": "中华人民共和国飞行基本规则",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related",
+      "flight-ops",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "2007-10-18",
+      "effectiveDate": "2007-11-22",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E9%A3%9E%E8%A1%8C%E5%9F%BA%E6%9C%AC%E8%A7%84%E5%88%99.pdf",
+    "recordLevel": {
+      "lexcomId": "4075",
+      "lawCategoryCode": 4,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "中华人民共和国飞行基本规则.pdf",
+      "matchedKeywords": [
+        "飞行"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "4075",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4075",
+        "locator": "法通网记录 id=4075",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "中华人民共和国飞行基本规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4075",
+        "locator": "法通网记录 id=4075",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4075",
+        "locator": "法通网记录 id=4075",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "2007-10-18",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4075",
+        "locator": "法通网记录 id=4075",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "2007-11-22",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4075",
+        "locator": "法通网记录 id=4075",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4075",
+        "locator": "法通网记录 id=4075",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4075",
+        "locator": "法通网记录 id=4075",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-4076",
+    "recordType": "legislation",
+    "title": "通用航空飞行管制条例",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related",
+      "flight-ops",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "2003-01-10",
+      "effectiveDate": "2003-05-01",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E9%80%9A%E7%94%A8%E8%88%AA%E7%A9%BA%E9%A3%9E%E8%A1%8C%E7%AE%A1%E5%88%B6%E6%9D%A1%E4%BE%8B.pdf",
+    "recordLevel": {
+      "lexcomId": "4076",
+      "lawCategoryCode": 4,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "通用航空飞行管制条例.pdf",
+      "matchedKeywords": [
+        "航空",
+        "飞行"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "4076",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4076",
+        "locator": "法通网记录 id=4076",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "通用航空飞行管制条例",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4076",
+        "locator": "法通网记录 id=4076",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4076",
+        "locator": "法通网记录 id=4076",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "2003-01-10",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4076",
+        "locator": "法通网记录 id=4076",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "2003-05-01",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4076",
+        "locator": "法通网记录 id=4076",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4076",
+        "locator": "法通网记录 id=4076",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4076",
+        "locator": "法通网记录 id=4076",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-4073",
+    "recordType": "legislation",
+    "title": "中华人民共和国民用航空器权利登记条例",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "1997-10-21",
+      "effectiveDate": "1997-10-21",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B0%91%E7%94%A8%E8%88%AA%E7%A9%BA%E5%99%A8%E6%9D%83%E5%88%A9%E7%99%BB%E8%AE%B0%E6%9D%A1%E4%BE%8B.pdf",
+    "recordLevel": {
+      "lexcomId": "4073",
+      "lawCategoryCode": 4,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "中华人民共和国民用航空器权利登记条例.pdf",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "4073",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4073",
+        "locator": "法通网记录 id=4073",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "中华人民共和国民用航空器权利登记条例",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4073",
+        "locator": "法通网记录 id=4073",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4073",
+        "locator": "法通网记录 id=4073",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "1997-10-21",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4073",
+        "locator": "法通网记录 id=4073",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "1997-10-21",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4073",
+        "locator": "法通网记录 id=4073",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4073",
+        "locator": "法通网记录 id=4073",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4073",
+        "locator": "法通网记录 id=4073",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-4079",
+    "recordType": "legislation",
+    "title": "中华人民共和国搜寻援救民用航空器规定",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "1992-12-28",
+      "effectiveDate": "1992-12-28",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%90%9C%E5%AF%BB%E6%8F%B4%E6%95%91%E6%B0%91%E7%94%A8%E8%88%AA%E7%A9%BA%E5%99%A8%E8%A7%84%E5%AE%9A.pdf",
+    "recordLevel": {
+      "lexcomId": "4079",
+      "lawCategoryCode": 4,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "中华人民共和国搜寻援救民用航空器规定.pdf",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "4079",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4079",
+        "locator": "法通网记录 id=4079",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "中华人民共和国搜寻援救民用航空器规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4079",
+        "locator": "法通网记录 id=4079",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4079",
+        "locator": "法通网记录 id=4079",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "1992-12-28",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4079",
+        "locator": "法通网记录 id=4079",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "1992-12-28",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4079",
+        "locator": "法通网记录 id=4079",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4079",
+        "locator": "法通网记录 id=4079",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4079",
+        "locator": "法通网记录 id=4079",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-4072",
+    "recordType": "legislation",
+    "title": "中华人民共和国民用航空器适航管理条例",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related",
+      "行政法规"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": "1987-05-04",
+      "effectiveDate": "1987-06-01",
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B0%91%E7%94%A8%E8%88%AA%E7%A9%BA%E5%99%A8%E9%80%82%E8%88%AA%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B.pdf",
+    "recordLevel": {
+      "lexcomId": "4072",
+      "lawCategoryCode": 4,
+      "lawCategoryName": "行政法规",
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国务院",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "中华人民共和国民用航空器适航管理条例.pdf",
+      "matchedKeywords": [
+        "航空",
+        "航空器",
+        "适航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "4072",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4072",
+        "locator": "法通网记录 id=4072",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "中华人民共和国民用航空器适航管理条例",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4072",
+        "locator": "法通网记录 id=4072",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国务院",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4072",
+        "locator": "法通网记录 id=4072",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "publication_date",
+        "value": "1987-05-04",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4072",
+        "locator": "法通网记录 id=4072",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effective_date",
+        "value": "1987-06-01",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4072",
+        "locator": "法通网记录 id=4072",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "effectiveness",
+        "value": "行政法规",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4072",
+        "locator": "法通网记录 id=4072",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-4072",
+        "locator": "法通网记录 id=4072",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130532",
+    "recordType": "legislation",
+    "title": "出境入境航空器载运人员信息预报预检实施办法",
+    "titleEn": "chujingrujinghangkongqizaiyunrenyuanxinxiyubaoyujianshishibanfa",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-09/27/content_5712905.htm",
+    "recordLevel": {
+      "lexcomId": "130532",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "公安部 交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-09/27/content_5712905.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130532",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130532",
+        "locator": "法通网记录 id=130532",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "出境入境航空器载运人员信息预报预检实施办法",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130532",
+        "locator": "法通网记录 id=130532",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "公安部 交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130532",
+        "locator": "法通网记录 id=130532",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130532",
+        "locator": "法通网记录 id=130532",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130457",
+    "recordType": "legislation",
+    "title": "大型飞机公共航空运输承运人运行合格审定规则",
+    "titleEn": "daxingfeijigonggonghangkongyunshuchengyunrenyunxinghegeshendingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202404/content_6945829.htm",
+    "recordLevel": {
+      "lexcomId": "130457",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202404/content_6945829.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输",
+        "飞机"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130457",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130457",
+        "locator": "法通网记录 id=130457",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "大型飞机公共航空运输承运人运行合格审定规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130457",
+        "locator": "法通网记录 id=130457",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130457",
+        "locator": "法通网记录 id=130457",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130457",
+        "locator": "法通网记录 id=130457",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130022",
+    "recordType": "legislation",
+    "title": "定期国际航空运输管理规定",
+    "titleEn": "dingqiguojihangkongyunshuguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2019-10/21/content_5711555.htm",
+    "recordLevel": {
+      "lexcomId": "130022",
+      "lawCategoryCode": 5,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2019-10/21/content_5711555.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130022",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130022",
+        "locator": "法通网记录 id=130022",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "定期国际航空运输管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130022",
+        "locator": "法通网记录 id=130022",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130022",
+        "locator": "法通网记录 id=130022",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130022",
+        "locator": "法通网记录 id=130022",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130369",
+    "recordType": "legislation",
+    "title": "公共航空旅客运输飞行中安全保卫工作规则",
+    "titleEn": "gonggonghangkonglvkeyunshufeixingzhonganquanbaoweigongzuoguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related",
+      "flight-ops"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2017-02/07/content_5717891.htm",
+    "recordLevel": {
+      "lexcomId": "130369",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2017-02/07/content_5717891.htm",
+      "matchedKeywords": [
+        "航空",
+        "飞行"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130369",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130369",
+        "locator": "法通网记录 id=130369",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "公共航空旅客运输飞行中安全保卫工作规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130369",
+        "locator": "法通网记录 id=130369",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130369",
+        "locator": "法通网记录 id=130369",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130369",
+        "locator": "法通网记录 id=130369",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130407",
+    "recordType": "legislation",
+    "title": "公共航空运输旅客服务管理规定",
+    "titleEn": "gonggonghangkongyunshulvkefuwuguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2021-03/03/content_5711514.htm",
+    "recordLevel": {
+      "lexcomId": "130407",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2021-03/03/content_5711514.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130407",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130407",
+        "locator": "法通网记录 id=130407",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "公共航空运输旅客服务管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130407",
+        "locator": "法通网记录 id=130407",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130407",
+        "locator": "法通网记录 id=130407",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130407",
+        "locator": "法通网记录 id=130407",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130383",
+    "recordType": "legislation",
+    "title": "公共航空运输企业航空安全保卫规则",
+    "titleEn": "gonggonghangkongyunshuqiyehangkonganquanbaoweiguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2018-11/16/content_5718092.htm",
+    "recordLevel": {
+      "lexcomId": "130383",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2018-11/16/content_5718092.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130383",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130383",
+        "locator": "法通网记录 id=130383",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "公共航空运输企业航空安全保卫规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130383",
+        "locator": "法通网记录 id=130383",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130383",
+        "locator": "法通网记录 id=130383",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130383",
+        "locator": "法通网记录 id=130383",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130377",
+    "recordType": "legislation",
+    "title": "公共航空运输企业经营许可规定",
+    "titleEn": "gonggonghangkongyunshuqiyejingyingxukeguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2018-08/31/content_5728980.htm",
+    "recordLevel": {
+      "lexcomId": "130377",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2018-08/31/content_5728980.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130377",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130377",
+        "locator": "法通网记录 id=130377",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "公共航空运输企业经营许可规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130377",
+        "locator": "法通网记录 id=130377",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130377",
+        "locator": "法通网记录 id=130377",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130377",
+        "locator": "法通网记录 id=130377",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130023",
+    "recordType": "legislation",
+    "title": "国际航空运输价格管理规定",
+    "titleEn": "guojihangkongyunshujiageguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2020-10/09/content_5726165.htm",
+    "recordLevel": {
+      "lexcomId": "130023",
+      "lawCategoryCode": 5,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2020-10/09/content_5726165.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130023",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130023",
+        "locator": "法通网记录 id=130023",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "国际航空运输价格管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130023",
+        "locator": "法通网记录 id=130023",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130023",
+        "locator": "法通网记录 id=130023",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130023",
+        "locator": "法通网记录 id=130023",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130374",
+    "recordType": "legislation",
+    "title": "国内投资民用航空业规定",
+    "titleEn": "guoneitouziminyonghangkongyeguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2017-12/18/content_5726196.htm",
+    "recordLevel": {
+      "lexcomId": "130374",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2017-12/18/content_5726196.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130374",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130374",
+        "locator": "法通网记录 id=130374",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "国内投资民用航空业规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130374",
+        "locator": "法通网记录 id=130374",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130374",
+        "locator": "法通网记录 id=130374",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130374",
+        "locator": "法通网记录 id=130374",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130378",
+    "recordType": "legislation",
+    "title": "航空安全员合格审定规则",
+    "titleEn": "hangkonganquanyuanhegeshendingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2018-08/31/content_5718090.htm",
+    "recordLevel": {
+      "lexcomId": "130378",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2018-08/31/content_5718090.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130378",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130378",
+        "locator": "法通网记录 id=130378",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "航空安全员合格审定规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130378",
+        "locator": "法通网记录 id=130378",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130378",
+        "locator": "法通网记录 id=130378",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130378",
+        "locator": "法通网记录 id=130378",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130441",
+    "recordType": "legislation",
+    "title": "航空器型号和适航合格审定噪声规定",
+    "titleEn": "hangkongqixinghaoheshihanghegeshendingzaoshengguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-11/21/content_5726192.htm",
+    "recordLevel": {
+      "lexcomId": "130441",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-11/21/content_5726192.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器",
+        "适航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130441",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130441",
+        "locator": "法通网记录 id=130441",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "航空器型号和适航合格审定噪声规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130441",
+        "locator": "法通网记录 id=130441",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130441",
+        "locator": "法通网记录 id=130441",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130441",
+        "locator": "法通网记录 id=130441",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130744",
+    "recordType": "legislation",
+    "title": "航空体育运动管理办法",
+    "titleEn": "hangkongtiyuyundongguanlibanfa",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/1991-08/10/content_5726840.htm",
+    "recordLevel": {
+      "lexcomId": "130744",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "国家体育运动委员会",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/1991-08/10/content_5726840.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130744",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130744",
+        "locator": "法通网记录 id=130744",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "航空体育运动管理办法",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130744",
+        "locator": "法通网记录 id=130744",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "国家体育运动委员会",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130744",
+        "locator": "法通网记录 id=130744",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130744",
+        "locator": "法通网记录 id=130744",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-107989038357-000186",
+    "recordType": "legislation",
+    "title": "民航活动法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/",
+    "recordLevel": {
+      "lexcomId": "107989038357000186",
+      "lawCategoryCode": 8,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": null,
+      "matchedKeywords": [
+        "民航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "107989038357000186",
+        "sourceId": "LEXCOM-AVA-CN-LAW-107989038357-000186",
+        "locator": "法通网记录 id=107989038357000186",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民航活动法",
+        "sourceId": "LEXCOM-AVA-CN-LAW-107989038357-000186",
+        "locator": "法通网记录 id=107989038357000186",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-107989038357-000186",
+        "locator": "法通网记录 id=107989038357000186",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130370",
+    "recordType": "legislation",
+    "title": "民航企业安全保障财务考核办法",
+    "titleEn": "minhangqiyeanquanbaozhangcaiwukaohebanfa",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2017-03/27/content_5717887.htm",
+    "recordLevel": {
+      "lexcomId": "130370",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2017-03/27/content_5717887.htm",
+      "matchedKeywords": [
+        "民航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130370",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130370",
+        "locator": "法通网记录 id=130370",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民航企业安全保障财务考核办法",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130370",
+        "locator": "法通网记录 id=130370",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130370",
+        "locator": "法通网记录 id=130370",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130370",
+        "locator": "法通网记录 id=130370",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130466",
+    "recordType": "legislation",
+    "title": "民用航空安全管理规定",
+    "titleEn": "minyonghangkonganquanguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202512/content_7052027.htm",
+    "recordLevel": {
+      "lexcomId": "130466",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202512/content_7052027.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130466",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130466",
+        "locator": "法通网记录 id=130466",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空安全管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130466",
+        "locator": "法通网记录 id=130466",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130466",
+        "locator": "法通网记录 id=130466",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130466",
+        "locator": "法通网记录 id=130466",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130365",
+    "recordType": "legislation",
+    "title": "民用航空安全检查规则",
+    "titleEn": "minyonghangkonganquanjianchaguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-09/02/content_5717924.htm",
+    "recordLevel": {
+      "lexcomId": "130365",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-09/02/content_5717924.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130365",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130365",
+        "locator": "法通网记录 id=130365",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空安全检查规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130365",
+        "locator": "法通网记录 id=130365",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130365",
+        "locator": "法通网记录 id=130365",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130365",
+        "locator": "法通网记录 id=130365",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130430",
+    "recordType": "legislation",
+    "title": "民用航空安全信息管理规定",
+    "titleEn": "minyonghangkonganquanxinxiguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-07/08/content_5717860.htm",
+    "recordLevel": {
+      "lexcomId": "130430",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-07/08/content_5717860.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130430",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130430",
+        "locator": "法通网记录 id=130430",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空安全信息管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130430",
+        "locator": "法通网记录 id=130430",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130430",
+        "locator": "法通网记录 id=130430",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130430",
+        "locator": "法通网记录 id=130430",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130358",
+    "recordType": "legislation",
+    "title": "民用航空标准化管理规定",
+    "titleEn": "minyonghangkongbiaozhunhuaguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/28/content_5718077.htm",
+    "recordLevel": {
+      "lexcomId": "130358",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/28/content_5718077.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130358",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130358",
+        "locator": "法通网记录 id=130358",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空标准化管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130358",
+        "locator": "法通网记录 id=130358",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130358",
+        "locator": "法通网记录 id=130358",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130358",
+        "locator": "法通网记录 id=130358",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130359",
+    "recordType": "legislation",
+    "title": "民用航空财经信息管理办法",
+    "titleEn": "minyonghangkongcaijingxinxiguanlibanfa",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/28/content_5718072.htm",
+    "recordLevel": {
+      "lexcomId": "130359",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/28/content_5718072.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130359",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130359",
+        "locator": "法通网记录 id=130359",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空财经信息管理办法",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130359",
+        "locator": "法通网记录 id=130359",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130359",
+        "locator": "法通网记录 id=130359",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130359",
+        "locator": "法通网记录 id=130359",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130456",
+    "recordType": "legislation",
+    "title": "民用航空产品和零部件合格审定规定",
+    "titleEn": "minyonghangkongchanpinhelingbujianhegeshendingguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2017-05/24/content_5717939.htm",
+    "recordLevel": {
+      "lexcomId": "130456",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2017-05/24/content_5717939.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130456",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130456",
+        "locator": "法通网记录 id=130456",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空产品和零部件合格审定规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130456",
+        "locator": "法通网记录 id=130456",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130456",
+        "locator": "法通网记录 id=130456",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130456",
+        "locator": "法通网记录 id=130456",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130353",
+    "recordType": "legislation",
+    "title": "民用航空电信人员执照管理规则",
+    "titleEn": "minyonghangkongdianxinrenyuanzhizhaoguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/17/content_5711546.htm",
+    "recordLevel": {
+      "lexcomId": "130353",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/17/content_5711546.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130353",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130353",
+        "locator": "法通网记录 id=130353",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空电信人员执照管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130353",
+        "locator": "法通网记录 id=130353",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130353",
+        "locator": "法通网记录 id=130353",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130353",
+        "locator": "法通网记录 id=130353",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130432",
+    "recordType": "legislation",
+    "title": "民用航空飞行签派员执照和训练机构管理规则",
+    "titleEn": "minyonghangkongfeixingqianpaiyuanzhizhaohexunlianjigouguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related",
+      "flight-ops"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-09/06/content_5711509.htm",
+    "recordLevel": {
+      "lexcomId": "130432",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-09/06/content_5711509.htm",
+      "matchedKeywords": [
+        "航空",
+        "飞行",
+        "签派"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130432",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130432",
+        "locator": "法通网记录 id=130432",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空飞行签派员执照和训练机构管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130432",
+        "locator": "法通网记录 id=130432",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130432",
+        "locator": "法通网记录 id=130432",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130432",
+        "locator": "法通网记录 id=130432",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130459",
+    "recordType": "legislation",
+    "title": "民用航空货物运输管理规定",
+    "titleEn": "minyonghangkonghuowuyunshuguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202408/content_6970087.htm",
+    "recordLevel": {
+      "lexcomId": "130459",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202408/content_6970087.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130459",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130459",
+        "locator": "法通网记录 id=130459",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空货物运输管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130459",
+        "locator": "法通网记录 id=130459",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130459",
+        "locator": "法通网记录 id=130459",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130459",
+        "locator": "法通网记录 id=130459",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130458",
+    "recordType": "legislation",
+    "title": "民用航空计量管理规定",
+    "titleEn": "minyonghangkongjiliangguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202406/content_6955860.htm",
+    "recordLevel": {
+      "lexcomId": "130458",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202406/content_6955860.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130458",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130458",
+        "locator": "法通网记录 id=130458",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空计量管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130458",
+        "locator": "法通网记录 id=130458",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130458",
+        "locator": "法通网记录 id=130458",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130458",
+        "locator": "法通网记录 id=130458",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130438",
+    "recordType": "legislation",
+    "title": "民用航空空中交通管理规则",
+    "titleEn": "minyonghangkongkongzhongjiaotongguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/2022-11/03/content_5717885.htm",
+    "recordLevel": {
+      "lexcomId": "130438",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/2022-11/03/content_5717885.htm",
+      "matchedKeywords": [
+        "航空",
+        "空中交通"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130438",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130438",
+        "locator": "法通网记录 id=130438",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空空中交通管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130438",
+        "locator": "法通网记录 id=130438",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130438",
+        "locator": "法通网记录 id=130438",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130438",
+        "locator": "法通网记录 id=130438",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130355",
+    "recordType": "legislation",
+    "title": "民用航空空中交通管理运行单位安全管理规则",
+    "titleEn": "minyonghangkongkongzhongjiaotongguanliyunxingdanweianquanguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/17/content_5718104.htm",
+    "recordLevel": {
+      "lexcomId": "130355",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/17/content_5718104.htm",
+      "matchedKeywords": [
+        "航空",
+        "空中交通"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130355",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130355",
+        "locator": "法通网记录 id=130355",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空空中交通管理运行单位安全管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130355",
+        "locator": "法通网记录 id=130355",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130355",
+        "locator": "法通网记录 id=130355",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130355",
+        "locator": "法通网记录 id=130355",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130471",
+    "recordType": "legislation",
+    "title": "民用航空空中交通管制员执照管理规则",
+    "titleEn": "minyonghangkongkongzhongjiaotongguanzhiyuanzhizhaoguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202604/content_7065486.htm",
+    "recordLevel": {
+      "lexcomId": "130471",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202604/content_7065486.htm",
+      "matchedKeywords": [
+        "航空",
+        "空中交通"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130471",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130471",
+        "locator": "法通网记录 id=130471",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空空中交通管制员执照管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130471",
+        "locator": "法通网记录 id=130471",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130471",
+        "locator": "法通网记录 id=130471",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130471",
+        "locator": "法通网记录 id=130471",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130678",
+    "recordType": "legislation",
+    "title": "民用航空零部件出口分类管理办法",
+    "titleEn": "minyonghangkonglingbujianchukoufenleiguanlibanfa",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2006-08/01/content_5712639.htm",
+    "recordLevel": {
+      "lexcomId": "130678",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "商务部 海关总署",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2006-08/01/content_5712639.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130678",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130678",
+        "locator": "法通网记录 id=130678",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空零部件出口分类管理办法",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130678",
+        "locator": "法通网记录 id=130678",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "商务部 海关总署",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130678",
+        "locator": "法通网记录 id=130678",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130678",
+        "locator": "法通网记录 id=130678",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130352",
+    "recordType": "legislation",
+    "title": "民用航空气象人员执照管理规则",
+    "titleEn": "minyonghangkongqixiangrenyuanzhizhaoguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/17/content_5726175.htm",
+    "recordLevel": {
+      "lexcomId": "130352",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/17/content_5726175.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130352",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130352",
+        "locator": "法通网记录 id=130352",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空气象人员执照管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130352",
+        "locator": "法通网记录 id=130352",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130352",
+        "locator": "法通网记录 id=130352",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130352",
+        "locator": "法通网记录 id=130352",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130386",
+    "recordType": "legislation",
+    "title": "民用航空器飞行机械员合格审定规则",
+    "titleEn": "minyonghangkongqifeixingjixieyuanhegeshendingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related",
+      "flight-ops"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2018-11/19/content_5718105.htm",
+    "recordLevel": {
+      "lexcomId": "130386",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2018-11/19/content_5718105.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器",
+        "飞行"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130386",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130386",
+        "locator": "法通网记录 id=130386",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空器飞行机械员合格审定规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130386",
+        "locator": "法通网记录 id=130386",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130386",
+        "locator": "法通网记录 id=130386",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130386",
+        "locator": "法通网记录 id=130386",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130024",
+    "recordType": "legislation",
+    "title": "民用航空器国籍登记规定",
+    "titleEn": "minyonghangkongqiguojidengjiguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-08/02/content_5717861.htm",
+    "recordLevel": {
+      "lexcomId": "130024",
+      "lawCategoryCode": 5,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-08/02/content_5717861.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130024",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130024",
+        "locator": "法通网记录 id=130024",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空器国籍登记规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130024",
+        "locator": "法通网记录 id=130024",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130024",
+        "locator": "法通网记录 id=130024",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130024",
+        "locator": "法通网记录 id=130024",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130387",
+    "recordType": "legislation",
+    "title": "民用航空器驾驶员合格审定规则",
+    "titleEn": "minyonghangkongqijiashiyuanhegeshendingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/2018-11/19/content_5727524.htm",
+    "recordLevel": {
+      "lexcomId": "130387",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/2018-11/19/content_5727524.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130387",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130387",
+        "locator": "法通网记录 id=130387",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空器驾驶员合格审定规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130387",
+        "locator": "法通网记录 id=130387",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130387",
+        "locator": "法通网记录 id=130387",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130387",
+        "locator": "法通网记录 id=130387",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130422",
+    "recordType": "legislation",
+    "title": "民用航空器驾驶员学校合格审定规则",
+    "titleEn": "minyonghangkongqijiashiyuanxuexiaohegeshendingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-01/29/content_5717864.htm",
+    "recordLevel": {
+      "lexcomId": "130422",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-01/29/content_5717864.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130422",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130422",
+        "locator": "法通网记录 id=130422",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空器驾驶员学校合格审定规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130422",
+        "locator": "法通网记录 id=130422",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130422",
+        "locator": "法通网记录 id=130422",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130422",
+        "locator": "法通网记录 id=130422",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130442",
+    "recordType": "legislation",
+    "title": "民用航空器事件技术调查规定",
+    "titleEn": "minyonghangkongqishijianjishudiaochaguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-11/28/content_5730386.htm",
+    "recordLevel": {
+      "lexcomId": "130442",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-11/28/content_5730386.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130442",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130442",
+        "locator": "法通网记录 id=130442",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空器事件技术调查规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130442",
+        "locator": "法通网记录 id=130442",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130442",
+        "locator": "法通网记录 id=130442",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130442",
+        "locator": "法通网记录 id=130442",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130424",
+    "recordType": "legislation",
+    "title": "民用航空器维修单位合格审定规则",
+    "titleEn": "minyonghangkongqiweixiudanweihegeshendingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-02/11/content_5717871.htm",
+    "recordLevel": {
+      "lexcomId": "130424",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-02/11/content_5717871.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130424",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130424",
+        "locator": "法通网记录 id=130424",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空器维修单位合格审定规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130424",
+        "locator": "法通网记录 id=130424",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130424",
+        "locator": "法通网记录 id=130424",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130424",
+        "locator": "法通网记录 id=130424",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130425",
+    "recordType": "legislation",
+    "title": "民用航空器维修培训机构合格审定规则",
+    "titleEn": "minyonghangkongqiweixiupeixunjigouhegeshendingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-02/11/content_5717873.htm",
+    "recordLevel": {
+      "lexcomId": "130425",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-02/11/content_5717873.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130425",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130425",
+        "locator": "法通网记录 id=130425",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空器维修培训机构合格审定规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130425",
+        "locator": "法通网记录 id=130425",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130425",
+        "locator": "法通网记录 id=130425",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130425",
+        "locator": "法通网记录 id=130425",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130437",
+    "recordType": "legislation",
+    "title": "民用航空情报工作规则",
+    "titleEn": "minyonghangkongqingbaogongzuoguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-11/28/content_5730387.htm",
+    "recordLevel": {
+      "lexcomId": "130437",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-11/28/content_5730387.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130437",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130437",
+        "locator": "法通网记录 id=130437",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空情报工作规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130437",
+        "locator": "法通网记录 id=130437",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130437",
+        "locator": "法通网记录 id=130437",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130437",
+        "locator": "法通网记录 id=130437",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130351",
+    "recordType": "legislation",
+    "title": "民用航空情报员执照管理规则",
+    "titleEn": "minyonghangkongqingbaoyuanzhizhaoguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/17/content_5711559.htm",
+    "recordLevel": {
+      "lexcomId": "130351",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/17/content_5711559.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130351",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130351",
+        "locator": "法通网记录 id=130351",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空情报员执照管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130351",
+        "locator": "法通网记录 id=130351",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130351",
+        "locator": "法通网记录 id=130351",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130351",
+        "locator": "法通网记录 id=130351",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130384",
+    "recordType": "legislation",
+    "title": "民用航空人员体检合格证管理规则",
+    "titleEn": "minyonghangkongrenyuantijianhegezhengguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2018-11/16/content_5727525.htm",
+    "recordLevel": {
+      "lexcomId": "130384",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2018-11/16/content_5727525.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130384",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130384",
+        "locator": "法通网记录 id=130384",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空人员体检合格证管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130384",
+        "locator": "法通网记录 id=130384",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130384",
+        "locator": "法通网记录 id=130384",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130384",
+        "locator": "法通网记录 id=130384",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130380",
+    "recordType": "legislation",
+    "title": "民用航空通信导航监视工作规则",
+    "titleEn": "minyonghangkongtongxindaohangjianshigongzuoguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2018-10/22/content_5718099.htm",
+    "recordLevel": {
+      "lexcomId": "130380",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2018-10/22/content_5718099.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130380",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130380",
+        "locator": "法通网记录 id=130380",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空通信导航监视工作规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130380",
+        "locator": "法通网记录 id=130380",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130380",
+        "locator": "法通网记录 id=130380",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130380",
+        "locator": "法通网记录 id=130380",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130410",
+    "recordType": "legislation",
+    "title": "民用航空通信导航监视设备飞行校验管理规则",
+    "titleEn": "minyonghangkongtongxindaohangjianshishebeifeixingjiaoyanguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related",
+      "flight-ops"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2021-07/05/content_5718071.htm",
+    "recordLevel": {
+      "lexcomId": "130410",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2021-07/05/content_5718071.htm",
+      "matchedKeywords": [
+        "航空",
+        "飞行"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130410",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130410",
+        "locator": "法通网记录 id=130410",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空通信导航监视设备飞行校验管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130410",
+        "locator": "法通网记录 id=130410",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130410",
+        "locator": "法通网记录 id=130410",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130410",
+        "locator": "法通网记录 id=130410",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130367",
+    "recordType": "legislation",
+    "title": "民用航空统计管理规定",
+    "titleEn": "minyonghangkongtongjiguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-12/08/content_5717926.htm",
+    "recordLevel": {
+      "lexcomId": "130367",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-12/08/content_5717926.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130367",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130367",
+        "locator": "法通网记录 id=130367",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空统计管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130367",
+        "locator": "法通网记录 id=130367",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130367",
+        "locator": "法通网记录 id=130367",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130367",
+        "locator": "法通网记录 id=130367",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130455",
+    "recordType": "legislation",
+    "title": "民用航空危险品运输管理规定",
+    "titleEn": "minyonghangkongweixianpinyunshuguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202407/content_6960842.htm",
+    "recordLevel": {
+      "lexcomId": "130455",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202407/content_6960842.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130455",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130455",
+        "locator": "法通网记录 id=130455",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空危险品运输管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130455",
+        "locator": "法通网记录 id=130455",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130455",
+        "locator": "法通网记录 id=130455",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130455",
+        "locator": "法通网记录 id=130455",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130362",
+    "recordType": "legislation",
+    "title": "民用航空运输机场航空安全保卫规则",
+    "titleEn": "minyonghangkongyunshujichanghangkonganquanbaoweiguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-04/21/content_5726187.htm",
+    "recordLevel": {
+      "lexcomId": "130362",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-04/21/content_5726187.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输",
+        "机场"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130362",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130362",
+        "locator": "法通网记录 id=130362",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用航空运输机场航空安全保卫规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130362",
+        "locator": "法通网记录 id=130362",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130362",
+        "locator": "法通网记录 id=130362",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130362",
+        "locator": "法通网记录 id=130362",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130364",
+    "recordType": "legislation",
+    "title": "民用机场飞行程序和运行最低标准管理规定",
+    "titleEn": "minyongjichangfeixingchengxuheyunxingzuidibiaozhunguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related",
+      "flight-ops"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-09/02/content_5717922.htm",
+    "recordLevel": {
+      "lexcomId": "130364",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-09/02/content_5717922.htm",
+      "matchedKeywords": [
+        "机场",
+        "飞行"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130364",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130364",
+        "locator": "法通网记录 id=130364",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用机场飞行程序和运行最低标准管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130364",
+        "locator": "法通网记录 id=130364",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130364",
+        "locator": "法通网记录 id=130364",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130364",
+        "locator": "法通网记录 id=130364",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130460",
+    "recordType": "legislation",
+    "title": "民用机场专用设备管理规定",
+    "titleEn": "minyongjichangzhuanyongshebeiguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202408/content_6970084.htm",
+    "recordLevel": {
+      "lexcomId": "130460",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202408/content_6970084.htm",
+      "matchedKeywords": [
+        "机场"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130460",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130460",
+        "locator": "法通网记录 id=130460",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用机场专用设备管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130460",
+        "locator": "法通网记录 id=130460",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130460",
+        "locator": "法通网记录 id=130460",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130460",
+        "locator": "法通网记录 id=130460",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130454",
+    "recordType": "legislation",
+    "title": "民用无人驾驶航空器运行安全管理规则",
+    "titleEn": "minyongwurenjiashihangkongqiyunxinganquanguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related",
+      "uav"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202401/content_6924198.htm",
+    "recordLevel": {
+      "lexcomId": "130454",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202401/content_6924198.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器",
+        "无人驾驶"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130454",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130454",
+        "locator": "法通网记录 id=130454",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用无人驾驶航空器运行安全管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130454",
+        "locator": "法通网记录 id=130454",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130454",
+        "locator": "法通网记录 id=130454",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130454",
+        "locator": "法通网记录 id=130454",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130361",
+    "recordType": "legislation",
+    "title": "民用运输机场突发事件应急救援管理规则",
+    "titleEn": "minyongyunshujichangtufashijianyingjijiuyuanguanliguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-04/20/content_5718083.htm",
+    "recordLevel": {
+      "lexcomId": "130361",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-04/20/content_5718083.htm",
+      "matchedKeywords": [
+        "机场"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130361",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130361",
+        "locator": "法通网记录 id=130361",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民用运输机场突发事件应急救援管理规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130361",
+        "locator": "法通网记录 id=130361",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130361",
+        "locator": "法通网记录 id=130361",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130361",
+        "locator": "法通网记录 id=130361",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-131250",
+    "recordType": "legislation",
+    "title": "民政部 公安部 外交部 铁道部 交通部 卫生部 海关总署 民航局关于尸体运输管理的若干规定",
+    "titleEn": "minzhengbugonganbuwaijiaobutiedaobujiaotongbuweishengbuhaiguanzongshuminhangjuguanyushitiyunshuguanlideruoganguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202402/content_6932212.htm",
+    "recordLevel": {
+      "lexcomId": "131250",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "民政部 公安部 外交部 铁道部 交通部 卫生部 海关总署 民航局",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202402/content_6932212.htm",
+      "matchedKeywords": [
+        "民航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "131250",
+        "sourceId": "LEXCOM-AVA-CN-LAW-131250",
+        "locator": "法通网记录 id=131250",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "民政部 公安部 外交部 铁道部 交通部 卫生部 海关总署 民航局关于尸体运输管理的若干规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-131250",
+        "locator": "法通网记录 id=131250",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "民政部 公安部 外交部 铁道部 交通部 卫生部 海关总署 民航局",
+        "sourceId": "LEXCOM-AVA-CN-LAW-131250",
+        "locator": "法通网记录 id=131250",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-131250",
+        "locator": "法通网记录 id=131250",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130423",
+    "recordType": "legislation",
+    "title": "特殊商业和私用大型航空器运营人运行合格审定规则",
+    "titleEn": "teshushangyehesiyongdaxinghangkongqiyunyingrenyunxinghegeshendingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-01/29/content_5717863.htm",
+    "recordLevel": {
+      "lexcomId": "130423",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-01/29/content_5717863.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130423",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130423",
+        "locator": "法通网记录 id=130423",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "特殊商业和私用大型航空器运营人运行合格审定规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130423",
+        "locator": "法通网记录 id=130423",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130423",
+        "locator": "法通网记录 id=130423",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130423",
+        "locator": "法通网记录 id=130423",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130427",
+    "recordType": "legislation",
+    "title": "通用航空安全保卫规则",
+    "titleEn": "tongyonghangkonganquanbaoweiguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-04/21/content_5717876.htm",
+    "recordLevel": {
+      "lexcomId": "130427",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-04/21/content_5717876.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130427",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130427",
+        "locator": "法通网记录 id=130427",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "通用航空安全保卫规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130427",
+        "locator": "法通网记录 id=130427",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130427",
+        "locator": "法通网记录 id=130427",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130427",
+        "locator": "法通网记录 id=130427",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130403",
+    "recordType": "legislation",
+    "title": "通用航空经营许可管理规定",
+    "titleEn": "tongyonghangkongjingyingxukeguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2020-08/04/content_5727531.htm",
+    "recordLevel": {
+      "lexcomId": "130403",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2020-08/04/content_5727531.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130403",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130403",
+        "locator": "法通网记录 id=130403",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "通用航空经营许可管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130403",
+        "locator": "法通网记录 id=130403",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130403",
+        "locator": "法通网记录 id=130403",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130403",
+        "locator": "法通网记录 id=130403",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130019",
+    "recordType": "legislation",
+    "title": "外国公共航空运输承运人运行合格审定规则",
+    "titleEn": "waiguogonggonghangkongyunshuchengyunrenyunxinghegeshendingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2017-12/18/content_5718075.htm",
+    "recordLevel": {
+      "lexcomId": "130019",
+      "lawCategoryCode": 5,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2017-12/18/content_5718075.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130019",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130019",
+        "locator": "法通网记录 id=130019",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "外国公共航空运输承运人运行合格审定规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130019",
+        "locator": "法通网记录 id=130019",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130019",
+        "locator": "法通网记录 id=130019",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130019",
+        "locator": "法通网记录 id=130019",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130020",
+    "recordType": "legislation",
+    "title": "外国航空运输企业常驻代表机构审批管理办法",
+    "titleEn": "waiguohangkongyunshuqiyechangzhudaibiaojigoushenpiguanlibanfa",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2018-05/22/content_5727530.htm",
+    "recordLevel": {
+      "lexcomId": "130020",
+      "lawCategoryCode": 5,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2018-05/22/content_5727530.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130020",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130020",
+        "locator": "法通网记录 id=130020",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "外国航空运输企业常驻代表机构审批管理办法",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130020",
+        "locator": "法通网记录 id=130020",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130020",
+        "locator": "法通网记录 id=130020",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130020",
+        "locator": "法通网记录 id=130020",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130017",
+    "recordType": "legislation",
+    "title": "外国航空运输企业航线经营许可规定",
+    "titleEn": "waiguohangkongyunshuqiyehangxianjingyingxukeguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/04/content_5726178.htm",
+    "recordLevel": {
+      "lexcomId": "130017",
+      "lawCategoryCode": 5,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/04/content_5726178.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输",
+        "航线"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130017",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130017",
+        "locator": "法通网记录 id=130017",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "外国航空运输企业航线经营许可规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130017",
+        "locator": "法通网记录 id=130017",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130017",
+        "locator": "法通网记录 id=130017",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130017",
+        "locator": "法通网记录 id=130017",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130018",
+    "recordType": "legislation",
+    "title": "外国航空运输企业在中国境内指定的销售代理直接进入和使用外国计算机订座系统许可管理暂行规定",
+    "titleEn": "waiguohangkongyunshuqiyezaizhongguojingneizhidingdexiaoshoudailizhijiejinruheshiyongwaiguojisuanjidingzuoxitongxukeguanlizanxingguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/28/content_5718106.htm",
+    "recordLevel": {
+      "lexcomId": "130018",
+      "lawCategoryCode": 5,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/28/content_5718106.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空运输"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130018",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130018",
+        "locator": "法通网记录 id=130018",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "外国航空运输企业在中国境内指定的销售代理直接进入和使用外国计算机订座系统许可管理暂行规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130018",
+        "locator": "法通网记录 id=130018",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130018",
+        "locator": "法通网记录 id=130018",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130018",
+        "locator": "法通网记录 id=130018",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130440",
+    "recordType": "legislation",
+    "title": "涡轮发动机飞机燃油排泄和排气排出物规定",
+    "titleEn": "wolunfadongjifeijiranyoupaixiehepaiqipaichuwuguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2023-01/19/content_5738179.htm",
+    "recordLevel": {
+      "lexcomId": "130440",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2023-01/19/content_5738179.htm",
+      "matchedKeywords": [
+        "飞机"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130440",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130440",
+        "locator": "法通网记录 id=130440",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "涡轮发动机飞机燃油排泄和排气排出物规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130440",
+        "locator": "法通网记录 id=130440",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130440",
+        "locator": "法通网记录 id=130440",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130440",
+        "locator": "法通网记录 id=130440",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130420",
+    "recordType": "legislation",
+    "title": "一般运行和飞行规则",
+    "titleEn": "yibanyunxinghefeixingguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related",
+      "flight-ops"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-01/29/content_5717890.htm",
+    "recordLevel": {
+      "lexcomId": "130420",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-01/29/content_5717890.htm",
+      "matchedKeywords": [
+        "飞行"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130420",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130420",
+        "locator": "法通网记录 id=130420",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "一般运行和飞行规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130420",
+        "locator": "法通网记录 id=130420",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130420",
+        "locator": "法通网记录 id=130420",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130420",
+        "locator": "法通网记录 id=130420",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130385",
+    "recordType": "legislation",
+    "title": "运输机场建设管理规定",
+    "titleEn": "yunshujichangjiansheguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2018-11/16/content_5718094.htm",
+    "recordLevel": {
+      "lexcomId": "130385",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2018-11/16/content_5718094.htm",
+      "matchedKeywords": [
+        "机场"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130385",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130385",
+        "locator": "法通网记录 id=130385",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "运输机场建设管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130385",
+        "locator": "法通网记录 id=130385",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130385",
+        "locator": "法通网记录 id=130385",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130385",
+        "locator": "法通网记录 id=130385",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130429",
+    "recordType": "legislation",
+    "title": "运输机场使用许可规定",
+    "titleEn": "yunshujichangshiyongxukeguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-06/30/content_5717874.htm",
+    "recordLevel": {
+      "lexcomId": "130429",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-06/30/content_5717874.htm",
+      "matchedKeywords": [
+        "机场"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130429",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130429",
+        "locator": "法通网记录 id=130429",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "运输机场使用许可规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130429",
+        "locator": "法通网记录 id=130429",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130429",
+        "locator": "法通网记录 id=130429",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130429",
+        "locator": "法通网记录 id=130429",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130465",
+    "recordType": "legislation",
+    "title": "运输机场运行安全管理规定",
+    "titleEn": "yunshujichangyunxinganquanguanliguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202512/content_7050250.htm",
+    "recordLevel": {
+      "lexcomId": "130465",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202512/content_7050250.htm",
+      "matchedKeywords": [
+        "机场"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130465",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130465",
+        "locator": "法通网记录 id=130465",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "运输机场运行安全管理规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130465",
+        "locator": "法通网记录 id=130465",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130465",
+        "locator": "法通网记录 id=130465",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130465",
+        "locator": "法通网记录 id=130465",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130360",
+    "recordType": "legislation",
+    "title": "运输类飞机的持续适航和安全改进规定",
+    "titleEn": "yunshuleifeijidechixushihangheanquangaijinguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-04/17/content_5717938.htm",
+    "recordLevel": {
+      "lexcomId": "130360",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-04/17/content_5717938.htm",
+      "matchedKeywords": [
+        "飞机",
+        "适航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130360",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130360",
+        "locator": "法通网记录 id=130360",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "运输类飞机的持续适航和安全改进规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130360",
+        "locator": "法通网记录 id=130360",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130360",
+        "locator": "法通网记录 id=130360",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130360",
+        "locator": "法通网记录 id=130360",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130356",
+    "recordType": "legislation",
+    "title": "运输类飞机适航标准",
+    "titleEn": "yunshuleifeijishihangbiaozhun",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/17/content_5726182.htm",
+    "recordLevel": {
+      "lexcomId": "130356",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/17/content_5726182.htm",
+      "matchedKeywords": [
+        "飞机",
+        "适航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130356",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130356",
+        "locator": "法通网记录 id=130356",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "运输类飞机适航标准",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130356",
+        "locator": "法通网记录 id=130356",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130356",
+        "locator": "法通网记录 id=130356",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130356",
+        "locator": "法通网记录 id=130356",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130468",
+    "recordType": "legislation",
+    "title": "运输类旋翼航空器适航规定",
+    "titleEn": "yunshuleixuanyihangkongqishihangguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "air-transport",
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202512/content_7053038.htm",
+    "recordLevel": {
+      "lexcomId": "130468",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202512/content_7053038.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器",
+        "适航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130468",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130468",
+        "locator": "法通网记录 id=130468",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "运输类旋翼航空器适航规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130468",
+        "locator": "法通网记录 id=130468",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130468",
+        "locator": "法通网记录 id=130468",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130468",
+        "locator": "法通网记录 id=130468",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130431",
+    "recordType": "legislation",
+    "title": "载人自由气球适航规定",
+    "titleEn": "zairenziyouqiqiushihangguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2022-07/27/content_5717875.htm",
+    "recordLevel": {
+      "lexcomId": "130431",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2022-07/27/content_5717875.htm",
+      "matchedKeywords": [
+        "适航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130431",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130431",
+        "locator": "法通网记录 id=130431",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "载人自由气球适航规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130431",
+        "locator": "法通网记录 id=130431",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130431",
+        "locator": "法通网记录 id=130431",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130431",
+        "locator": "法通网记录 id=130431",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130467",
+    "recordType": "legislation",
+    "title": "正常类旋翼航空器适航规定",
+    "titleEn": "zhengchangleixuanyihangkongqishihangguiding",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "airworthiness",
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/https%3A//www.gov.cn/zhengce/202512/content_7053036.htm",
+    "recordLevel": {
+      "lexcomId": "130467",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "https://www.gov.cn/zhengce/202512/content_7053036.htm",
+      "matchedKeywords": [
+        "航空",
+        "航空器",
+        "适航"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130467",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130467",
+        "locator": "法通网记录 id=130467",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "正常类旋翼航空器适航规定",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130467",
+        "locator": "法通网记录 id=130467",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130467",
+        "locator": "法通网记录 id=130467",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130467",
+        "locator": "法通网记录 id=130467",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-CN-LAW-130357",
+    "recordType": "legislation",
+    "title": "中国民用航空气象工作规则",
+    "titleEn": "zhongguominyonghangkongqixianggongzuoguize",
+    "summary": null,
+    "jurisdiction": "CN",
+    "topics": [
+      "cn-foreign-related"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/api/law/chinese/file/http%3A//www.gov.cn/zhengce/2016-03/28/content_5718069.htm",
+    "recordLevel": {
+      "lexcomId": "130357",
+      "lawCategoryCode": 6,
+      "lawCategoryName": null,
+      "lawCategoryNote": "由发布机关与数值归纳，非官方字典",
+      "issuingDepartment": "交通运输部",
+      "timelinessCode": 2,
+      "timelinessName": "现行有效",
+      "fileName": "http://www.gov.cn/zhengce/2016-03/28/content_5718069.htm",
+      "matchedKeywords": [
+        "航空"
+      ],
+      "sourceTier": "L0",
+      "note": "司法部法通网收录的我国涉外法律法规；正式文本以官方公布为准"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "130357",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130357",
+        "locator": "法通网记录 id=130357",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "中国民用航空气象工作规则",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130357",
+        "locator": "法通网记录 id=130357",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "issuing_department",
+        "value": "交通运输部",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130357",
+        "locator": "法通网记录 id=130357",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "timeliness",
+        "value": "现行有效",
+        "sourceId": "LEXCOM-AVA-CN-LAW-130357",
+        "locator": "法通网记录 id=130357",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  }
+]

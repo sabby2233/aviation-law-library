@@ -1,0 +1,1220 @@
+[
+  {
+    "recordId": "AVA-ZA-STD-23",
+    "recordType": "standard",
+    "title": "南非网络犯罪和网络安全法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "ZA",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "23",
+      "countryCode": "ZA",
+      "countryName": "南非",
+      "continentId": 3,
+      "versionStatusCode": 3,
+      "versionStatusName": "历史版本",
+      "issueYear": null,
+      "matchedKeywords": [
+        "网络安全",
+        "网络犯罪"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "23",
+        "sourceId": "LEXCOM-AVA-ZA-STD-23",
+        "locator": "法通网记录 id=23",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "南非网络犯罪和网络安全法",
+        "sourceId": "LEXCOM-AVA-ZA-STD-23",
+        "locator": "法通网记录 id=23",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "南非",
+        "sourceId": "LEXCOM-AVA-ZA-STD-23",
+        "locator": "法通网记录 id=23",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "历史版本",
+        "sourceId": "LEXCOM-AVA-ZA-STD-23",
+        "locator": "法通网记录 id=23",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-RU-STD-36",
+    "recordType": "standard",
+    "title": "俄罗斯个人数据法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "RU",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "36",
+      "countryCode": "RU",
+      "countryName": "俄罗斯",
+      "continentId": 2,
+      "versionStatusCode": 3,
+      "versionStatusName": "历史版本",
+      "issueYear": null,
+      "matchedKeywords": [
+        "个人数据"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "36",
+        "sourceId": "LEXCOM-AVA-RU-STD-36",
+        "locator": "法通网记录 id=36",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "俄罗斯个人数据法",
+        "sourceId": "LEXCOM-AVA-RU-STD-36",
+        "locator": "法通网记录 id=36",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "俄罗斯",
+        "sourceId": "LEXCOM-AVA-RU-STD-36",
+        "locator": "法通网记录 id=36",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "历史版本",
+        "sourceId": "LEXCOM-AVA-RU-STD-36",
+        "locator": "法通网记录 id=36",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-PH-STD-39",
+    "recordType": "standard",
+    "title": "菲律宾网络安全法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "PH",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "39",
+      "countryCode": "PH",
+      "countryName": "菲律宾",
+      "continentId": 1,
+      "versionStatusCode": 3,
+      "versionStatusName": "历史版本",
+      "issueYear": null,
+      "matchedKeywords": [
+        "网络安全"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "39",
+        "sourceId": "LEXCOM-AVA-PH-STD-39",
+        "locator": "法通网记录 id=39",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "菲律宾网络安全法",
+        "sourceId": "LEXCOM-AVA-PH-STD-39",
+        "locator": "法通网记录 id=39",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "菲律宾",
+        "sourceId": "LEXCOM-AVA-PH-STD-39",
+        "locator": "法通网记录 id=39",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "历史版本",
+        "sourceId": "LEXCOM-AVA-PH-STD-39",
+        "locator": "法通网记录 id=39",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-VN-STD-55",
+    "recordType": "standard",
+    "title": "越南网络安全法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "VN",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "55",
+      "countryCode": "VN",
+      "countryName": "越南",
+      "continentId": 1,
+      "versionStatusCode": 2,
+      "versionStatusName": "已修订",
+      "issueYear": null,
+      "matchedKeywords": [
+        "网络安全"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "55",
+        "sourceId": "LEXCOM-AVA-VN-STD-55",
+        "locator": "法通网记录 id=55",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "越南网络安全法",
+        "sourceId": "LEXCOM-AVA-VN-STD-55",
+        "locator": "法通网记录 id=55",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "越南",
+        "sourceId": "LEXCOM-AVA-VN-STD-55",
+        "locator": "法通网记录 id=55",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "已修订",
+        "sourceId": "LEXCOM-AVA-VN-STD-55",
+        "locator": "法通网记录 id=55",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-HU-STD-478",
+    "recordType": "standard",
+    "title": "匈牙利电子信息自由法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "HU",
+    "topics": [
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "478",
+      "countryCode": "HU",
+      "countryName": "匈牙利",
+      "continentId": 2,
+      "versionStatusCode": 3,
+      "versionStatusName": "历史版本",
+      "issueYear": null,
+      "matchedKeywords": [
+        "电子信息"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "478",
+        "sourceId": "LEXCOM-AVA-HU-STD-478",
+        "locator": "法通网记录 id=478",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "匈牙利电子信息自由法",
+        "sourceId": "LEXCOM-AVA-HU-STD-478",
+        "locator": "法通网记录 id=478",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "匈牙利",
+        "sourceId": "LEXCOM-AVA-HU-STD-478",
+        "locator": "法通网记录 id=478",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "历史版本",
+        "sourceId": "LEXCOM-AVA-HU-STD-478",
+        "locator": "法通网记录 id=478",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-PL-STD-489",
+    "recordType": "standard",
+    "title": "波兰个人数据保护法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "PL",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "489",
+      "countryCode": "PL",
+      "countryName": "波兰",
+      "continentId": 2,
+      "versionStatusCode": 2,
+      "versionStatusName": "已修订",
+      "issueYear": null,
+      "matchedKeywords": [
+        "个人数据",
+        "数据保护"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "489",
+        "sourceId": "LEXCOM-AVA-PL-STD-489",
+        "locator": "法通网记录 id=489",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "波兰个人数据保护法",
+        "sourceId": "LEXCOM-AVA-PL-STD-489",
+        "locator": "法通网记录 id=489",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "波兰",
+        "sourceId": "LEXCOM-AVA-PL-STD-489",
+        "locator": "法通网记录 id=489",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "已修订",
+        "sourceId": "LEXCOM-AVA-PL-STD-489",
+        "locator": "法通网记录 id=489",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-ID-STD-632",
+    "recordType": "standard",
+    "title": "印度尼西亚电子信息及交易法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "ID",
+    "topics": [
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "632",
+      "countryCode": "ID",
+      "countryName": "印度尼西亚",
+      "continentId": 1,
+      "versionStatusCode": 3,
+      "versionStatusName": "历史版本",
+      "issueYear": null,
+      "matchedKeywords": [
+        "电子信息"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "632",
+        "sourceId": "LEXCOM-AVA-ID-STD-632",
+        "locator": "法通网记录 id=632",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "印度尼西亚电子信息及交易法",
+        "sourceId": "LEXCOM-AVA-ID-STD-632",
+        "locator": "法通网记录 id=632",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "印度尼西亚",
+        "sourceId": "LEXCOM-AVA-ID-STD-632",
+        "locator": "法通网记录 id=632",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "历史版本",
+        "sourceId": "LEXCOM-AVA-ID-STD-632",
+        "locator": "法通网记录 id=632",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-IL-STD-658",
+    "recordType": "standard",
+    "title": "以色列隐私保护条例",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "IL",
+    "topics": [
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "658",
+      "countryCode": "IL",
+      "countryName": "以色列",
+      "continentId": 1,
+      "versionStatusCode": 3,
+      "versionStatusName": "历史版本",
+      "issueYear": null,
+      "matchedKeywords": [
+        "隐私"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "658",
+        "sourceId": "LEXCOM-AVA-IL-STD-658",
+        "locator": "法通网记录 id=658",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "以色列隐私保护条例",
+        "sourceId": "LEXCOM-AVA-IL-STD-658",
+        "locator": "法通网记录 id=658",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "以色列",
+        "sourceId": "LEXCOM-AVA-IL-STD-658",
+        "locator": "法通网记录 id=658",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "历史版本",
+        "sourceId": "LEXCOM-AVA-IL-STD-658",
+        "locator": "法通网记录 id=658",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-OM-STD-776",
+    "recordType": "standard",
+    "title": "阿曼打击网络犯罪法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "OM",
+    "topics": [
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "776",
+      "countryCode": "OM",
+      "countryName": "阿曼",
+      "continentId": 1,
+      "versionStatusCode": 1,
+      "versionStatusName": "现行",
+      "issueYear": null,
+      "matchedKeywords": [
+        "网络犯罪"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "776",
+        "sourceId": "LEXCOM-AVA-OM-STD-776",
+        "locator": "法通网记录 id=776",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "阿曼打击网络犯罪法",
+        "sourceId": "LEXCOM-AVA-OM-STD-776",
+        "locator": "法通网记录 id=776",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "阿曼",
+        "sourceId": "LEXCOM-AVA-OM-STD-776",
+        "locator": "法通网记录 id=776",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "现行",
+        "sourceId": "LEXCOM-AVA-OM-STD-776",
+        "locator": "法通网记录 id=776",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-AE-STD-789",
+    "recordType": "standard",
+    "title": "阿联酋打击网络犯罪法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "AE",
+    "topics": [
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "789",
+      "countryCode": "AE",
+      "countryName": "阿联酋",
+      "continentId": 1,
+      "versionStatusCode": 2,
+      "versionStatusName": "已修订",
+      "issueYear": null,
+      "matchedKeywords": [
+        "网络犯罪"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "789",
+        "sourceId": "LEXCOM-AVA-AE-STD-789",
+        "locator": "法通网记录 id=789",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "阿联酋打击网络犯罪法",
+        "sourceId": "LEXCOM-AVA-AE-STD-789",
+        "locator": "法通网记录 id=789",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "阿联酋",
+        "sourceId": "LEXCOM-AVA-AE-STD-789",
+        "locator": "法通网记录 id=789",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "已修订",
+        "sourceId": "LEXCOM-AVA-AE-STD-789",
+        "locator": "法通网记录 id=789",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-AE-STD-790",
+    "recordType": "standard",
+    "title": "阿联酋打击网络犯罪法修正案",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "AE",
+    "topics": [
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "effective",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "790",
+      "countryCode": "AE",
+      "countryName": "阿联酋",
+      "continentId": 1,
+      "versionStatusCode": 2,
+      "versionStatusName": "已修订",
+      "issueYear": null,
+      "matchedKeywords": [
+        "网络犯罪"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "790",
+        "sourceId": "LEXCOM-AVA-AE-STD-790",
+        "locator": "法通网记录 id=790",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "阿联酋打击网络犯罪法修正案",
+        "sourceId": "LEXCOM-AVA-AE-STD-790",
+        "locator": "法通网记录 id=790",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "阿联酋",
+        "sourceId": "LEXCOM-AVA-AE-STD-790",
+        "locator": "法通网记录 id=790",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "version_status",
+        "value": "已修订",
+        "sourceId": "LEXCOM-AVA-AE-STD-790",
+        "locator": "法通网记录 id=790",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-TL-STD-986813445430-00113",
+    "recordType": "standard",
+    "title": "东帝汶2003年电信法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "TL",
+    "topics": [
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "98681344543000113",
+      "countryCode": "TL",
+      "countryName": "东帝汶",
+      "continentId": 1,
+      "versionStatusCode": null,
+      "versionStatusName": null,
+      "issueYear": null,
+      "matchedKeywords": [
+        "电信法"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "98681344543000113",
+        "sourceId": "LEXCOM-AVA-TL-STD-986813445430-00113",
+        "locator": "法通网记录 id=98681344543000113",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "东帝汶2003年电信法",
+        "sourceId": "LEXCOM-AVA-TL-STD-986813445430-00113",
+        "locator": "法通网记录 id=98681344543000113",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "东帝汶",
+        "sourceId": "LEXCOM-AVA-TL-STD-986813445430-00113",
+        "locator": "法通网记录 id=98681344543000113",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-PH-STD-986830075450-00109",
+    "recordType": "standard",
+    "title": "菲律宾数据隐私法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "PH",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "98683007545000109",
+      "countryCode": "PH",
+      "countryName": "菲律宾",
+      "continentId": 1,
+      "versionStatusCode": null,
+      "versionStatusName": null,
+      "issueYear": null,
+      "matchedKeywords": [
+        "隐私"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "98683007545000109",
+        "sourceId": "LEXCOM-AVA-PH-STD-986830075450-00109",
+        "locator": "法通网记录 id=98683007545000109",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "菲律宾数据隐私法",
+        "sourceId": "LEXCOM-AVA-PH-STD-986830075450-00109",
+        "locator": "法通网记录 id=98683007545000109",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "菲律宾",
+        "sourceId": "LEXCOM-AVA-PH-STD-986830075450-00109",
+        "locator": "法通网记录 id=98683007545000109",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-MY-STD-986836200110-00150",
+    "recordType": "standard",
+    "title": "马来西亚个人数据保护法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "MY",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "98683620011000150",
+      "countryCode": "MY",
+      "countryName": "马来西亚",
+      "continentId": 1,
+      "versionStatusCode": null,
+      "versionStatusName": null,
+      "issueYear": null,
+      "matchedKeywords": [
+        "个人数据",
+        "数据保护"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "98683620011000150",
+        "sourceId": "LEXCOM-AVA-MY-STD-986836200110-00150",
+        "locator": "法通网记录 id=98683620011000150",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "马来西亚个人数据保护法",
+        "sourceId": "LEXCOM-AVA-MY-STD-986836200110-00150",
+        "locator": "法通网记录 id=98683620011000150",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "马来西亚",
+        "sourceId": "LEXCOM-AVA-MY-STD-986836200110-00150",
+        "locator": "法通网记录 id=98683620011000150",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-MM-STD-986837565650-00193",
+    "recordType": "standard",
+    "title": "缅甸电信法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "MM",
+    "topics": [
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "98683756565000193",
+      "countryCode": "MM",
+      "countryName": "缅甸",
+      "continentId": 1,
+      "versionStatusCode": null,
+      "versionStatusName": null,
+      "issueYear": null,
+      "matchedKeywords": [
+        "电信法"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "98683756565000193",
+        "sourceId": "LEXCOM-AVA-MM-STD-986837565650-00193",
+        "locator": "法通网记录 id=98683756565000193",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "缅甸电信法",
+        "sourceId": "LEXCOM-AVA-MM-STD-986837565650-00193",
+        "locator": "法通网记录 id=98683756565000193",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "缅甸",
+        "sourceId": "LEXCOM-AVA-MM-STD-986837565650-00193",
+        "locator": "法通网记录 id=98683756565000193",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-TH-STD-986839835720-00113",
+    "recordType": "standard",
+    "title": "泰国个人信息保护法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "TH",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "98683983572000113",
+      "countryCode": "TH",
+      "countryName": "泰国",
+      "continentId": 1,
+      "versionStatusCode": null,
+      "versionStatusName": null,
+      "issueYear": null,
+      "matchedKeywords": [
+        "信息保护"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "98683983572000113",
+        "sourceId": "LEXCOM-AVA-TH-STD-986839835720-00113",
+        "locator": "法通网记录 id=98683983572000113",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "泰国个人信息保护法",
+        "sourceId": "LEXCOM-AVA-TH-STD-986839835720-00113",
+        "locator": "法通网记录 id=98683983572000113",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "泰国",
+        "sourceId": "LEXCOM-AVA-TH-STD-986839835720-00113",
+        "locator": "法通网记录 id=98683983572000113",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-ID-STD-986845560380-00191",
+    "recordType": "standard",
+    "title": "印度尼西亚2022年第27号个人数据保护法",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "ID",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "98684556038000191",
+      "countryCode": "ID",
+      "countryName": "印度尼西亚",
+      "continentId": 1,
+      "versionStatusCode": null,
+      "versionStatusName": null,
+      "issueYear": null,
+      "matchedKeywords": [
+        "个人数据",
+        "数据保护"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "98684556038000191",
+        "sourceId": "LEXCOM-AVA-ID-STD-986845560380-00191",
+        "locator": "法通网记录 id=98684556038000191",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "印度尼西亚2022年第27号个人数据保护法",
+        "sourceId": "LEXCOM-AVA-ID-STD-986845560380-00191",
+        "locator": "法通网记录 id=98684556038000191",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "印度尼西亚",
+        "sourceId": "LEXCOM-AVA-ID-STD-986845560380-00191",
+        "locator": "法通网记录 id=98684556038000191",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  },
+  {
+    "recordId": "AVA-VN-STD-986846551270-00168",
+    "recordType": "standard",
+    "title": "越南个人信息保护条例",
+    "titleEn": null,
+    "summary": null,
+    "jurisdiction": "VN",
+    "topics": [
+      "data-protection",
+      "foreign-translation",
+      "translated"
+    ],
+    "status": "superseded",
+    "dates": {
+      "publicationDate": null,
+      "effectiveDate": null,
+      "retrievedAt": "2026-10-20"
+    },
+    "citationString": null,
+    "sourceUrl": "https://lexcom.12348.gov.cn/overseas-law",
+    "recordLevel": {
+      "lexcomId": "98684655127000168",
+      "countryCode": "VN",
+      "countryName": "越南",
+      "continentId": 1,
+      "versionStatusCode": null,
+      "versionStatusName": null,
+      "issueYear": null,
+      "matchedKeywords": [
+        "信息保护"
+      ],
+      "sourceTier": "L1",
+      "coverageNote": "实测全量扫描：974 条译本中无一条以航空法为规范对象；本库收录的是与航空数据治理交叉的数据与网络安全类",
+      "note": "域外法律中文译本（译本源：商务部全球法规网）；译本仅供理解参考，法律效力以原文为准。本条属数据与网络安全类，与航空数据治理交叉，非航空法本身"
+    },
+    "assertions": [
+      {
+        "field": "platform_record_id",
+        "value": "98684655127000168",
+        "sourceId": "LEXCOM-AVA-VN-STD-986846551270-00168",
+        "locator": "法通网记录 id=98684655127000168",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "title",
+        "value": "越南个人信息保护条例",
+        "sourceId": "LEXCOM-AVA-VN-STD-986846551270-00168",
+        "locator": "法通网记录 id=98684655127000168",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "country_name",
+        "value": "越南",
+        "sourceId": "LEXCOM-AVA-VN-STD-986846551270-00168",
+        "locator": "法通网记录 id=98684655127000168",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-20"
+      }
+    ],
+    "revisionLog": []
+  }
+]

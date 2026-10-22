@@ -1,0 +1,296 @@
+[
+  {
+    "id": "AVA-ES-ADP-A-001",
+    "url": "https://www.aepd.es/resoluciones/PS-00300-2019_ORI.pdf",
+    "host": "www.aepd.es",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-ES-ADP-A-002",
+    "url": "https://www.aepd.es/es/documento/ps-00402-2019.pdf",
+    "host": "www.aepd.es",
+    "status": "200"
+  },
+  {
+    "id": "AVA-ES-ADP-A-003",
+    "url": "https://www.aepd.es/resoluciones/PS-00168-2022",
+    "host": "www.aepd.es",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-ES-ADP-A-004",
+    "url": "https://www.aepd.es/resoluciones/PS-00319-2022",
+    "host": "www.aepd.es",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-ES-ADP-A-005",
+    "url": "https://www.aepd.es/resoluciones/PS-00086-2023",
+    "host": "www.aepd.es",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-ES-ADP-A-006",
+    "url": "https://www.aepd.es/resoluciones/PS-00091-2023",
+    "host": "www.aepd.es",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-ES-ADP-A-007",
+    "url": "https://baylos.com/blog/una-brecha-provocada-por-vulnerabilidades-conocidas-acaba-en-una-sancion-de-650-000-euros-para-una-reconocida-aerolinea",
+    "host": "baylos.com",
+    "status": "URLError"
+  },
+  {
+    "id": "AVA-ES-ADP-A-008",
+    "url": "https://www.aepd.es/resoluciones/PS-00431-2024",
+    "host": "www.aepd.es",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-ES-ADP-A-009",
+    "url": "https://ppc.land/spain-fines-amadeus-it-group-eur14-4m-for-passenger-data-profiling/",
+    "host": "ppc.land",
+    "status": "200"
+  },
+  {
+    "id": "AVA-ES-ADP-A-010",
+    "url": "https://www.vixio.com/blog/latest-payments-news-spanish-data-regulator-fines-iberia-cards-eu20-000-for-gdpr-breach-and-more",
+    "host": "www.vixio.com",
+    "status": "200"
+  },
+  {
+    "id": "AVA-GB-ADP-A-001",
+    "url": "https://ico.org.uk/action-weve-taken/enforcement/cathay-pacific-airways-limited/",
+    "host": "ico.org.uk",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-GB-ADP-A-002",
+    "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2020/05/statement-easyjet/",
+    "host": "ico.org.uk",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-GB-ADP-A-003",
+    "url": "https://ico.org.uk/action-weve-taken/enforcement/british-airways-pecr/",
+    "host": "ico.org.uk",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-FR-ADP-A-001",
+    "url": "https://www.legifrance.gouv.fr/cnil/id/CNILTEXT000045372972",
+    "host": "www.legifrance.gouv.fr",
+    "status": "HTTP 403"
+  },
+  {
+    "id": "AVA-FR-ADP-A-002",
+    "url": "https://www.cnil.fr/fr/les-sanctions-prononcees-par-la-cnil",
+    "host": "www.cnil.fr",
+    "status": "HTTP 503"
+  },
+  {
+    "id": "AVA-DE-ADP-A-001",
+    "url": "https://www.bfdi.bund.de/EN/Home/home_node.html",
+    "host": "www.bfdi.bund.de",
+    "status": "URLError"
+  },
+  {
+    "id": "AVA-BE-ADP-A-001",
+    "url": "https://www.dataprotectionauthority.be/citizen/homepage",
+    "host": "www.dataprotectionauthority.be",
+    "status": "200"
+  },
+  {
+    "id": "AVA-BE-ADP-C-001",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62019CJ0817",
+    "host": "eur-lex.europa.eu",
+    "status": "202"
+  },
+  {
+    "id": "AVA-IT-ADP-A-001",
+    "url": "https://www.garanteprivacy.it/provvedimento-152-2026",
+    "host": "www.garanteprivacy.it",
+    "status": "RemoteDisconnected"
+  },
+  {
+    "id": "AVA-IT-ADP-A-002",
+    "url": "https://www.ilfattoquotidiano.it/2026/03/06/il-garante-si-sveglia-dopo-un-esposto-alla-procura-di-roma-e-multa-ita-e-alitalia-per-125-milioni-di-euro/8315946/",
+    "host": "www.ilfattoquotidiano.it",
+    "status": "200"
+  },
+  {
+    "id": "AVA-IT-ADP-A-003",
+    "url": "https://noyb.eu/en/want-book-ryanair-flight-prepare-face-scan",
+    "host": "noyb.eu",
+    "status": "HTTP 503"
+  },
+  {
+    "id": "AVA-RO-ADP-A-001",
+    "url": "https://www.dataprotection.ro/?page=Sanctiune_CN_TAROM&lang=ro",
+    "host": "www.dataprotection.ro",
+    "status": "200"
+  },
+  {
+    "id": "AVA-CY-ADP-A-001",
+    "url": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/all/ACDFDC478581BEE1C22584EE002EE9C2/$file/2019-apofasi%20bradford%20system%20%CE%91%CE%9D%CE%A9%CE%9D%CE%A5%CE%9C%CE%9F%CE%A0.pdf?openelement",
+    "host": "www.dataprotection.gov.cy",
+    "status": "HTTP 403"
+  },
+  {
+    "id": "AVA-SE-ADP-A-001",
+    "url": "https://www.edpb.europa.eu/system/files/2023-02/se_2022-07decisionpublic_redacted.pdf",
+    "host": "www.edpb.europa.eu",
+    "status": "200"
+  },
+  {
+    "id": "AVA-TR-ADP-A-001",
+    "url": "https://www.kvkk.gov.tr/Icerik/6638/Cathay-Pacific-Hava-Yollari-Limited-Sirketi-Hakkinda-Veri-Koruma-Kurulu-Karari",
+    "host": "www.kvkk.gov.tr",
+    "status": "200"
+  },
+  {
+    "id": "AVA-TR-ADP-A-002",
+    "url": "https://www.kvkk.gov.tr/Icerik/6639/Havayolu-Sirketi-Hakkinda-Veri-Koruma-Kurulu-Karari",
+    "host": "www.kvkk.gov.tr",
+    "status": "200"
+  },
+  {
+    "id": "AVA-US-ADP-A-001",
+    "url": "https://www.ftc.gov/enforcement/cases-proceedings/2023074/carnival-corporation",
+    "host": "www.ftc.gov",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-US-ADP-A-002",
+    "url": "https://www.transportation.gov/airconsumer/aviation-consumer-protection",
+    "host": "www.transportation.gov",
+    "status": "HTTP 403"
+  },
+  {
+    "id": "AVA-US-ADP-A-003",
+    "url": "https://www.ftc.gov/enforcement/cases-proceedings/2023152/sabre-corporation",
+    "host": "www.ftc.gov",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-US-ADP-A-004",
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-surveillance-pricing-study",
+    "host": "www.ftc.gov",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-US-ADP-C-001",
+    "url": "https://www.courthousenews.com/wp-content/uploads/2022/03/privacy-airline-ruling.pdf",
+    "host": "www.courthousenews.com",
+    "status": "200"
+  },
+  {
+    "id": "AVA-US-ADP-C-002",
+    "url": "https://news.bloomberglaw.com/litigation/flightaware-hit-with-class-action-over-breach-of-scraped-data",
+    "host": "news.bloomberglaw.com",
+    "status": "200"
+  },
+  {
+    "id": "AVA-US-ADP-C-003",
+    "url": "https://www.courtlistener.com/docket/69562327/phillips-v-jetblue-airways-corporation/",
+    "host": "www.courtlistener.com",
+    "status": "200"
+  },
+  {
+    "id": "AVA-CA-ADP-A-001",
+    "url": "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2025/nr-c-20250812/",
+    "host": "www.priv.gc.ca",
+    "status": "200"
+  },
+  {
+    "id": "AVA-AU-ADP-A-001",
+    "url": "https://www.oaic.gov.au/privacy/privacy-assessments-and-decisions/privacy-decisions",
+    "host": "www.oaic.gov.au",
+    "status": "200"
+  },
+  {
+    "id": "AVA-NO-ADP-A-001",
+    "url": "https://www.datatilsynet.no/en/about-the-datatilsynet/news/2024/norwegian-air-shuttle-asa/",
+    "host": "www.datatilsynet.no",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-NL-ADP-A-001",
+    "url": "https://www.autoriteitpersoonsgegevens.nl/en/current/dutch-dpa-investigates-biometric-data-at-schiphol-airport",
+    "host": "www.autoriteitpersoonsgegevens.nl",
+    "status": "URLError"
+  },
+  {
+    "id": "AVA-HU-ADP-A-001",
+    "url": "https://dmp.hu/en/data-protection/analysis-of-the-naih-2024-cases-with-fines/",
+    "host": "dmp.hu",
+    "status": "200"
+  },
+  {
+    "id": "AVA-CH-ADP-A-001",
+    "url": "https://www.edoeb.admin.ch/edoeb/en/home/documentation/decisions.html",
+    "host": "www.edoeb.admin.ch",
+    "status": "HTTP 404"
+  },
+  {
+    "id": "AVA-KR-ADP-A-001",
+    "url": "https://www.pipc.go.kr/eng/index.do",
+    "host": "www.pipc.go.kr",
+    "status": "200"
+  },
+  {
+    "id": "AVA-IN-ADP-A-001",
+    "url": "https://www.meity.gov.in/",
+    "host": "www.meity.gov.in",
+    "status": "200"
+  },
+  {
+    "id": "AVA-SG-ADP-A-001",
+    "url": "https://www.pdpc.gov.sg/organisations/regulations-decisions/enforcement-decisions",
+    "host": "www.pdpc.gov.sg",
+    "status": "200"
+  },
+  {
+    "id": "AVA-CN-ADP-C-001",
+    "url": "https://english.court.gov.cn/2019-12/04/c_766704.htm",
+    "host": "english.court.gov.cn",
+    "status": "200"
+  },
+  {
+    "id": "AVA-HK-ADP-A-001",
+    "url": "https://www.pcpd.org.hk/",
+    "host": "www.pcpd.org.hk",
+    "status": "200"
+  },
+  {
+    "id": "AVA-AT-ADP-A-001",
+    "url": "https://www.dsb.gv.at/",
+    "host": "www.dsb.gv.at",
+    "status": "URLError"
+  },
+  {
+    "id": "AVA-PT-ADP-A-001",
+    "url": "https://www.cnpd.pt/",
+    "host": "www.cnpd.pt",
+    "status": "200"
+  },
+  {
+    "id": "AVA-IE-ADP-A-001",
+    "url": "https://www.dataprotection.ie/",
+    "host": "www.dataprotection.ie",
+    "status": "200"
+  },
+  {
+    "id": "AVA-PL-ADP-A-001",
+    "url": "https://uodo.gov.pl/en",
+    "host": "uodo.gov.pl",
+    "status": "200"
+  },
+  {
+    "id": "AVA-DK-ADP-A-001",
+    "url": "https://www.datatilsynet.dk/",
+    "host": "www.datatilsynet.dk",
+    "status": "200"
+  }
+]

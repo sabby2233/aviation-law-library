@@ -1,0 +1,239 @@
+{
+  "versionDate": "2026-10-16",
+  "parts": {
+    "1": {
+      "citation": "Part 1—Definitions and Abbreviations",
+      "label": "PART 1—DEFINITIONS AND ABBREVIATIONS",
+      "sections": 3,
+      "partLabel": "Definitions and Abbreviations"
+    },
+    "21": {
+      "citation": "Part 21—Certification Procedures for Products and Articles",
+      "label": "PART 21—CERTIFICATION PROCEDURES FOR PRODUCTS AND ARTICLES",
+      "sections": 140,
+      "partLabel": "Certification Procedures for Products and Articles"
+    },
+    "23": {
+      "citation": "Part 23—Airworthiness Standards: Normal Category Airplanes",
+      "label": "PART 23—AIRWORTHINESS STANDARDS: NORMAL CATEGORY AIRPLANES",
+      "sections": 68,
+      "partLabel": "Airworthiness Standards: Normal Category Airplanes"
+    },
+    "25": {
+      "citation": "Part 25—Airworthiness Standards: Transport Category Airplanes",
+      "label": "PART 25—AIRWORTHINESS STANDARDS: TRANSPORT CATEGORY AIRPLANES",
+      "sections": 405,
+      "partLabel": "Airworthiness Standards: Transport Category Airplanes"
+    },
+    "27": {
+      "citation": "Part 27—Airworthiness Standards: Normal Category Rotorcraft",
+      "label": "PART 27—AIRWORTHINESS STANDARDS: NORMAL CATEGORY ROTORCRAFT",
+      "sections": 252,
+      "partLabel": "Airworthiness Standards: Normal Category Rotorcraft"
+    },
+    "29": {
+      "citation": "Part 29—Airworthiness Standards: Transport Category Rotorcraft",
+      "label": "PART 29—AIRWORTHINESS STANDARDS: TRANSPORT CATEGORY ROTORCRAFT",
+      "sections": 308,
+      "partLabel": "Airworthiness Standards: Transport Category Rotorcraft"
+    },
+    "33": {
+      "citation": "Part 33—Airworthiness Standards: Aircraft Engines",
+      "label": "PART 33—AIRWORTHINESS STANDARDS: AIRCRAFT ENGINES",
+      "sections": 69,
+      "partLabel": "Airworthiness Standards: Aircraft Engines"
+    },
+    "35": {
+      "citation": "Part 35—Airworthiness Standards: Propellers",
+      "label": "PART 35—AIRWORTHINESS STANDARDS: PROPELLERS",
+      "sections": 25,
+      "partLabel": "Airworthiness Standards: Propellers"
+    },
+    "36": {
+      "citation": "Part 36—Noise Standards: Aircraft Type and Airworthiness Certification",
+      "label": "PART 36—NOISE STANDARDS: AIRCRAFT TYPE AND AIRWORTHINESS CERTIFICATION",
+      "sections": 24,
+      "partLabel": "Noise Standards"
+    },
+    "39": {
+      "citation": "Part 39—Airworthiness Directives",
+      "label": "PART 39—AIRWORTHINESS DIRECTIVES",
+      "sections": 14,
+      "partLabel": "Airworthiness Directives"
+    },
+    "43": {
+      "citation": "Part 43—Maintenance, Preventive Maintenance, Rebuilding, and Alteration",
+      "label": "PART 43—MAINTENANCE, PREVENTIVE MAINTENANCE, REBUILDING, AND ALTERATION",
+      "sections": 12,
+      "partLabel": "Maintenance, Preventive Maintenance, Rebuilding, and Alteration"
+    },
+    "47": {
+      "citation": "Part 47—Aircraft Registration",
+      "label": "PART 47—AIRCRAFT REGISTRATION",
+      "sections": 31,
+      "partLabel": "Aircraft Registration"
+    },
+    "61": {
+      "citation": "Part 61—Certification: Pilots, Flight Instructors, and Ground Instructors",
+      "label": "PART 61—CERTIFICATION: PILOTS, FLIGHT INSTRUCTORS, AND GROUND INSTRUCTORS",
+      "sections": 139,
+      "partLabel": "Certification: Pilots, Flight Instructors, and Ground School"
+    },
+    "63": {
+      "citation": "Part 63—Certification: Flight Crewmembers Other Than Pilots",
+      "label": "PART 63—CERTIFICATION: FLIGHT CREWMEMBERS OTHER THAN PILOTS",
+      "sections": 28,
+      "partLabel": "Certification: Flight Crewmembers Other Than Pilots"
+    },
+    "65": {
+      "citation": "Part 65—Certification: Airmen Other Than Flight Crewmembers",
+      "label": "PART 65—CERTIFICATION: AIRMEN OTHER THAN FLIGHT CREWMEMBERS",
+      "sections": 65,
+      "partLabel": "Certification: Airmen Other Than Flight Crewmembers"
+    },
+    "67": {
+      "citation": "Part 67—Medical Standards and Certification",
+      "label": "PART 67—MEDICAL STANDARDS AND CERTIFICATION",
+      "sections": 34,
+      "partLabel": "Medical Standards and Certification"
+    },
+    "71": {
+      "citation": "Part 71—Designation of Class A, B, C, D, and E Airspace Areas; Air Traffic Service Routes; and Reporting Points",
+      "label": "PART 71—DESIGNATION OF CLASS A, B, C, D, AND E AIRSPACE AREAS; AIR TRAFFIC SERVICE ROUTES; AND REPORTING POINTS",
+      "sections": 14,
+      "partLabel": "Designation of Class A, B, C, D, and E Airspace Areas"
+    },
+    "73": {
+      "citation": "Part 73—Special Use Airspace",
+      "label": "PART 73—SPECIAL USE AIRSPACE",
+      "sections": 11,
+      "partLabel": "Special Use Airspace"
+    },
+    "77": {
+      "citation": "Part 77—Safe, Efficient Use, and Preservation of the Navigable Airspace",
+      "label": "PART 77—SAFE, EFFICIENT USE, AND PRESERVATION OF THE NAVIGABLE AIRSPACE",
+      "sections": 21,
+      "partLabel": "Safe, Efficient Use, and Preservation of the Navigable Airspace"
+    },
+    "89": {
+      "citation": "Part 89—Remote Identification of Unmanned Aircraft",
+      "label": "PART 89—REMOTE IDENTIFICATION OF UNMANNED AIRCRAFT",
+      "sections": 35,
+      "partLabel": "Remote Identification of Unmanned Aircraft"
+    },
+    "91": {
+      "citation": "Part 91—General Operating and Flight Rules",
+      "label": "PART 91—GENERAL OPERATING AND FLIGHT RULES",
+      "sections": 262,
+      "partLabel": "General Operating and Flight Rules"
+    },
+    "93": {
+      "citation": "Part 93—Special Air Traffic Rules",
+      "label": "PART 93—SPECIAL AIR TRAFFIC RULES",
+      "sections": 79,
+      "partLabel": "Special Air Traffic Rules"
+    },
+    "99": {
+      "citation": "Part 99—Security Control of Air Traffic",
+      "label": "PART 99—SECURITY CONTROL OF AIR TRAFFIC",
+      "sections": 14,
+      "partLabel": "Security Control of Air Traffic"
+    },
+    "105": {
+      "citation": "Part 105—Parachute Operations",
+      "label": "PART 105—PARACHUTE OPERATIONS",
+      "sections": 17,
+      "partLabel": "Parachute Operations"
+    },
+    "107": {
+      "citation": "Part 107—Small Unmanned Aircraft Systems",
+      "label": "PART 107—SMALL UNMANNED AIRCRAFT SYSTEMS",
+      "sections": 60,
+      "partLabel": "Small Unmanned Aircraft Systems"
+    },
+    "110": {
+      "citation": "Part 110—General Requirements",
+      "label": "PART 110—GENERAL REQUIREMENTS",
+      "sections": 2,
+      "partLabel": "General Requirements"
+    },
+    "117": {
+      "citation": "Part 117—Flight and Duty Limitations and Rest Requirements: Flightcrew Members",
+      "label": "PART 117—FLIGHT AND DUTY LIMITATIONS AND REST REQUIREMENTS: FLIGHTCREW MEMBERS",
+      "sections": 15,
+      "partLabel": "Flight and Duty Limitations and Rest Requirements"
+    },
+    "119": {
+      "citation": "Part 119—Certification: Air Carriers and Commercial Operators",
+      "label": "PART 119—CERTIFICATION: AIR CARRIERS AND COMMERCIAL OPERATORS",
+      "sections": 30,
+      "partLabel": "Certification: Air Carriers and Commercial Operators"
+    },
+    "121": {
+      "citation": "Part 121—Operating Requirements: Domestic, Flag, and Supplemental Operations",
+      "label": "PART 121—OPERATING REQUIREMENTS: DOMESTIC, FLAG, AND SUPPLEMENTAL OPERATIONS",
+      "sections": 378,
+      "partLabel": "Operating Requirements: Domestic, Flag, and Supplemental Air Carriers"
+    },
+    "125": {
+      "citation": "Part 125—Certification and Operations: Aircraft Having a Seating Capacity of 20 or More Passengers or a Maximum Payload Capacity of 6,000 Pounds or More; and Rules Governing Persons on Board Such Aircraft",
+      "label": "PART 125—CERTIFICATION AND OPERATIONS: AIRCRAFT HAVING A SEATING CAPACITY OF 20 OR MORE PASSENGERS OR A MAXIMUM PAYLOAD CAPACITY OF 6,000 POUNDS OR MORE; AND RULES GOVERNING PERSONS ON BOARD SUCH AIRCRAFT",
+      "sections": 150,
+      "partLabel": "Aircraft Having a Seating Capacity of 20 or More"
+    },
+    "129": {
+      "citation": "Part 129—Operations: Foreign Air Carriers and Foreign Operators of U.S.-Registered Aircraft Engaged in Common Carriage",
+      "label": "PART 129—OPERATIONS: FOREIGN AIR CARRIERS AND FOREIGN OPERATORS OF U.S.-REGISTERED AIRCRAFT ENGAGED IN COMMON CARRIAGE",
+      "sections": 30,
+      "partLabel": "Operations: Foreign Air Carriers and Foreign Operators"
+    },
+    "135": {
+      "citation": "Part 135—Operating Requirements: Commuter and on Demand Operations and Rules Governing Persons on Board Such Aircraft",
+      "label": "PART 135—OPERATING REQUIREMENTS: COMMUTER AND ON DEMAND OPERATIONS AND RULES GOVERNING PERSONS ON BOARD SUCH AIRCRAFT",
+      "sections": 196,
+      "partLabel": "Operating Requirements: Commuter and On Demand Operations"
+    },
+    "139": {
+      "citation": "Part 139—Certification of Airports",
+      "label": "PART 139—CERTIFICATION OF AIRPORTS",
+      "sections": 39,
+      "partLabel": "Certification of Airports"
+    },
+    "145": {
+      "citation": "Part 145—Repair Stations",
+      "label": "PART 145—REPAIR STATIONS",
+      "sections": 36,
+      "partLabel": "Repair Stations"
+    },
+    "150": {
+      "citation": "Part 150—Airport Noise Compatibility Planning",
+      "label": "PART 150—AIRPORT NOISE COMPATIBILITY PLANNING",
+      "sections": 12,
+      "partLabel": "Airport Noise Compatibility Planning"
+    },
+    "158": {
+      "citation": "Part 158—Passenger Facility Charges (PFC's)",
+      "label": "PART 158—PASSENGER FACILITY CHARGES (PFC'S)",
+      "sections": 44,
+      "partLabel": "Passenger Facility Charges"
+    },
+    "170": {
+      "citation": "Part 170—Establishment and Discontinuance Criteria for Air Traffic Control Services and Navigational Facilities",
+      "label": "PART 170—ESTABLISHMENT AND DISCONTINUANCE CRITERIA FOR AIR TRAFFIC CONTROL SERVICES AND NAVIGATIONAL FACILITIES",
+      "sections": 5,
+      "partLabel": "Establishment and Discontinuance Criteria for Regional Airports"
+    },
+    "171": {
+      "citation": "Part 171—Non-Federal Navigation Facilities",
+      "label": "PART 171—NON-FEDERAL NAVIGATION FACILITIES",
+      "sections": 75,
+      "partLabel": "Non-Federal Navigation Facilities"
+    },
+    "194": {
+      "citation": "Part 194—Special Federal Aviation Regulation No. 120—Powered-Lift: Pilot Certification and Training; Operations Requirements",
+      "label": "PART 194—SPECIAL FEDERAL AVIATION REGULATION NO. 120—POWERED-LIFT: PILOT CERTIFICATION AND TRAINING; OPERATIONS REQUIREMENTS",
+      "sections": 49,
+      "partLabel": "Special Federal Aviation Regulation No. 120"
+    }
+  }
+}

@@ -1,0 +1,825 @@
+{
+ "meta": {
+  "source": "enforcementtracker.com 全库",
+  "etTotal": 3340,
+  "retrievedAt": "2026-10-22",
+  "note": "候选仅表示同名同国记录存在，需下载官方文书确认"
+ },
+ "results": [
+  {
+   "recordId": "AVA-ES-ADP-A-001",
+   "jurisdiction": "ES",
+   "orgInTitle": "Vueling Airlines",
+   "myAmount": 30000,
+   "myCurrency": "EUR",
+   "candidateCount": 1,
+   "candidates": [
+    {
+     "etid": 86,
+     "date": "2019-10-01",
+     "amount": 30000,
+     "party": "Vueling Airlines",
+     "sector": "Transportation and Energy",
+     "article": "Art. 5 GDPR, Art. 6 GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.aepd.es/resoluciones/PS-00300-2019_ORI.pdf",
+     "amountMatch": true
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-ES-ADP-A-002",
+   "jurisdiction": "ES",
+   "orgInTitle": "Iberia Airlines",
+   "myAmount": 20000,
+   "myCurrency": "EUR",
+   "candidateCount": 16,
+   "candidates": [
+    {
+     "etid": 196,
+     "date": "2020-02-03",
+     "amount": 20000,
+     "party": "Iberia Lineas Aereas de Espana, S.A. Operadora Unipersonal",
+     "sector": "Transportation and Energy",
+     "article": "Art. 5 GDPR, Art. 6 GDPR, Art. 21 GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.aepd.es/es/documento/ps-00402-2019.pdf",
+     "amountMatch": true
+    },
+    {
+     "etid": 346,
+     "date": "2020-07-20",
+     "amount": 40000,
+     "party": "Iberia Lae SA Operadora Unipersonal",
+     "sector": "Transportation and Energy",
+     "article": "Art. 58 GDPR",
+     "violation": "Insufficient cooperation with supervisory authority",
+     "sourceUrl": "https://www.aepd.es/es/documento/ps-00060-2020.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 2262,
+     "date": "2024-02-13",
+     "amount": 40000,
+     "party": "IBERIA LÍNEAS AÉREAS DE ESPAÑA, S.A. OPERADORA.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 15 GDPR",
+     "violation": "Insufficient fulfilment of data subjects rights",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00138-2023.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 2367,
+     "date": "2024-06-10",
+     "amount": 100000,
+     "party": "NATURGY IBERIA, S.A.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 6 (1) GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00366-2023.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 2886,
+     "date": "2025-09-22",
+     "amount": 3000,
+     "party": "DHL PARCEL IBERIA, S.L.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 32 GDPR",
+     "violation": "Non-compliance with general data processing principles",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00465-2024.pdf",
+     "amountMatch": false
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-ES-ADP-A-003",
+   "jurisdiction": "ES",
+   "orgInTitle": "Iberia Airlines",
+   "myAmount": 30000,
+   "myCurrency": "EUR",
+   "candidateCount": 16,
+   "candidates": [
+    {
+     "etid": 196,
+     "date": "2020-02-03",
+     "amount": 20000,
+     "party": "Iberia Lineas Aereas de Espana, S.A. Operadora Unipersonal",
+     "sector": "Transportation and Energy",
+     "article": "Art. 5 GDPR, Art. 6 GDPR, Art. 21 GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.aepd.es/es/documento/ps-00402-2019.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 346,
+     "date": "2020-07-20",
+     "amount": 40000,
+     "party": "Iberia Lae SA Operadora Unipersonal",
+     "sector": "Transportation and Energy",
+     "article": "Art. 58 GDPR",
+     "violation": "Insufficient cooperation with supervisory authority",
+     "sourceUrl": "https://www.aepd.es/es/documento/ps-00060-2020.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 2262,
+     "date": "2024-02-13",
+     "amount": 40000,
+     "party": "IBERIA LÍNEAS AÉREAS DE ESPAÑA, S.A. OPERADORA.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 15 GDPR",
+     "violation": "Insufficient fulfilment of data subjects rights",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00138-2023.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 2367,
+     "date": "2024-06-10",
+     "amount": 100000,
+     "party": "NATURGY IBERIA, S.A.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 6 (1) GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00366-2023.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 2886,
+     "date": "2025-09-22",
+     "amount": 3000,
+     "party": "DHL PARCEL IBERIA, S.L.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 32 GDPR",
+     "violation": "Non-compliance with general data processing principles",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00465-2024.pdf",
+     "amountMatch": false
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-ES-ADP-A-004",
+   "jurisdiction": "ES",
+   "orgInTitle": "Ryanair",
+   "myAmount": 30000,
+   "myCurrency": "EUR",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-ES-ADP-A-005",
+   "jurisdiction": "ES",
+   "orgInTitle": "Vueling Airlines",
+   "myAmount": 60000,
+   "myCurrency": "EUR",
+   "candidateCount": 1,
+   "candidates": [
+    {
+     "etid": 86,
+     "date": "2019-10-01",
+     "amount": 30000,
+     "party": "Vueling Airlines",
+     "sector": "Transportation and Energy",
+     "article": "Art. 5 GDPR, Art. 6 GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.aepd.es/resoluciones/PS-00300-2019_ORI.pdf",
+     "amountMatch": false
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-ES-ADP-A-006",
+   "jurisdiction": "ES",
+   "orgInTitle": "Aena",
+   "myAmount": 200000,
+   "myCurrency": "EUR",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-ES-ADP-A-007",
+   "jurisdiction": "ES",
+   "orgInTitle": "",
+   "myAmount": 650000,
+   "myCurrency": "EUR",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-ES-ADP-A-008",
+   "jurisdiction": "ES",
+   "orgInTitle": "Aena",
+   "myAmount": 10043002,
+   "myCurrency": "EUR",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-ES-ADP-A-009",
+   "jurisdiction": "ES",
+   "orgInTitle": "Amadeus IT Group",
+   "myAmount": 14400000,
+   "myCurrency": "EUR",
+   "candidateCount": 1,
+   "candidates": [
+    {
+     "etid": 3192,
+     "date": "2025-04-07",
+     "amount": 14400000,
+     "party": "AMADEUS IT GROUP, S.A.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 6 GDPR, Art. 14 GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00005-2025.pdf",
+     "amountMatch": true
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-ES-ADP-A-010",
+   "jurisdiction": "ES",
+   "orgInTitle": "Iberia Cards",
+   "myAmount": 20000,
+   "myCurrency": "EUR",
+   "candidateCount": 16,
+   "candidates": [
+    {
+     "etid": 196,
+     "date": "2020-02-03",
+     "amount": 20000,
+     "party": "Iberia Lineas Aereas de Espana, S.A. Operadora Unipersonal",
+     "sector": "Transportation and Energy",
+     "article": "Art. 5 GDPR, Art. 6 GDPR, Art. 21 GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.aepd.es/es/documento/ps-00402-2019.pdf",
+     "amountMatch": true
+    },
+    {
+     "etid": 346,
+     "date": "2020-07-20",
+     "amount": 40000,
+     "party": "Iberia Lae SA Operadora Unipersonal",
+     "sector": "Transportation and Energy",
+     "article": "Art. 58 GDPR",
+     "violation": "Insufficient cooperation with supervisory authority",
+     "sourceUrl": "https://www.aepd.es/es/documento/ps-00060-2020.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 2262,
+     "date": "2024-02-13",
+     "amount": 40000,
+     "party": "IBERIA LÍNEAS AÉREAS DE ESPAÑA, S.A. OPERADORA.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 15 GDPR",
+     "violation": "Insufficient fulfilment of data subjects rights",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00138-2023.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 2367,
+     "date": "2024-06-10",
+     "amount": 100000,
+     "party": "NATURGY IBERIA, S.A.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 6 (1) GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00366-2023.pdf",
+     "amountMatch": false
+    },
+    {
+     "etid": 2886,
+     "date": "2025-09-22",
+     "amount": 3000,
+     "party": "DHL PARCEL IBERIA, S.L.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 32 GDPR",
+     "violation": "Non-compliance with general data processing principles",
+     "sourceUrl": "https://www.aepd.es/documento/ps-00465-2024.pdf",
+     "amountMatch": false
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-GB-ADP-A-001",
+   "jurisdiction": "GB",
+   "orgInTitle": "Cathay Pacific Airways",
+   "myAmount": 500000,
+   "myCurrency": "GBP",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-GB-ADP-A-002",
+   "jurisdiction": "GB",
+   "orgInTitle": "easyJet plc",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-GB-ADP-A-003",
+   "jurisdiction": "GB",
+   "orgInTitle": "British Airways plc",
+   "myAmount": 20000000,
+   "myCurrency": "GBP",
+   "candidateCount": 1,
+   "candidates": [
+    {
+     "etid": 58,
+     "date": "2020-10-16",
+     "amount": 22046000,
+     "party": "British Airways",
+     "sector": "Transportation and Energy",
+     "article": "Art. 5 (1) f) GDPR, Art. 32 GDPR",
+     "violation": "Insufficient technical and organisational measures to ensure information security",
+     "sourceUrl": "https://ico.org.uk/action-weve-taken/enforcement/british-airways/",
+     "amountMatch": false
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-FR-ADP-A-001",
+   "jurisdiction": "FR",
+   "orgInTitle": "Derichebourg",
+   "myAmount": 400000,
+   "myCurrency": "EUR",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-FR-ADP-A-002",
+   "jurisdiction": "FR",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-DE-ADP-A-001",
+   "jurisdiction": "DE",
+   "orgInTitle": "Lufthansa Data Breach",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-BE-ADP-A-001",
+   "jurisdiction": "BE",
+   "orgInTitle": "Brussels Airport",
+   "myAmount": 200000,
+   "myCurrency": "EUR",
+   "candidateCount": 2,
+   "candidates": [
+    {
+     "etid": 1116,
+     "date": "2022-04-04",
+     "amount": 200000,
+     "party": "Brussels Airport Zaventem",
+     "sector": "Transportation and Energy",
+     "article": "Art. 5 (1) c) GDPR, Art. 6 (1) e) GDPR, Art. 9 (2) g) GDPR, Art. 12 GDPR, Art. 13 (1) c) GDPR, Art. 13 (2) e) GDPR, Art. 35 (1), (3), (7) b) GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.autoriteprotectiondonnees.be/publications/decision-quant-au-fond-n-48-2022.pdf",
+     "amountMatch": true
+    },
+    {
+     "etid": 1117,
+     "date": "2022-04-04",
+     "amount": 100000,
+     "party": "Brussels Airport Charleroi",
+     "sector": "Transportation and Energy",
+     "article": "Art. 5 (1) a), b) GDPR, Art. 6 (1) c) GDPR, Art. 6 (3) GDPR, Art. 9 (2) i) GDPR, Art. 12 (1) GDPR, Art. 13 (1) c) GDPR, Art. 13 (2) e) GDPR, Art. 35 (1), (7) GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.autoriteprotectiondonnees.be/publications/decision-quant-au-fond-n-47-2022.pdf",
+     "amountMatch": false
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-BE-ADP-C-001",
+   "jurisdiction": "BE",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-IT-ADP-A-001",
+   "jurisdiction": "IT",
+   "orgInTitle": "ITA Airways",
+   "myAmount": 1000000,
+   "myCurrency": "EUR",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-IT-ADP-A-002",
+   "jurisdiction": "IT",
+   "orgInTitle": "Alitalia",
+   "myAmount": 250000,
+   "myCurrency": "EUR",
+   "candidateCount": 4,
+   "candidates": [
+    {
+     "etid": 39,
+     "date": "2019-04-17",
+     "amount": 50000,
+     "party": "Italian political party Movimento 5 Stelle",
+     "sector": "Public Sector and Education",
+     "article": "Art. 32 GDPR",
+     "violation": "Insufficient technical and organisational measures to ensure information security",
+     "sourceUrl": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9101974",
+     "amountMatch": false
+    },
+    {
+     "etid": 1196,
+     "date": "2022-04-28",
+     "amount": 10000,
+     "party": "Italian Ministry of Defense",
+     "sector": "Public Sector and Education",
+     "article": "Art. 5 (1) a) GDPR, Art. 6 GDPR, Art. 9 GDPR, Art. 10 GDPR, Art. 2-ter Codice della privacy, Art. 2-sexies Codice della privacy, Art. 2-octies Codice della privacy",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9776406",
+     "amountMatch": false
+    },
+    {
+     "etid": 1630,
+     "date": "2022-10-20",
+     "amount": 10000,
+     "party": "Italian Archery Federation (FITARCO)",
+     "sector": "Individuals and Private Associations",
+     "article": "Art. 5 (1) a), c) GDPR, Art. 6 GDPR, Art. 10 GDPR, Art. 2-ter Codice della privacy, Art. 2-octies Codice della privacy",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9831323",
+     "amountMatch": false
+    },
+    {
+     "etid": 3243,
+     "date": "2026-05-28",
+     "amount": 700,
+     "party": "Italian Red Cross",
+     "sector": "Health Care",
+     "article": "Art. 5 (1) c), f) GDPR, Art. 9 GDPR",
+     "violation": "Non-compliance with general data processing principles",
+     "sourceUrl": "https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/10262455",
+     "amountMatch": false
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-IT-ADP-A-003",
+   "jurisdiction": "IT",
+   "orgInTitle": "Ryanair",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-RO-ADP-A-001",
+   "jurisdiction": "RO",
+   "orgInTitle": "TAROM",
+   "myAmount": 20000,
+   "myCurrency": "EUR",
+   "candidateCount": 5,
+   "candidates": [
+    {
+     "etid": 125,
+     "date": "2019-12-04",
+     "amount": 20000,
+     "party": "S CNTAR TAROM SA (Airline)",
+     "sector": "Transportation and Energy",
+     "article": "Art. 32 GDPR",
+     "violation": "Insufficient technical and organisational measures to ensure information security",
+     "sourceUrl": "https://www.dataprotection.ro/?page=Sanctiune_CN_TAROM&lang=ro",
+     "amountMatch": true
+    },
+    {
+     "etid": 1848,
+     "date": "2023-05-16",
+     "amount": 5000,
+     "party": "Compania Națională Poșta Română S.A.",
+     "sector": "Transportation and Energy",
+     "article": "Art. 5 (1) a) GDPR, Art. 5 (2) GDPR, Art. 6 (1) GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "https://www.dataprotection.ro/?page=Comunicat_Presa_16.05.2023&lang=ro",
+     "amountMatch": false
+    },
+    {
+     "etid": 3195,
+     "date": "2026-06-12",
+     "amount": 5000,
+     "party": "Națională Poșta Română",
+     "sector": "Transportation and Energy",
+     "article": "Art. 32 (1) b), (2), (4) GDPR",
+     "violation": "Insufficient technical and organisational measures to ensure information security",
+     "sourceUrl": "https://www.dataprotection.ro/index.jsp?page=Comunicat_Presa_12.06.2026",
+     "amountMatch": false
+    },
+    {
+     "etid": 360,
+     "date": "2020-07-27",
+     "amount": 5000,
+     "party": "SC Cntar Tarom SA",
+     "sector": "Industry and Commerce",
+     "article": "Art. 32 GDPR",
+     "violation": "Insufficient technical and organisational measures to ensure information security",
+     "sourceUrl": "https://www.dataprotection.ro/index.jsp?page=Sanctiune%20pentru%20incalcare%20RGPD%2027_07_20&lang=ro",
+     "amountMatch": false
+    },
+    {
+     "etid": 2703,
+     "date": "2025-03-25",
+     "amount": 25000,
+     "party": "NTT DATA ROMANIA S.A.",
+     "sector": "Industry and Commerce",
+     "article": "Art. 32 (1) b), d), (2) GDPR, Art. 33 (1) GDPR",
+     "violation": "Insufficient technical and organisational measures to ensure information security",
+     "sourceUrl": "https://www.dataprotection.ro/index.jsp?page=Comunicat_Presa_25.03.2025",
+     "amountMatch": false
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-CY-ADP-A-001",
+   "jurisdiction": "CY",
+   "orgInTitle": "Louis Aviation",
+   "myAmount": 2000,
+   "myCurrency": "EUR",
+   "candidateCount": 3,
+   "candidates": [
+    {
+     "etid": 181,
+     "date": "2019-10-25",
+     "amount": 2000,
+     "party": "LGS Handling Ltd, Louis Travel Ltd, and Louis Aviation Ltd",
+     "sector": "Employment",
+     "article": "Art. 6 GDPR, Art. 9 GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/all/ACDFDC478581BEE1C22584EE002EE9C2/$file/2019-apofasi%20bradford%20system%20%CE%91%CE%9D%CE%A9%CE%9D%CE%A5%CE%9C%CE%9F%CE%A0.pdf?openelement",
+     "amountMatch": true
+    },
+    {
+     "etid": 179,
+     "date": "2019-10-25",
+     "amount": 70000,
+     "party": "LGS Handling Ltd, Louis Travel Ltd, and Louis Aviation Ltd",
+     "sector": "Employment",
+     "article": "Art. 6 GDPR, Art. 9 GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/all/ACDFDC478581BEE1C22584EE002EE9C2/$file/2019-apofasi%20bradford%20system%20%CE%91%CE%9D%CE%A9%CE%9D%CE%A5%CE%9C%CE%9F%CE%A0.pdf?openelement",
+     "amountMatch": false
+    },
+    {
+     "etid": 180,
+     "date": "2019-10-25",
+     "amount": 10000,
+     "party": "LGS Handling Ltd, Louis Travel Ltd, and Louis Aviation Ltd",
+     "sector": "Employment",
+     "article": "Art. 6 GDPR, Art. 9 GDPR",
+     "violation": "Insufficient legal basis for data processing",
+     "sourceUrl": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/all/ACDFDC478581BEE1C22584EE002EE9C2/$file/2019-apofasi%20bradford%20system%20%CE%91%CE%9D%CE%A9%CE%9D%CE%A5%CE%9C%CE%9F%CE%A0.pdf?openelement",
+     "amountMatch": false
+    }
+   ]
+  },
+  {
+   "recordId": "AVA-SE-ADP-A-001",
+   "jurisdiction": "SE",
+   "orgInTitle": "SAS",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-TR-ADP-A-001",
+   "jurisdiction": "TR",
+   "orgInTitle": "Cathay Pacific Airways",
+   "myAmount": 550000,
+   "myCurrency": "TRY",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-TR-ADP-A-002",
+   "jurisdiction": "TR",
+   "orgInTitle": "",
+   "myAmount": 100000,
+   "myCurrency": "TRY",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-US-ADP-A-001",
+   "jurisdiction": "US",
+   "orgInTitle": "Carnival Corporation",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-US-ADP-A-002",
+   "jurisdiction": "US",
+   "orgInTitle": "American Airlines",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-US-ADP-A-003",
+   "jurisdiction": "US",
+   "orgInTitle": "Sabre Corporation",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-US-ADP-A-004",
+   "jurisdiction": "US",
+   "orgInTitle": "Airlines",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-US-ADP-C-001",
+   "jurisdiction": "US",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-US-ADP-C-002",
+   "jurisdiction": "US",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-US-ADP-C-003",
+   "jurisdiction": "US",
+   "orgInTitle": "JetBlue Airways Corporation",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-CA-ADP-A-001",
+   "jurisdiction": "CA",
+   "orgInTitle": "WestJet Cybersecurity Breach",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-AU-ADP-A-001",
+   "jurisdiction": "AU",
+   "orgInTitle": "Qantas Data Breach",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-NO-ADP-A-001",
+   "jurisdiction": "NO",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-NL-ADP-A-001",
+   "jurisdiction": "NL",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-HU-ADP-A-001",
+   "jurisdiction": "HU",
+   "orgInTitle": "Lufthansa Data Breach | NAIH - Lufthansa Adatszivárgás",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-CH-ADP-A-001",
+   "jurisdiction": "CH",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-KR-ADP-A-001",
+   "jurisdiction": "KR",
+   "orgInTitle": "Korean Air",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-IN-ADP-A-001",
+   "jurisdiction": "IN",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-SG-ADP-A-001",
+   "jurisdiction": "SG",
+   "orgInTitle": "",
+   "myAmount": 47000,
+   "myCurrency": "SGD",
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-CN-ADP-C-001",
+   "jurisdiction": "CN",
+   "orgInTitle": "China Eastern Airlines",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-HK-ADP-A-001",
+   "jurisdiction": "HK",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-AT-ADP-A-001",
+   "jurisdiction": "AT",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-PT-ADP-A-001",
+   "jurisdiction": "PT",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-IE-ADP-A-001",
+   "jurisdiction": "IE",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-PL-ADP-A-001",
+   "jurisdiction": "PL",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  },
+  {
+   "recordId": "AVA-DK-ADP-A-001",
+   "jurisdiction": "DK",
+   "orgInTitle": "",
+   "myAmount": null,
+   "myCurrency": null,
+   "candidateCount": 0,
+   "candidates": []
+  }
+ ]
+}

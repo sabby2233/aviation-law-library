@@ -1,0 +1,266 @@
+[
+ {
+  "recordId": "AVA-ES-ADP-A-001",
+  "etid": 86,
+  "dateInEt": "2019-10-01",
+  "amountInEt": 30000,
+  "officialSourceUrl": "https://www.aepd.es/resoluciones/PS-00300-2019_ORI.pdf",
+  "amountMatch": true
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-002",
+  "etid": 196,
+  "dateInEt": "2020-02-03",
+  "amountInEt": 20000,
+  "officialSourceUrl": "https://www.aepd.es/es/documento/ps-00402-2019.pdf",
+  "amountMatch": true
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-002",
+  "etid": 346,
+  "dateInEt": "2020-07-20",
+  "amountInEt": 40000,
+  "officialSourceUrl": "https://www.aepd.es/es/documento/ps-00060-2020.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-002",
+  "etid": 2262,
+  "dateInEt": "2024-02-13",
+  "amountInEt": 40000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00138-2023.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-002",
+  "etid": 2367,
+  "dateInEt": "2024-06-10",
+  "amountInEt": 100000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00366-2023.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-002",
+  "etid": 2886,
+  "dateInEt": "2025-09-22",
+  "amountInEt": 3000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00465-2024.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-003",
+  "etid": 196,
+  "dateInEt": "2020-02-03",
+  "amountInEt": 20000,
+  "officialSourceUrl": "https://www.aepd.es/es/documento/ps-00402-2019.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-003",
+  "etid": 346,
+  "dateInEt": "2020-07-20",
+  "amountInEt": 40000,
+  "officialSourceUrl": "https://www.aepd.es/es/documento/ps-00060-2020.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-003",
+  "etid": 2262,
+  "dateInEt": "2024-02-13",
+  "amountInEt": 40000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00138-2023.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-003",
+  "etid": 2367,
+  "dateInEt": "2024-06-10",
+  "amountInEt": 100000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00366-2023.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-003",
+  "etid": 2886,
+  "dateInEt": "2025-09-22",
+  "amountInEt": 3000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00465-2024.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-005",
+  "etid": 86,
+  "dateInEt": "2019-10-01",
+  "amountInEt": 30000,
+  "officialSourceUrl": "https://www.aepd.es/resoluciones/PS-00300-2019_ORI.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-009",
+  "etid": 3192,
+  "dateInEt": "2025-04-07",
+  "amountInEt": 14400000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00005-2025.pdf",
+  "amountMatch": true
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-010",
+  "etid": 196,
+  "dateInEt": "2020-02-03",
+  "amountInEt": 20000,
+  "officialSourceUrl": "https://www.aepd.es/es/documento/ps-00402-2019.pdf",
+  "amountMatch": true
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-010",
+  "etid": 346,
+  "dateInEt": "2020-07-20",
+  "amountInEt": 40000,
+  "officialSourceUrl": "https://www.aepd.es/es/documento/ps-00060-2020.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-010",
+  "etid": 2262,
+  "dateInEt": "2024-02-13",
+  "amountInEt": 40000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00138-2023.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-010",
+  "etid": 2367,
+  "dateInEt": "2024-06-10",
+  "amountInEt": 100000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00366-2023.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-ES-ADP-A-010",
+  "etid": 2886,
+  "dateInEt": "2025-09-22",
+  "amountInEt": 3000,
+  "officialSourceUrl": "https://www.aepd.es/documento/ps-00465-2024.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-GB-ADP-A-003",
+  "etid": 58,
+  "dateInEt": "2020-10-16",
+  "amountInEt": 22046000,
+  "officialSourceUrl": "https://ico.org.uk/action-weve-taken/enforcement/british-airways/",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-BE-ADP-A-001",
+  "etid": 1116,
+  "dateInEt": "2022-04-04",
+  "amountInEt": 200000,
+  "officialSourceUrl": "https://www.autoriteprotectiondonnees.be/publications/decision-quant-au-fond-n-48-2022.pdf",
+  "amountMatch": true
+ },
+ {
+  "recordId": "AVA-BE-ADP-A-001",
+  "etid": 1117,
+  "dateInEt": "2022-04-04",
+  "amountInEt": 100000,
+  "officialSourceUrl": "https://www.autoriteprotectiondonnees.be/publications/decision-quant-au-fond-n-47-2022.pdf",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-IT-ADP-A-002",
+  "etid": 39,
+  "dateInEt": "2019-04-17",
+  "amountInEt": 50000,
+  "officialSourceUrl": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9101974",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-IT-ADP-A-002",
+  "etid": 1196,
+  "dateInEt": "2022-04-28",
+  "amountInEt": 10000,
+  "officialSourceUrl": "https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9776406",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-IT-ADP-A-002",
+  "etid": 1630,
+  "dateInEt": "2022-10-20",
+  "amountInEt": 10000,
+  "officialSourceUrl": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9831323",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-IT-ADP-A-002",
+  "etid": 3243,
+  "dateInEt": "2026-05-28",
+  "amountInEt": 700,
+  "officialSourceUrl": "https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/10262455",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-RO-ADP-A-001",
+  "etid": 125,
+  "dateInEt": "2019-12-04",
+  "amountInEt": 20000,
+  "officialSourceUrl": "https://www.dataprotection.ro/?page=Sanctiune_CN_TAROM&lang=ro",
+  "amountMatch": true
+ },
+ {
+  "recordId": "AVA-RO-ADP-A-001",
+  "etid": 1848,
+  "dateInEt": "2023-05-16",
+  "amountInEt": 5000,
+  "officialSourceUrl": "https://www.dataprotection.ro/?page=Comunicat_Presa_16.05.2023&lang=ro",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-RO-ADP-A-001",
+  "etid": 3195,
+  "dateInEt": "2026-06-12",
+  "amountInEt": 5000,
+  "officialSourceUrl": "https://www.dataprotection.ro/index.jsp?page=Comunicat_Presa_12.06.2026",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-RO-ADP-A-001",
+  "etid": 360,
+  "dateInEt": "2020-07-27",
+  "amountInEt": 5000,
+  "officialSourceUrl": "https://www.dataprotection.ro/index.jsp?page=Sanctiune%20pentru%20incalcare%20RGPD%2027_07_20&lang=ro",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-RO-ADP-A-001",
+  "etid": 2703,
+  "dateInEt": "2025-03-25",
+  "amountInEt": 25000,
+  "officialSourceUrl": "https://www.dataprotection.ro/index.jsp?page=Comunicat_Presa_25.03.2025",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-CY-ADP-A-001",
+  "etid": 181,
+  "dateInEt": "2019-10-25",
+  "amountInEt": 2000,
+  "officialSourceUrl": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/all/ACDFDC478581BEE1C22584EE002EE9C2/$file/2019-apofasi%20bradford%20system%20%CE%91%CE%9D%CE%A9%CE%9D%CE%A5%CE%9C%CE%9F%CE%A0.pdf?openelement",
+  "amountMatch": true
+ },
+ {
+  "recordId": "AVA-CY-ADP-A-001",
+  "etid": 179,
+  "dateInEt": "2019-10-25",
+  "amountInEt": 70000,
+  "officialSourceUrl": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/all/ACDFDC478581BEE1C22584EE002EE9C2/$file/2019-apofasi%20bradford%20system%20%CE%91%CE%9D%CE%A9%CE%9D%CE%A5%CE%9C%CE%9F%CE%A0.pdf?openelement",
+  "amountMatch": false
+ },
+ {
+  "recordId": "AVA-CY-ADP-A-001",
+  "etid": 180,
+  "dateInEt": "2019-10-25",
+  "amountInEt": 10000,
+  "officialSourceUrl": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/all/ACDFDC478581BEE1C22584EE002EE9C2/$file/2019-apofasi%20bradford%20system%20%CE%91%CE%9D%CE%A9%CE%9D%CE%A5%CE%9C%CE%9F%CE%A0.pdf?openelement",
+  "amountMatch": false
+ }
+]

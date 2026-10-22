@@ -1,0 +1,248 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aviation-law-library.local/schema.json",
+  "title": "航空法律资料库 数据结构规范",
+  "version": "1.0.0",
+  "description": "事实层数据规范。站点只做事实层与检索，不含署名观点。核心原则：每一个字段值都必须能回溯到一份可核对的来源。",
+  "definitions": {
+    "EvidenceLevel": {
+      "description": "证据等级。决定某条记录能否被引用。L0/L1 之外不可作为核心字段证据。",
+      "enum": ["L0", "L1", "L2", "L3", "L4", "L5"],
+      "x-doc": {
+        "L0": "官方一手文书原文（决定书、判决书、法规正文）—— 核心字段唯一可接受来源",
+        "L1": "官方二手（法院官方摘要、监管机构公告、官方法规数据库、官方新闻稿）",
+        "L2": "权威行业/国际组织文件（ICAO 附件与文件、IATA 官方指引）",
+        "L3": "专业二手（律所简报、学术论文、行业协会分析）—— 仅可作线索发现与叙事背景",
+        "L4": "一般媒体、新闻聚合站 —— 仅可作检索线索，不可入库为任何断言的证据",
+        "L5": "模型生成内容 —— 永不作为来源"
+      }
+    },
+    "CurrencyCode": {
+      "description": "ISO 4217 三字母币种代码",
+      "type": "string",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "IsoDate": {
+      "description": "ISO 8601 日期 YYYY-MM-DD",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["datasetVersion", "generatedAt", "dataCutoff", "caseCount", "license"],
+      "properties": {
+        "datasetVersion": { "type": "string", "description": "语料版本号，如 avl-2026-10" },
+        "generatedAt": { "type": "string", "description": "构建时间戳" },
+        "dataCutoff": { "$ref": "#/definitions/IsoDate", "description": "数据截止日" },
+        "retrievalCutoff": { "$ref": "#/definitions/IsoDate", "description": "检索截止日" },
+        "caseCount": { "type": "integer" },
+        "sourceCount": { "type": "integer" },
+        "officialSourceRatio": { "type": "number", "description": "一手来源占比 0-1，站点首屏必须显示" },
+        "license": { "type": "string" },
+        "notice": { "type": "string", "description": "免责与使用说明，一行" }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "description": "来源登记表。每一份被引用的材料在此登记，evidenceLevel 在此判定。",
+      "items": {
+        "type": "object",
+        "required": ["sourceId", "url", "authority", "evidenceLevel", "retrievedAt", "retrievalChannel"],
+        "properties": {
+          "sourceId": { "type": "string", "pattern": "^[A-Z][A-Z0-9]{1,9}(?:-[A-Z0-9]{1,12}){0,4}$", "description": "来源标识，格式与来源体系一致：FR-<年份>-<序号>、ECFR-<part>-<section>、ADP-<原始记录号>" },
+          "url": { "type": "string", "format": "uri" },
+          "authority": { "type": "string", "description": "发布机构全称" },
+          "authorityShort": { "type": "string" },
+          "jurisdiction": { "type": "string", "description": "ISO 3166-1 alpha-2 或国际组织代码" },
+          "documentType": {
+            "type": "string",
+            "enum": [
+              "enforcement_decision",
+              "court_judgment",
+              "regulation",
+              "rule",
+              "proposed_rule",
+              "statute",
+              "treaty",
+              "standard",
+              "guidance",
+              "policy",
+              "consultation",
+              "news"
+            ]
+          },
+          "documentNo": { "type": "string", "description": "文号或案例编号，如 91 FR 65456" },
+          "evidenceLevel": { "$ref": "#/definitions/EvidenceLevel" },
+          "retrievedAt": { "$ref": "#/definitions/IsoDate" },
+          "retrievalChannel": { "type": "string", "description": "api / rss / html / manual" },
+          "retrievalQuery": { "type": "string", "description": "实际检索式，可复现" },
+          "snapshotUrl": { "type": "string", "description": "存档快照链接" },
+          "language": { "type": "string" },
+          "title": { "type": "string" },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "entities": {
+      "type": "array",
+      "description": "主体主数据。航司、机场、GDS、DPA、法院、立法机关统一建模为 Organization，避免重复与消歧。",
+      "items": {
+        "type": "object",
+        "required": ["entityId", "name", "entityType"],
+        "properties": {
+          "entityId": { "type": "string", "pattern": "^E[0-9]{3,}$" },
+          "name": { "type": "string", "description": "规范名" },
+          "nameEn": { "type": "string" },
+          "entityType": {
+            "type": "string",
+            "enum": [
+              "airline",
+              "airport",
+              "gds",
+              "ota",
+              "ground_service",
+              "dpa",
+              "court",
+              "legislature",
+              "regulator",
+              "international_org",
+              "association",
+              "other"
+            ]
+          },
+          "jurisdiction": { "type": "string" },
+          "identifiers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["scheme", "value"],
+              "properties": {
+                "scheme": { "type": "string" },
+                "value": { "type": "string" }
+              }
+            }
+          },
+          "aliases": {
+            "type": "array",
+            "description": "别名。中英文跨名不做自动映射，必须人工确认。",
+            "items": {
+              "type": "object",
+              "required": ["alias"],
+              "properties": {
+                "alias": { "type": "string" },
+                "language": { "type": "string" },
+                "isPreferred": { "type": "boolean" }
+              }
+            }
+          },
+          "status": { "type": "string", "enum": ["active", "merged", "retired"] },
+          "supersededBy": { "type": "string" }
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "description": "记录。案件、立法、标准统一在此。每条记录是一个断言集合，每条断言挂自己的 sourceId。",
+      "items": {
+        "type": "object",
+        "required": ["recordId", "recordType", "title", "assertions"],
+        "properties": {
+            "recordId": {
+              "type": "string",
+              "pattern": "^AVA-[A-Z]{2,4}-[A-Z]{2,5}(?:-[A-Z0-9]{1,12}){0,4}$",
+              "description": "永久标识。一旦分配永不复用、永不重编，即使该记录后来被撤销或减额。格式：AVA-<法域>-<类型>-<来源标识>，如 AVA-US-CFR-39-39-13、AVA-CN-CCAR-290-R4、AVA-ES-ADP-A-009。规则单一真源在 scripts/record_id.py"
+            },
+          "recordType": {
+            "type": "string",
+            "enum": ["case", "legislation", "standard", "guidance", "policy"]
+          },
+          "title": { "type": "string" },
+          "titleEn": { "type": "string" },
+          "summary": {
+            "type": "string",
+            "description": "事实描述，禁止规范判断句。对应原文段落。"
+          },
+          "jurisdiction": { "type": "string" },
+          "topics": {
+            "type": "array",
+            "description": "主题标签。低空相关由 topics 派生，不单独设布尔字段。",
+            "items": { "type": "string" }
+          },
+          "subjects": {
+            "type": "array",
+            "description": "涉及主体，引用 entityId，不内嵌主体文本",
+            "items": { "type": "string" }
+          },
+          "status": {
+            "type": "string",
+            "enum": ["in_force", "adopted", "promulgated", "not_yet_effective", "amended", "superseded", "repealed", "invalidated", "settled", "under_appeal", "final"],
+            "description": "状态机。非法状态转换由 CI 拦截。"
+          },
+          "dates": {
+            "type": "object",
+            "description": "六个时间字段互不混用。CI 校验不等式。",
+            "properties": {
+              "decisionDate": { "$ref": "#/definitions/IsoDate", "description": "决定或判决日。缺失时为 null，不用报道日顶替" },
+              "publicationDate": { "$ref": "#/definitions/IsoDate", "description": "公布或发布日" },
+              "promulgationDate": { "$ref": "#/definitions/IsoDate" },
+              "effectiveDate": { "$ref": "#/definitions/IsoDate", "description": "生效日" },
+              "repealDate": { "$ref": "#/definitions/IsoDate" },
+              "retrievedAt": { "$ref": "#/definitions/IsoDate" }
+            }
+          },
+          "penalty": {
+            "type": "object",
+            "description": "罚款。三态分行，原币为准，跨币种不可合计。",
+            "properties": {
+              "amountOriginal": { "type": "number" },
+              "amountFinal": { "type": "number" },
+              "currency": { "$ref": "#/definitions/CurrencyCode" },
+              "reductionBasis": { "type": "string", "description": "减免依据原文" },
+              "amountBasisText": { "type": "string", "description": "官方原文摘录。金额的唯一合法来源" }
+            }
+          },
+          "citationString": { "type": "string", "description": "按法域惯例生成的引注" },
+          "assertions": {
+            "type": "array",
+            "description": "断言。每条断言独立挂 sourceId，可独立追溯与修正。",
+            "items": {
+              "type": "object",
+              "required": ["field", "value", "sourceId"],
+              "properties": {
+                "field": { "type": "string" },
+                "value": { "type": "string" },
+                "sourceId": { "type": "string", "description": "必须存在于 sources 中" },
+                "locator": { "type": "string", "description": "原文定位：段号、条款号、页码" },
+                "evidenceLevel": { "$ref": "#/definitions/EvidenceLevel" },
+                "verifiedAt": { "$ref": "#/definitions/IsoDate" },
+                "verifiedBy": { "type": "string" },
+                "generatedBy": { "type": "string", "description": "若由模型生成，须记录模型与提示词版本" },
+                "reviewedBy": { "type": "string" }
+              }
+            }
+          },
+          "relatedRecordIds": { "type": "array", "items": { "type": "string" } },
+          "revisionLog": {
+            "type": "array",
+            "description": "修订历史，只增不改，永不静默覆盖",
+            "items": {
+              "type": "object",
+              "required": ["date", "change"],
+              "properties": {
+                "date": { "$ref": "#/definitions/IsoDate" },
+                "field": { "type": "string" },
+                "oldValue": { "type": "string" },
+                "newValue": { "type": "string" },
+                "reason": { "type": "string" },
+                "by": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
