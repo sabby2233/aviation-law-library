@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "如在本研究中使用本资料库，请按以下格式引用。若只引用了某一条记录，请同时注明该记录的 recordId 与其官方来源地址。"
+type: dataset
+title: "Aviation Law Library（航空法律资料库）"
+abstract: >-
+  面向航空法、低空经济与航空数据治理研究的可检索资料库，收录 4,225 条记录
+  与 17,287 条断言，覆盖 41 个法域。核心做法是把「事实」降级为可追溯的断言：
+  每条断言都带来源标识、原文定位与证据等级（L0 官方一手至 L5 模型生成），
+  并区分决定日、公布日、生效日、废止日等六个互不混用的时间字段。
+  代表法域为美国联邦法规（eCFR / Federal Register，全文收录）、中国民航局规章
+  （CCAR，全文收录）、欧盟法（EUR-Lex，全文收录）与国际民航组织附件（仅元数据与链接）。
+  代码以 MIT 发布，本库自行编制的编排与断言以 CC BY 4.0 发布，
+  收录的官方文本权利归各原权利人。
+authors:
+  - family-names: "李"
+    given-names: "嘉伟"
+    affiliation: "中国民航大学"
+version: "2026.10"
+date-released: "2026-10-23"
+license: MIT
+repository-code: "https://github.com/sabby2233/aviation-law-library"
+url: "https://github.com/sabby2233/aviation-law-library"
+keywords:
+  - 航空法
+  - aviation law
+  - 低空经济
+  - low-altitude economy
+  - 无人机
+  - unmanned aircraft
+  - 数据治理
+  - data governance
+  - ICAO
+  - EASA
+  - FAA
+  - CCAR
+  - legal database
+  - 法律资料库
+references:
+  - type: software
+    title: "脚本与站点代码"
+    authors:
+      - family-names: "李"
+        given-names: "嘉伟"
+    repository: "https://github.com/sabby2233/aviation-law-library"
+    license: MIT

@@ -1,0 +1,41 @@
+# 数据许可（Data License）
+
+本仓库的数据分两类，许可不同，不能混为一谈。
+
+## 一、本库自行编制的部分：CC BY 4.0
+
+适用范围：
+
+- 记录的编排与结构化（`data/records/` 中的字段划分、`recordId` 命名、状态词表）
+- 断言层：字段名、值、`sourceId`、`locator`、`evidenceLevel`、`verifiedAt`
+- 核验结论与纠正记录（`recordLevel.verification`）
+- 规范键（`data/identifiers.json` 的命名空间规则）
+- 检索索引与派生结构（`data/browse.json`、`data/details/`）
+
+许可文本：Creative Commons Attribution 4.0 International
+<https://creativecommons.org/licenses/by/4.0/legalcode>
+
+署名方式（任选其一，替换 `[日期]`）：
+
+> 李嘉伟：《航空法律资料库》（Aviation Law Library），[日期]，
+> https://github.com/sabby2233/aviation-law-library
+
+## 二、收录的官方法律文本：权利归原权利人
+
+本库**不主张**对这些文本的任何权利，CC BY 4.0 亦不及于它们。
+
+| 来源 | 法域 | 权利状态 | 本库处理 |
+|---|---|---|---|
+| eCFR、Federal Register | 美国 | 17 U.S.C. §105，美国政府作品不受版权保护 | 全文收录 |
+| 中国民用航空局规章（CCAR） | 中国 | 《著作权法》第五条，法律法规与国家机关行政文件不适用本法 | 全文收录 |
+| EUR-Lex（欧盟官方公报） | 欧盟 | 2011/833/EU 决定，官方文本可再利用 | 全文收录 |
+| ICAO 附件与 Doc | 国际 | 明示保留著作权，SARPs 不得印刷分发 | **仅存元数据与链接，不存正文** |
+| 法通网（司法部）译本、第三方新闻与律所简报 | 中国／各国 | 权利归各自权利人 | **仅存链接与事实转述** |
+
+引用官方文本时，请以**官方发布的文本**为准，本库的电子化版本不构成权威文本。
+
+## 三、不接受的主张
+
+- 不得将本库的核验结论（`verified`、`verified_with_correction`）表述为官方认定
+- 不得将本库收录范围的边界（4,225 条）表述为该法律领域的全集
+- 不得移除本许可与署名后二次分发本库自行编制的部分
