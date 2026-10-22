@@ -162,6 +162,8 @@ def brief(rec, terms):
         "evidenceLevel": lvl,
         "sourceUrl": rec.get("sourceUrl"),
         "summary": (rec.get("summary") or "")[:SUMMARY_PREVIEW],
+        # 全文标记：卡片上标出「有全文 N 字」，让读者知道详情里有完整条文可读
+        "hasFullText": bool(rec.get("fullText")),
         "terms": sorted(terms),
         "refValues": ref_values,
         "keyRefs": key_refs,
@@ -175,7 +177,9 @@ def brief(rec, terms):
             # 案例性质（已决处罚 / 监管调查）必须进首屏，否则读者会把「调查」当成「已处罚」
             "caseOutcome", "sanctionsVerified",
             # ICAO 附件：中文标准名与分卷结构须进首屏，否则中文读者看不到附件叫什么
-            "titleZh", "icaoNumber", "edition", "subVolumes")
+            "titleZh", "icaoNumber", "edition", "subVolumes",
+            # 全文长度：卡片显示「全文 N 字」
+            "charCount", "textStatus")
     for k in keep:
         if rl.get(k) is not None:
             out[k] = rl[k]

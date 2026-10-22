@@ -276,6 +276,10 @@ def parse_part(xml_bytes, part_id, version_date, ancestry=None):
             "title": title,
             "titleEn": title,
             "summary": body[:1200],
+            # 全文另存：summary 只是节选（原本到这里就把 1,200 字符以后的部分丢掉了，
+            # 而 body 已经是完整条文——1.1 定义条 53,657 字里只留了 2.2%）。
+            # eCFR 属美国联邦政府作品，17 U.S.C. §105 不受版权保护，可全文收录。
+            "fullText": body,
             "jurisdiction": "US",
             "topics": [],
             "status": "effective",

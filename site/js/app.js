@@ -473,6 +473,12 @@
     if (r.institutionalDocNo) facts.push(['文件号', r.institutionalDocNo, true]);
     if (r.articleCount) facts.push(['条文数', String(r.articleCount)]);
     if (rl.titleZh) facts.push(['中文名', rl.titleZh]);
+    // 有全文就把长度摊出来：读者看到「全文 8,981 字」才知道详情里值得点开
+    if (r.hasFullText && r.charCount) {
+      facts.push(['正文', `全文 ${Number(r.charCount).toLocaleString('en-US')} 字`]);
+    } else if (r.textStatus) {
+      facts.push(['正文', '未收录（见详情）']);
+    }
 
     // 罚款三态：
     //   有减免（final ≠ original）→ 两个数都显示，「罚额 X / 减免后 Y」
@@ -594,7 +600,20 @@
 
   function renderDetail(d) {
     const parts = [];
-    if (d.summary && d.summary.length > 220) {
+    const rl0 = d.recordLevel || {};
+    // 全文优先：有 fullText 就整篇给出，不再只给 220 字的摘要
+    if (d.fullText) {
+      const n = d.fullText.length;
+      const cut = rl0.summaryKind === 'verbatim-excerpt';
+      parts.push(
+        `<div class="detail-fulltext">` +
+        `<div class="fulltext-head"><b>正文全文</b>` +
+        `<span class="muted">${n.toLocaleString('en-US')} 字符 · ` +
+        `${esc(rl0.textSource || '官方文本')}${cut ? ' · 列表页只显示前 2,000 字' : ''}</span></div>` +
+        `<div class="fulltext-body">${esc(d.fullText)}</div>` +
+        (rl0.fullTextNote ? `<p class="muted detail-note">${esc(rl0.fullTextNote)}</p>` : '') +
+        `</div>`);
+    } else if (d.summary && d.summary.length > 220) {
       parts.push(`<p class="detail-summary">${esc(d.summary)}</p>`);
     }
     const asserts = d.assertions || [];
@@ -619,6 +638,9 @@
     }
     if (rl.note) {
       parts.push(`<p class="muted detail-note">${esc(rl.note)}</p>`);
+    }
+    if (rl.textStatus) {
+      parts.push(`<p class="muted detail-note">正文状态：${esc(rl.textStatus)}</p>`);
     }
     if (!parts.length) parts.push('<span class="muted">无更多详情。</span>');
     return parts.join('');

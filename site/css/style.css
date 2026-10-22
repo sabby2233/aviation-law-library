@@ -331,6 +331,23 @@ body {
 }
 .detail-summary { margin: 0 0 10px; color: var(--text-2); }
 
+/* 全文区块：限高滚动，避免一条 43 万字的条例把页面拉成一条长带 */
+.detail-fulltext { margin: 0 0 14px; }
+.fulltext-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 12px; flex-wrap: wrap; margin-bottom: 6px;
+  font-size: 12px;
+}
+.fulltext-body {
+  max-height: 55vh; overflow: auto;
+  padding: 10px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 12.5px; line-height: 1.8;
+  white-space: pre-wrap; word-break: break-word;
+}
+
 .detail-table { width: 100%; border-collapse: collapse; font-size: 12px; }
 .detail-table th {
   text-align: left; font-weight: 600; color: var(--text-3);
