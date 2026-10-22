@@ -21,9 +21,9 @@
     },
     "penalty": {
       "amountOriginal": 30000,
-      "amountFinal": null,
+      "amountFinal": 30000,
       "currency": "EUR",
-      "reductionBasis": null,
+      "reductionBasis": "无减免记录：决定书上的罚额即为最终应付金额",
       "amountBasisText": "Vueling Airlines在其网站上设置cookie墙，用户必须接受cookie才能浏览网站，无法拒绝非必要cookie。AEPD认定此做法违反GDPR，罚款€30,000。",
       "amountVerified": true,
       "verifiedAgainst": "ETid-86"
@@ -168,9 +168,9 @@
     },
     "penalty": {
       "amountOriginal": 20000,
-      "amountFinal": null,
+      "amountFinal": 20000,
       "currency": "EUR",
-      "reductionBasis": null,
+      "reductionBasis": "无减免记录：决定书上的罚额即为最终应付金额",
       "amountBasisText": "Iberia航空在用户要求退出数据库或加入\"不联系\"名单后仍继续发送营销邮件，违反GDPR第21条（拒绝权）。AEPD罚款€20,000。",
       "amountVerified": true,
       "verifiedAgainst": "ETid-196"
@@ -1119,11 +1119,11 @@
       "dateAsReportedInSource": "2026-05-27"
     },
     "penalty": {
-      "amountOriginal": 14400000,
-      "amountFinal": null,
+      "amountOriginal": 18000000,
+      "amountFinal": 14400000,
       "currency": "EUR",
-      "reductionBasis": null,
-      "amountBasisText": "AEPD对全球最大旅行技术公司Amadeus IT Group处以€14,400,000罚款（原定€18M，因自愿付款减少20%）。Amadeus通过其全球分销系统(GDS)的试点项目，使用可追溯至2019年的旅客姓名记录(PNR)数据构建旅客画像，违反GDPR透明度原则和合法处理原则：缺乏有效的法律依据、未充分告知旅客数据被用于画像分析。",
+      "reductionBasis": "AEPD 罚额 €18,000,000；因自愿付款（pronto pago / 认罚即付）依 LOPDGDD 第 85 条减 20%，实为 €14,400,000。18,000,000 × 0.8 = 14,400,000。",
+      "amountBasisText": "AEPD 对 Amadeus IT Group 处以罚额 €18,000,000，因自愿付款减 20% 后为 €14,400,000。Amadeus 通过其 GDS 试点项目使用可追溯至 2019 年的 PNR 数据构建旅客画像，违反 GDPR 透明度原则与合法性原则：缺乏有效法律依据、未充分告知旅客数据被用于画像分析。",
       "amountVerified": true,
       "verifiedAgainst": "ETid-3192"
     },
@@ -1234,7 +1234,7 @@
         "caseNo": null,
         "ecli": null,
         "legalBasis": null,
-        "evidence": "Enforcement Tracker ETid-3192；金额与决定日精确吻合",
+        "evidence": "Enforcement Tracker 记录 €14,400,000，与减免后金额一致（原始罚额 €18,000,000 见 amountBasisText）",
         "sourceUrl": null,
         "note": null
       }
@@ -1267,9 +1267,9 @@
     },
     "penalty": {
       "amountOriginal": 20000,
-      "amountFinal": null,
+      "amountFinal": 20000,
       "currency": "EUR",
-      "reductionBasis": null,
+      "reductionBasis": "无减免记录：决定书上的罚额即为最终应付金额",
       "amountBasisText": "AEPD对Iberia Cards（伊比利亚航空旗下的支付卡合资公司）罚款€20,000，因其对已注销/封存的前客户个人数据进行非法再处理，违反GDPR第6.1条（合法性基础）。公司在用户已删除账户后仍继续处理其个人数据。",
       "amountVerified": true,
       "verifiedAgainst": "ETid-196"
@@ -2120,9 +2120,9 @@
     },
     "penalty": {
       "amountOriginal": 200000,
-      "amountFinal": null,
+      "amountFinal": 200000,
       "currency": "EUR",
-      "reductionBasis": null,
+      "reductionBasis": "无减免记录：决定书上的罚额即为最终应付金额",
       "amountBasisText": "比利时数据保护局因布鲁塞尔机场在COVID-19期间使用热像仪对乘客进行体温检测，违反GDPR第5(1)(a)(b)条（合法性和数据最小化原则）及第9条（健康数据为特殊类别数据），对机场公司罚款€200,000。同时对其合作医疗机构Ambuce Rescue Team罚款€20,000。案件编号48/2022。",
       "amountVerified": true,
       "verifiedAgainst": "ETid-1116"
@@ -2748,9 +2748,9 @@
     },
     "penalty": {
       "amountOriginal": 20000,
-      "amountFinal": null,
+      "amountFinal": 20000,
       "currency": "EUR",
-      "reductionBasis": null,
+      "reductionBasis": "无减免记录：决定书上的罚额即为最终应付金额",
       "amountBasisText": "罗马尼亚国家航空公司TAROM因未实施必要的技术安全措施，导致一名员工未经授权访问航班预订系统，查看22名旅客个人数据后将名单拍照并公开发布到网上。ANSPDCP罚款€20,000，违反GDPR第32条（安全义务）。",
       "amountVerified": true,
       "verifiedAgainst": "ETid-125"
@@ -2896,9 +2896,9 @@
     },
     "penalty": {
       "amountOriginal": 2000,
-      "amountFinal": null,
+      "amountFinal": 2000,
       "currency": "EUR",
-      "reductionBasis": null,
+      "reductionBasis": "无减免记录：决定书上的罚额即为最终应付金额",
       "amountBasisText": "塞浦路斯数据保护专员认定Louis Aviation Ltd使用Bradford因子对员工病假进行画像和监控构成非法个人数据处理（员工画像），违反GDPR第22条（自动化决策）。罚款€2,000。",
       "amountVerified": true,
       "verifiedAgainst": "ETid-181"

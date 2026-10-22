@@ -474,12 +474,24 @@
     if (r.articleCount) facts.push(['条文数', String(r.articleCount)]);
     if (rl.titleZh) facts.push(['中文名', rl.titleZh]);
 
-    // 罚款：只显示已确认口径的数值，并标注是否待核验
-    if (r.penalty && r.penalty.amountOriginal) {
-      const cur = r.penalty.currency || '';
-      const amt = r.penalty.amountOriginal.toLocaleString('en-US');
-      const label = r.penalty.amountFinal === null ? '金额' : '最终额';
-      facts.push([label, `${cur} ${amt}`]);
+    // 罚款三态：
+    //   有减免（final ≠ original）→ 两个数都显示，「罚额 X / 减免后 Y」
+    //   无减免（final = original 或 final 未填）→ 只显示一个数
+    //   只有 final（如 NYDFS 只公布和解金额）→ 显示 final
+    // 原实现用 amountOriginal 配「最终额」标签，一旦出现真减免就会把 18,000,000 标成最终额。
+    const pen = r.penalty || {};
+    if (pen.amountOriginal != null || pen.amountFinal != null) {
+      const cur = pen.currency || '';
+      const fmt = (v) => `${cur} ${Number(v).toLocaleString('en-US')}`;
+      const o = pen.amountOriginal, f = pen.amountFinal;
+      if (o != null && f != null && f !== o) {
+        facts.push(['罚额', fmt(o)]);
+        facts.push(['减免后', fmt(f)]);
+      } else if (o != null) {
+        facts.push(['金额', fmt(o)]);
+      } else {
+        facts.push(['金额', fmt(f)]);
+      }
     }
 
     const links = [];
