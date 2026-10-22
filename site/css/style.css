@@ -36,6 +36,68 @@ body {
 
 .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
 
+/* ── 两栏布局与左侧导航 ─────────────────────────────── */
+.layout {
+  max-width: 1240px;
+  display: grid;
+  grid-template-columns: 196px minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+.layout-main { min-width: 0; }
+
+/* 页头页脚与两栏布局共用同一条左基线：否则侧栏会比标题牌向左突出 60px */
+.site-header .wrap,
+.site-footer .wrap { max-width: 1240px; }
+
+.site-nav {
+  position: sticky;
+  top: 16px;
+  font-size: 13px;
+}
+/* 桌面端给一条细竖线：没有它，导航读起来像漂浮的正文（试过纯留白，视觉上压不住） */
+@media (min-width: 901px) {
+  .site-nav { padding-right: 14px; border-right: 1px solid var(--border); }
+}
+.nav-group {
+  margin: 18px 0 6px;
+  padding-left: 9px;
+  font-size: 11px;
+  letter-spacing: .06em;
+  color: var(--text-3);
+}
+.nav-group:first-child { margin-top: 0; }
+.nav-list { display: flex; flex-direction: column; gap: 1px; }
+.nav-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 5px 9px;
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+  color: var(--text-2);
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.nav-item:hover { background: var(--surface-2); color: var(--text); }
+.nav-item.on {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 500;
+}
+.nav-item .n {
+  font-size: 11px;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+.nav-item.on .n { color: var(--accent); opacity: .75; }
+
+
 /* ── 页头 ───────────────────────────────────────────── */
 .site-header {
   background: var(--surface);
@@ -245,6 +307,10 @@ body {
 .record-links { display: flex; gap: 12px; margin-top: 9px; font-size: 12px; align-items: center; }
 .record-links a { color: var(--accent); text-decoration: none; }
 .record-links a:hover { text-decoration: underline; }
+/* 来源性质：只有官方文本用强调色，付费页与报道降级，避免「链接即官方」的暗示 */
+.record-links a.src-paywall { color: var(--text-2); }
+.record-links a.src-third { color: var(--warn); }
+.record-links a.src-unknown { color: var(--text-3); }
 
 /* ── 详情（按需加载） ───────────────────────────────────── */
 .btn-detail {
@@ -303,8 +369,41 @@ body {
 .meta-line { margin: 0; font-size: 11.5px; color: var(--text-3); }
 .meta-line a { color: var(--text-3); }
 
+/* 窄屏：侧栏改为顶部横向滚动条，不与内容抢宽度 */
+@media (max-width: 900px) {
+  .layout { display: block; }
+  .site-nav {
+    position: static;
+    margin-top: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  .site-nav nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+  }
+  .nav-group { display: none; }
+  /* 窄屏不重复铺法域：下方第一个下拉框就是它，铺成 chips 会挤掉类型导航 */
+  #nav-jur { display: none; }
+  .nav-list { flex-direction: row; gap: 6px; }
+  .nav-item {
+    width: auto;
+    padding: 4px 10px;
+    border: 1px solid var(--border-strong);
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .nav-item.on { border-color: var(--accent); }
+}
+
 @media (max-width: 640px) {
   .wrap { padding: 0 16px; }
   .header-inner { gap: 12px; }
-  .record-facts { gap: 12px; }
+  .record-facts { gap: 8px 12px; }
+  /* 436px 宽的文号（如 "...；Incorporation by Reference..."）原本 nowrap，
+     在 390px 屏上把页面撑出横向滚动条。窄屏改为可断行。 */
+  .record-facts span { white-space: normal; min-width: 0; }
+  .badge.key { white-space: normal; overflow-wrap: anywhere; }
 }

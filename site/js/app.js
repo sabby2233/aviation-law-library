@@ -47,6 +47,7 @@
       state.topics = topTopics(state.index, 18);
       renderHeader();
       renderFacets();
+      renderNav();
       bindEvents();
       run();
     } catch (e) {
@@ -100,8 +101,13 @@
     const bits = [`语料版本 ${esc(m.datasetVersion || '—')}`];
     if (m.commitSha) bits.push(`commit ${esc(m.commitSha.slice(0, 8))}`);
     bits.push(`检索截止 ${esc(m.retrievalCutoff || '—')}`);
-    bits.push(`核心字段一手支撑 ${m.coreFieldPrimaryRatio != null
-      ? (m.coreFieldPrimaryRatio * 100).toFixed(1) + '%' : '—'}`);
+    // 这里不再放「核心字段一手支撑率」。
+    // 该指标 1464 条核心断言里 1443 条是法规的公布日/生效日（从官方接口抓的，
+    // 必然是官方），是把同义反复换算成百分比；真实有信息量的案例层只有 4.8%（1/21）。
+    // 两个口径混在一个数字里放在首屏，只会让读者记住那个大的。
+    // 它仍是 validate.py 的 EVD-02 门禁（阈值 80%），属于构建期约束，不是给读者的信息。
+    // 首屏改为陈述可数的事实：断言条数。
+    if (m.assertionCount) bits.push(`断言 ${m.assertionCount.toLocaleString('en-US')} 条`);
     el('footer-meta').innerHTML = bits.join(' · ');
   }
 
@@ -212,6 +218,73 @@
     });
   }
 
+  // ── 渲染：左侧导航 ───────────────────────────────────
+  // 导航与顶部下拉框是同一组筛选器的两个入口，共用 select 的值，不另存状态。
+  // 这样「点侧栏 → 下拉框跟着变」「清空下拉框 → 侧栏高亮自动消失」都成立，
+  // 不会再出现两处状态各自为政、互相覆盖的老问题。
+  function renderNav() {
+    const total = state.records.length;
+    const types = Search.facetCounts(state.index, 'recordType');
+    const typeBox = el('nav-type');
+    [
+      ['', '全部记录', total],
+      ['legislation', '法规', types.legislation || 0],
+      ['case', '案例', types.case || 0],
+      ['standard', '标准', types.standard || 0],
+    ].forEach(([v, label, n]) => {
+      if (v && !n) return;
+      typeBox.appendChild(navButton('type', v, label, n));
+    });
+
+    // 法域只列前 6：41 个法域全铺开就是第二个下拉框，导航要能一眼扫完。
+    // 其余法域仍可在上方下拉框里选。
+    const juris = Search.facetCounts(state.index, 'jurisdiction');
+    const top = Object.entries(juris).sort((a, b) => b[1] - a[1]).slice(0, 6);
+    const jurBox = el('nav-jur');
+    jurBox.appendChild(navButton('jurisdiction', '', '全部法域', total));
+    top.forEach(([k, n]) => jurBox.appendChild(navButton('jurisdiction', k, JUR_LABELS[k] || k, n)));
+
+    el('nav-extra').appendChild(
+      navButton('pending', '1', '仅待核验', state.meta.pendingCount || 0));
+  }
+
+  function navButton(kind, value, label, count) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'nav-item';
+    b.dataset.navKind = kind;
+    b.dataset.navValue = value;
+    b.innerHTML = `<span class="nav-label">${esc(label)}</span>` +
+                  `<span class="n">${Number(count || 0).toLocaleString('en-US')}</span>`;
+    b.addEventListener('click', () => {
+      if (kind === 'type') el('f-type').value = value;
+      else if (kind === 'jurisdiction') el('f-jurisdiction').value = value;
+      else if (kind === 'pending') {
+        // 待核验是开关：再点一次取消，否则点了就取消不掉
+        el('f-pending').value = el('f-pending').value === '1' ? '' : '1';
+      }
+      run();
+    });
+    return b;
+  }
+
+  /** 把当前筛选状态回写到导航高亮。必须在 run() 里调，因为筛选可能来自下拉框或重置按钮。 */
+  function syncNav() {
+    const t = el('f-type').value;
+    const j = el('f-jurisdiction').value;
+    const pending = el('f-pending').value === '1';
+    document.querySelectorAll('.nav-item').forEach((b) => {
+      const kind = b.dataset.navKind;
+      const v = b.dataset.navValue;
+      const on = (kind === 'type' && t === v) ||
+                 (kind === 'jurisdiction' && j === v) ||
+                 (kind === 'pending' && pending && v === '1');
+      b.classList.toggle('on', on);
+      if (on) b.setAttribute('aria-current', 'true');
+      else b.removeAttribute('aria-current');
+    });
+  }
+
   // ── 事件 ─────────────────────────────────────────────
   function bindEvents() {
     let timer = null;
@@ -264,6 +337,7 @@
   function run() {
     const q = currentQuery();
     const res = Search.search(state.index, q);
+    syncNav();
     render(res.results, q, res.warnings);
   }
 
@@ -308,6 +382,60 @@
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  // ── 来源链接的标签 ───────────────────────────────────
+  // 从前这里写死「官方原文 ↗」，凡是 sourceUrl 都挂这个文案。
+  // 但 4225 条里有 18 条指向 store.icao.int（官方出版方的商品页，付费墙，点开没有正文），
+  // 8 条指向媒体、律所博客或第三方判决镜像（courtlistener 不是 PACER）。
+  // 用「有没有链接」决定文案，等于把 L3 二手来源标成官方原文——而可核验正是本站唯一的立身之本。
+  // 所以标签必须由域名派生；域名单之外的默认写成中性的「来源链接」，宁可含糊不可假冒。
+  const PUBLISHER_HOSTS = new Set(['store.icao.int']);
+  const THIRD_PARTY_HOSTS = new Set([
+    'baylos.com',            // 西班牙律所博客
+    'ppc.land',              // 数据保护媒体
+    'vixio.com',             // 付费法律新闻
+    'ilfattoquotidiano.it',  // 意大利媒体
+    'noyb.eu',               // NGO（提起申诉的一方，非裁判者）
+    'courthousenews.com',    // 法律媒体
+    'news.bloomberglaw.com', // 付费法律新闻
+    'courtlistener.com',     // 第三方判决书镜像，非官方 PACER
+  ]);
+  const OFFICIAL_HOSTS = new Set([
+    // 美国
+    'ecfr.gov', 'federalregister.gov', 'ftc.gov', 'transportation.gov',
+    // 中国
+    'caac.gov.cn', 'lexcom.12348.gov.cn', 'english.court.gov.cn', 'pcpd.org.hk',
+    // 欧盟与欧洲各国监管机构
+    'eur-lex.europa.eu', 'edpb.europa.eu', 'legifrance.gouv.fr', 'cnil.fr',
+    'ico.org.uk', 'bfdi.bund.de', 'edoeb.admin.ch', 'dsb.gv.at', 'dataprotection.ie',
+    'cnpd.pt', 'uodo.gov.pl', 'dmp.hu', 'datatilsynet.no', 'datatilsynet.dk',
+    'autoriteitpersoonsgegevens.nl', 'garanteprivacy.it', 'dataprotection.ro',
+    'dataprotection.gov.cy', 'dataprotectionauthority.be', 'aepd.es',
+    // 其他法域
+    'kvkk.gov.tr', 'priv.gc.ca', 'oaic.gov.au', 'meity.gov.in', 'pdpc.gov.sg',
+    'pipc.go.kr',
+    // 国际组织
+    'icao.int',
+  ]);
+
+  function hostOf(url) {
+    try { return new URL(url).hostname.toLowerCase().replace(/^www\./, ''); }
+    catch (e) { return ''; }
+  }
+
+  function sourceLabel(url) {
+    const h = hostOf(url);
+    if (PUBLISHER_HOSTS.has(h)) {
+      return { text: '出版社页面（付费）↗', title: '官方出版方的商品页，需购买或授权才能读到正文', cls: 'src-paywall' };
+    }
+    if (THIRD_PARTY_HOSTS.has(h)) {
+      return { text: '报道（非官方）↗', title: `媒体或第三方机构的报道，不是官方文本：${h}`, cls: 'src-third' };
+    }
+    if (OFFICIAL_HOSTS.has(h)) {
+      return { text: '官方原文 ↗', title: `官方站点：${h}`, cls: 'src-official' };
+    }
+    return { text: '来源链接 ↗', title: `该域名未纳入分级名单：${h || '未知域名'}`, cls: 'src-unknown' };
   }
 
   function renderRecord(r) {
@@ -355,7 +483,10 @@
     }
 
     const links = [];
-    if (r.sourceUrl) links.push(`<a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener">官方原文 ↗</a>`);
+    if (r.sourceUrl) {
+      const src = sourceLabel(r.sourceUrl);
+      links.push(`<a class="${src.cls}" href="${esc(r.sourceUrl)}" target="_blank" rel="noopener" title="${esc(src.title)}">${esc(src.text)}</a>`);
+    }
     if (r.pdfUrl) links.push(`<a href="${esc(r.pdfUrl)}" target="_blank" rel="noopener">PDF ↗</a>`);
 
     // 核验状态标签：二手来源或关键字段待核验时明示

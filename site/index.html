@@ -23,7 +23,21 @@
   </div>
 </header>
 
-<div class="wrap">
+<div class="wrap layout">
+
+  <!-- 左侧导航：与顶部下拉框共用同一组筛选状态，不另设状态 -->
+  <aside class="site-nav" aria-label="资料库导航">
+    <nav>
+      <p class="nav-group">浏览</p>
+      <div id="nav-type" class="nav-list"></div>
+      <p class="nav-group">法域</p>
+      <div id="nav-jur" class="nav-list"></div>
+      <p class="nav-group">核验</p>
+      <div id="nav-extra" class="nav-list"></div>
+    </nav>
+  </aside>
+
+  <div class="layout-main">
 
   <!-- 检索区 -->
   <section class="search-panel" aria-label="检索">
@@ -87,13 +101,15 @@
   <!-- 结果统计 -->
   <div class="result-bar">
     <p id="result-count" role="status" aria-live="polite">正在加载…</p>
-    <p class="result-hint">按相关度与日期排序 · 每条均可直达官方原文</p>
+    <p class="result-hint">按相关度与日期排序 · 每条均标注来源性质</p>
   </div>
 
   <!-- 结果列表 -->
   <main id="results" class="results"></main>
 
   <p id="empty" class="empty hidden">没有匹配的记录。试试放宽筛选条件，或更换关键词。</p>
+
+  </div><!-- /layout-main -->
 </div>
 <footer class="site-footer">
   <div class="wrap">
