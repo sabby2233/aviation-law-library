@@ -10,9 +10,10 @@
 import json
 import re
 from pathlib import Path
+import tempfile
 
-ROOT = Path(r"C:\Users\qwesz\WorkBuddy\2026-10-20-22-03-33\aviation-law-library")
-ET = json.loads(Path(r"C:\Users\qwesz\AppData\Local\Temp\et_cases.json").read_text(encoding="utf-8"))
+ROOT = Path(__file__).resolve().parent.parent
+ET = json.loads((Path(tempfile.gettempdir()) / "et_cases.json").read_text(encoding="utf-8"))
 CASES = json.loads((ROOT / "data/records/cases_aviation_data.json").read_text(encoding="utf-8"))
 
 C2ET = {"ES": "Spain", "GB": "United Kingdom", "IT": "Italy", "FR": "France",

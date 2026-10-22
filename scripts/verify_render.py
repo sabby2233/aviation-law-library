@@ -4,11 +4,15 @@
 
 用法：先起静态服务（仓库根 python -m http.server 8861），再跑本脚本。
 """
+import os
 import sys, time
+from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 URL = "http://127.0.0.1:8861/site/"
-OUT = "C:/Users/qwesz/WorkBuddy/2026-10-20-22-03-33/outputs/site-verify.png"
+# 截图落到仓库外的同级 outputs/ 目录；可用 SCREENSHOT_PATH 覆盖
+_DEFAULT_OUT = Path(__file__).resolve().parent.parent.parent / "outputs" / "site-verify.png"
+OUT = os.environ.get("SCREENSHOT_PATH", str(_DEFAULT_OUT))
 
 
 def main():

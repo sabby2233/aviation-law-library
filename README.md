@@ -27,7 +27,7 @@
 | **Federal Register** | `federalregister.gov/api/v1` | 航空法规变更事件（文号、生效日） | 570 | 官方 API，免 key |
 | **中国民航局** | `caac.gov.cn/was5/web/search` | CCAR 规章与规范性文件（含部号、有效性） | 292 | TRS 搜索接口 |
 | **司法部法通网** | `lexcom.12348.gov.cn/api` | 我国涉外法律法规 + 域外法律中文译本 | 78 + 18 | 官方 API，免 key |
-| **ICAO 附件** | 用户提供的官方 booklet | 18 条（Annex 1–18，中英标准名 + 分卷结构） | 标准名已核验，正文不入库 |
+| **ICAO 附件** | 用户提供的官方 booklet + 微信相册 | Annex 1–19 中英标准名与分卷结构 | 19 | 标准名已核验，正文不入库 |
 | **EUR-Lex / Cellar** | `publications.europa.eu/resource/celex` | EASA 基础条例、无人机与 U-space 规则包、GDPR（含条文标题） | 7（425 条条文标题） | 官方 API，免 key |
 | **执法案例** | 用户早前自建仓库 | 各国 DPA 处罚与法院判决 | 49 | 快照导入（待核验） |
 

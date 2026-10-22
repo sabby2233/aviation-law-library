@@ -14,7 +14,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PDF = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(
-    r"C:\Users\qwesz\Downloads\annexes_booklet.pdf")
+    os.environ.get("ANNEXES_BOOKLET",
+                   str(Path.home() / "Downloads" / "annexes_booklet.pdf")))
 
 # ── 18 个附件的标准名（全部取自 booklet 原文，非模型记忆）──────────────────
 # key: 附件号；value: 英文名（booklet 目录页与章标题）、中文名（booklet 第 191 页目录

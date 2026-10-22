@@ -1,4 +1,8 @@
 const { chromium } = require('playwright');
+// 截图与抓包落到系统临时目录，避免把绝对路径写死在某台机器上
+const os = require('os');
+const path = require('path');
+const TMP = os.tmpdir();
 
 const URL = 'https://flowus.cn/flyngin/share/925292e4-e5d6-4ab3-9aad-e6028a006fb3';
 
@@ -58,12 +62,12 @@ const URL = 'https://flowus.cn/flyngin/share/925292e4-e5d6-4ab3-9aad-e6028a006fb
     console.log(`     ${c.body.slice(0, 300).replace(/\s+/g, ' ')}`);
   });
 
-  await page.screenshot({ path: 'C:/Users/qwesz/AppData/Local/Temp/flowus.png', fullPage: false });
-  console.log('\n截图已存 flowus.png');
+  await page.screenshot({ path: path.join(TMP, 'flowus.png'), fullPage: false });
+  console.log('\n截图已存 ' + path.join(TMP, 'flowus.png'));
 
   // 保存原始数据供后续解析
   require('fs').writeFileSync(
-    'C:/Users/qwesz/AppData/Local/Temp/flowus_capture.json',
+    path.join(TMP, 'flowus_capture.json'),
     JSON.stringify({ title, text, links, apiCalls: apiCalls.map(c => ({ url: c.url, body: c.body })) }, null, 1),
     'utf-8'
   );

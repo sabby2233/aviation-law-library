@@ -6,8 +6,10 @@
 输出：data/inbox/icao_batch/probe.json
 """
 import json, os, re, sys
+from pathlib import Path
 
-DIR = r"C:/Users/qwesz/Downloads"
+# 待核验的 PDF 放在本机的下载目录里；换机器时用环境变量指向自己的路径。
+DIR = os.environ.get("ICAO_PDF_DIR", str(Path.home() / "Downloads"))
 OUT = "data/inbox/icao_batch"
 
 FILES = [

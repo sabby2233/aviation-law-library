@@ -13,7 +13,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(r"C:\Users\qwesz\WorkBuddy\2026-10-20-22-03-33\aviation-law-library")
+ROOT = Path(__file__).resolve().parent.parent
 CASES_PATH = ROOT / "data/records/cases_aviation_data.json"
 VERIFY_PATH = ROOT / "data/case_verification_et.json"
 

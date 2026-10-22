@@ -14,8 +14,9 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+import tempfile
 
-ROOT = Path(r"C:\Users\qwesz\WorkBuddy\2026-10-20-22-03-33\aviation-law-library")
+ROOT = Path(__file__).resolve().parent.parent
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 
@@ -68,6 +69,6 @@ for rid, q, kw in QUERIES:
         res[rid] = {"query": q, "error": str(e)[:100]}
     time.sleep(0.8)
 
-Path(r"C:\Users\qwesz\AppData\Local\Temp\cl_results.json").write_text(
+(Path(tempfile.gettempdir()) / "cl_results.json").write_text(
     json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
 print("\n→ cl_results.json")

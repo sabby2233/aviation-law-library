@@ -11,7 +11,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(r"C:\Users\qwesz\WorkBuddy\2026-10-20-22-03-33\aviation-law-library")
+ROOT = Path(__file__).resolve().parent.parent
 VDIR = ROOT / "data" / "verify" / "official"
 VDIR.mkdir(parents=True, exist_ok=True)
 

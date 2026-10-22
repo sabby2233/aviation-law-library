@@ -15,7 +15,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(r"C:\Users\qwesz\WorkBuddy\2026-10-20-22-03-33\aviation-law-library")
+ROOT = Path(__file__).resolve().parent.parent
 ALBUM = ROOT / "data" / "icao_wechat_album.json"
 ICAO = ROOT / "data/records/icao_documents.json"
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
