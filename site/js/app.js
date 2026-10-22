@@ -497,8 +497,13 @@
     if (r.caseOutcome === 'sanction' && r.sanctionsVerified) notes.push({ text: '金额已核实', cls: 'verified' });
     if (lv === 'L3') notes.push('二手来源');
     if (r.recordType === 'case' && !d.decisionDate) notes.push('决定日待核验');
-    if (r.penalty && r.penalty.amountOriginal && r.penalty.amountFinal === null) {
-      notes.push('金额为拟议额');
+    // 注意：amountFinal === null 不等于「拟议额」。
+    // schema 没定义 null 的含义，实际数据里同样情形一半填了 final=original（A-007 等 8 条）、
+    // 一半留了 null（A-001 等 7 条）——所以 null 只是「未记录减免后的数额」。
+    // 已核实的记录不再提示拟议（否则与绿色「金额已核实」自相矛盾），只有未核实的才提示待核。
+    if (r.penalty && r.penalty.amountOriginal && r.penalty.amountFinal === null
+        && !r.sanctionsVerified) {
+      notes.push('金额待核');
     }
 
     // 规范键：让读者与 AI 知道这条记录归属哪些可查键
