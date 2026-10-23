@@ -2020,15 +2020,15 @@
     "status": "effective",
     "citationString": "Annex 19",
     "sourceUrl": "https://www.icao.int/safety/SMS/Pages/default.aspx",
-    "summary": "国际民航组织《国际民用航空公约》Annex 19 安全管理；现行版次 3rd Edition, 2025；本站只存元数据与官方链接，不收录正文。",
+    "summary": "国际民航组织《国际民用航空公约》Annex 19 安全管理；现行适用第 2 版（2016-07，含 Amendment 1），2019-11-07 起生效；第 3 版 2025-11 将于 2026-11-26 取代；本站只存元数据与官方链接，不收录正文。",
     "recordLevel": {
       "icaoNumber": "Annex 19",
       "icaoKind": "annex",
       "titleZh": "安全管理",
       "language": "en",
-      "sourceTier": "L3",
-      "verificationStatus": "pending",
-      "note": "booklet（2005-06）不含本附件（2006 年才制定）；编号与名称取自微信公众号相册文章标题，非 ICAO 官方出处，故标 L3 待核验。仅存元数据与引注，不存正文。",
+      "sourceTier": "L1",
+      "verificationStatus": "verified",
+      "note": "正文与 PDF 均不入库（SARPs 受版权保护，不得印刷分发）。断言仅记录可在版权页/修订记录页直接核对的事实。",
       "wechatAlbum": {
         "albumTitle": "ICAO 国际民航公约附件",
         "platform": "微信公众号相册",
@@ -2041,18 +2041,20 @@
           }
         ]
       },
-      "edition": "3rd Edition, 2025",
-      "editionDate": "2025-11",
+      "edition": "2nd Ed, 2016-07（现行适用）｜3rd Ed, 2025-11（2026-11-26 起取代）",
+      "editionDate": "2016-07",
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
       "editionNote": "2025-11 换版（原 2nd Ed 2016-07）；第 3 版适用日 2026-11-26",
       "citationStringFull": "ICAO Annex 19, 3rd Edition, 2025",
-      "applicabilityDate": "2026-11-26",
-      "applicabilityNote": "第 3 版 2025-11 出版，但封面载明「This edition supersedes, on 26 November 2026, all previous editions of Annex 19」——2026-11-26 起才取代旧版。在此之前现行有效仍为第 2 版（2016-07）+ 修订。引用前须确认适用日是否已到。",
-      "orderNumber": "AN 19",
+      "applicabilityDate": "2019-11-07",
+      "applicabilityNote": "第 2 版 2016-07 自 2019-11-07 起适用；第 3 版 2025-11 出版，但封面载明 2026-11-26 才取代旧版。截至 2026-10-23，现行适用仍为第 2 版。",
+      "orderNumber": "AN19",
       "isbn": "978-92-9275-818-9",
-      "pages": 52
+      "pages": 46,
+      "acquiredFrom": "user-provided PDF（icao_annex_19_second-edition.pdf，46 页）",
+      "retrievalChannel": "用户提供的官方副本；读取 p.3 封面、p.4 版权页、p.5 修订记录页"
     },
     "dates": {
       "retrievedAt": "2026-10-21",
@@ -2064,10 +2066,74 @@
       {
         "field": "icao_annex_number",
         "value": "Annex 19",
-        "sourceId": "WXA-ANNEX-19",
-        "locator": "ICAO 国际民用航空公约附件 19 — 安全管理",
-        "evidenceLevel": "L3",
-        "verifiedAt": "2026-10-21"
+        "sourceId": "ICAO-ANNEX-19",
+        "locator": "Annex 19 第 2 版 PDF 版权页与修订记录页（用户提供的官方副本，p.3–5）",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "field": "title",
+        "value": "Safety Management",
+        "sourceId": "ICAO-ANNEX-19",
+        "locator": "Annex 19 第 2 版 PDF 版权页与修订记录页（用户提供的官方副本，p.3–5）",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "field": "title_zh",
+        "value": "安全管理",
+        "sourceId": "ICAO-ANNEX-19",
+        "locator": "Annex 19 第 2 版 PDF 版权页与修订记录页（用户提供的官方副本，p.3–5）",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "field": "edition",
+        "value": "Second Edition, July 2016（现行适用）",
+        "sourceId": "ICAO-ANNEX-19",
+        "locator": "Annex 19 第 2 版 PDF 版权页与修订记录页（用户提供的官方副本，p.3–5）",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "field": "supersedes_date",
+        "value": "2019-11-07",
+        "sourceId": "ICAO-ANNEX-19",
+        "locator": "Annex 19 第 2 版 PDF 版权页与修订记录页（用户提供的官方副本，p.3–5）；原文为 supersedes, on 7 November 2019",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "field": "order_number",
+        "value": "AN19",
+        "sourceId": "ICAO-ANNEX-19",
+        "locator": "Annex 19 第 2 版 PDF 版权页与修订记录页（用户提供的官方副本，p.3–5）；p.4 版权页 Order Number: AN19",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "field": "pages",
+        "value": "46",
+        "sourceId": "ICAO-ANNEX-19",
+        "locator": "Annex 19 第 2 版 PDF 版权页与修订记录页（用户提供的官方副本，p.3–5）",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "field": "amendment_included",
+        "value": "Amendment 1 已并入第 2 版",
+        "sourceId": "ICAO-ANNEX-19",
+        "locator": "Annex 19 第 2 版 PDF 版权页与修订记录页（用户提供的官方副本，p.3–5）；修订记录页 1 Incorporated in this edition",
+        "evidenceLevel": "L1",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "field": "next_edition",
+        "value": "第 3 版 2025-11，2026-11-26 起取代第 2 版",
+        "sourceId": "ICAO-ANNEX-19",
+        "locator": "ICAO Store / aerostandard 封面页 supersedes 句（2026-10 核对）",
+        "evidenceLevel": "L2",
+        "verifiedAt": "2026-10-23"
       }
     ],
     "revisionLog": []

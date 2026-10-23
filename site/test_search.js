@@ -138,20 +138,21 @@ console.log('\n【3b】ICAO 附件：五种写法归一 + 未收录告警');
   check('括号主题名写法可解析（Annex 8 (Airworthiness of Aircraft)）',
     icaoHits('Annex 8 (Airworthiness of Aircraft)') === 1);
 
-  // Annex 19 是 2006 年才制定的，官方 booklet（2005-06）不含，但已从微信相册补入。
-// 因此这里断言它「已收录且证据级别为 L3（第三方线索，待官方核验）」，
-// 而「未收录必须告警」这条规则改用确实不存在的 Annex 20 来验证——
-// 断言要跟着数据真相走，不能把旧假设钉死。
+  // Annex 19 是 2006 年才制定的，官方 booklet（2005-06）不含，最初只能从微信相册补入（L3）。
+  // 2026-10-23 拿到用户提供的第 2 版 PDF 后，改为从版权页与修订记录页取断言，升到 L1 已核验。
+  // 这里断言的是「当前的真实状态」，而不是把早期的临时状态钉死。
   const a19 = icaoHits('Annex 19');
-  check('Annex 19 已收录（来自微信相册，booklet 不含）', a19 === 1, `实际 ${a19}`);
+  check('Annex 19 已收录（booklet 不含，另行补入）', a19 === 1, `实际 ${a19}`);
   check('Annex 19 中文写法同键', icaoHits('附件第 19 条') === 1);
-  check('Annex 19 记录标记为 L3 待核验', (() => {
+  check('Annex 19 已核验且证据等级不高于 L1', (() => {
     const hit = Search.search(idx, { text: 'Annex 19' }).results
       .find((h) => h.record.jurisdiction === 'ICAO');
     if (!hit) return false;
     const rl = hit.record.recordLevel || {};
     const lv = (hit.record.assertions || []).map((x) => x.evidenceLevel);
-    return rl.sourceTier === 'L3' && lv.every((x) => x !== 'L0');
+    const hasCore = (hit.record.assertions || []).some((x) => x.field === 'edition');
+    return rl.verificationStatus === 'verified' && rl.sourceTier !== 'L3'
+      && lv.every((x) => x !== 'L3') && hasCore;
   })());
 
   // 确实不存在的附件号：必须零命中 + 明确告警

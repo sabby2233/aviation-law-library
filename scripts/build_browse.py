@@ -112,7 +112,9 @@ def terms_of(rec):
     ]
     for a in rec.get("assertions") or []:
         parts.append(a.get("value"))
-    return tokenize(" ".join(p for p in parts if p))
+    # 断言值理论上都是字符串，但一条数字值（如 pages: 46）就足以让整次构建崩掉，
+    # 而崩的是 4225 条全部记录。这里统一转字符串，别让单条脏数据毁掉构建。
+    return tokenize(" ".join(str(p) for p in parts if p not in (None, "")))
 
 
 def brief(rec, terms):
