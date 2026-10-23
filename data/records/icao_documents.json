@@ -1376,7 +1376,7 @@
     "recordType": "standard",
     "title": "Meteorological Service for International Air Navigation",
     "titleEn": "Meteorological Service for International Air Navigation",
-    "summary": "国际民航组织《国际民用航空公约》Annex 3 国际空中航行气象服务；现行版次 20th Edition, 2018；最新修订 Amd 80 (2021-11-04)；本站只存元数据与官方链接，不收录正文。",
+    "summary": "国际民航组织《国际民用航空公约》Annex 3 国际空中航行气象服务；现行第 21 版（2025-11），2025-11-27 起取代第 20 版（2018）；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1385,8 +1385,8 @@
     ],
     "status": "effective",
     "dates": {
-      "publicationDate": "2018-07",
-      "effectiveDate": null,
+      "publicationDate": "2025-11",
+      "effectiveDate": "2025-11-27",
       "retrievedAt": "2026-10-21",
       "publicationDatePrecision": "month",
       "publicationDateBasis": "edition"
@@ -1399,7 +1399,7 @@
       "canonicalKey": "annex:3",
       "titleZh": "国际空中航行气象服务",
       "subVolumes": null,
-      "edition": "20th Edition, 2018",
+      "edition": "21st Edition, 2025",
       "adoptedDate": null,
       "amendmentDate": null,
       "language": "en",
@@ -1426,11 +1426,11 @@
         ]
       },
       "bookletEdition": "2005-06 (ICAO Annexes 1 to 18 booklet)",
-      "editionDate": "2018-07",
-      "latestAmendment": "Amd 80 (2021-11-04)",
-      "editionCheckedAt": "2026-10-22",
-      "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "editionNote": "Store 列表未单列，版次依 2018-07 第 20 版；修订号以官方核对为准",
+      "editionDate": "2025-11",
+      "latestAmendment": "Amd 1–82 已并入，另有 Corrigendum 1（2025-10-20）",
+      "editionCheckedAt": "2026-10-23",
+      "editionSource": "用户提供的 an03_cons.pdf 第 3–4 页（© ICAO 2025，Order No. AN 3，ISBN 978-92-9275-706-9）",
+      "editionNote": "换版：原记 20th Edition 2018，实际已出第 21 版（2025-11-27 起适用）",
       "citationStringFull": "ICAO Annex 3, 20th Edition, 2018",
       "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
@@ -1439,7 +1439,7 @@
         "field": "icao_number",
         "value": "Annex 3",
         "sourceId": "ICAO-ANNEX-3",
-        "locator": "ICAO Annex 3",
+        "locator": "an03_cons.pdf 第 4 页版权页 Order No. AN 3",
         "evidenceLevel": "L1",
         "verifiedAt": "2026-10-21"
       },
@@ -1453,12 +1453,12 @@
       },
       {
         "field": "edition",
-        "value": "20th Edition, 2018",
+        "value": "21st Edition, 2025",
         "sourceId": "ICAO-ANNEX-3",
-        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
+        "locator": "an03_cons.pdf 第 3 页（This edition supersedes, on 27 November 2025）与第 4 页版权页",
         "evidenceLevel": "L1",
         "verifiedAt": "2026-10-23",
-        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
+        "previousValue": "20th Edition, 2018"
       },
       {
         "field": "language",
