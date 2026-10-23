@@ -50,3 +50,6 @@ desktop.ini
 # ── 本地运行痕迹 ──
 *.log
 .pytest_cache/
+
+# Pages 发布目录（构建产物，不入库）
+_site/

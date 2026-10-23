@@ -8,17 +8,28 @@
 (function () {
   'use strict';
 
-  const DATA_URL = '../data/browse.json';
-  // 详情按需加载：首屏只带精简记录，点「展开」时再取全文与断言
-  // （分桶规则与 scripts/build_browse.py 的 bucket_of 保持一致）
-  const DETAIL_BASE = '../data/details';
+  // 数据根目录有两种形态，靠一次探测决定，两种部署共用同一份代码：
+  //   本地：仓库根起服务 → ../data（site/ 与 data/ 同级）
+  //   Pages：发布目录里 index.html 与 data/ 同级 → ./data
+  const DATA_BASES = ['../data', './data', '../../data'];
+  let DATA_BASE = '../data';
 
+  async function resolveDataBase() {
+    for (const b of DATA_BASES) {
+      try {
+        const r = await fetch(`${b}/browse.json`, { method: 'HEAD' });
+        if (r.ok) return b;
+      } catch (e) { /* 换下一个候选 */ }
+    }
+    return DATA_BASES[0];
+  }
+
+  function dataUrl(name) { return `${DATA_BASE}/${name}`; }
   function detailBucket(recordId) {
     let h = 0;
     for (let i = 0; i < recordId.length; i++) h += recordId.charCodeAt(i);
     return String(h % 32).padStart(2, '0');
   }
-  const IDENTIFIER_RULES_URL = '../data/identifiers.json';
 
   const state = {
     index: null,
@@ -33,9 +44,10 @@
   // ── 加载 ─────────────────────────────────────────────
   async function load() {
     try {
+      DATA_BASE = await resolveDataBase();
       const [manifestRes, rulesRes] = await Promise.all([
-        fetch(DATA_URL),
-        fetch(IDENTIFIER_RULES_URL).catch(() => null),
+        fetch(dataUrl('browse.json')),
+        fetch(dataUrl('identifiers.json')).catch(() => null),
       ]);
       if (!manifestRes.ok) throw new Error('HTTP ' + manifestRes.status);
       const manifest = await manifestRes.json();
@@ -581,7 +593,7 @@
 
   // ── 详情按需加载 ────────────────────────────────────────
   async function loadDetail(recordId, box) {
-    const url = `${DETAIL_BASE}/${detailBucket(recordId)}/${recordId}.json`;
+    const url = `${dataUrl('details')}/${detailBucket(recordId)}/${recordId}.json`;
     const body = box.querySelector('.detail-body');
     try {
       const res = await fetch(url);

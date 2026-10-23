@@ -1,0 +1,68 @@
+name: Deploy site to Pages
+
+# 发布的是「构建产物」，不是仓库原文：
+#   browse.json / details/ / site/api/ 都不入库（.gitignore），
+#   所以每次发布都要在 runner 上重建，再用 build_site.py 组装成 _site/。
+# 组装后的结构是 index.html 与 data/ 同级，前端用 ./data 取数（见 app.js 的 resolveDataBase）。
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只跑一个发布；新推送取消进行中的旧任务，避免把旧版本盖上新版本
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # build_manifest 取 commit SHA 需要历史
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build derived artifacts
+        run: |
+          python scripts/build_manifest.py
+          python scripts/build_browse.py
+          node scripts/build_api.js
+
+      - name: Assemble publish directory
+        run: python scripts/build_site.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
