@@ -4,7 +4,7 @@
     "recordType": "standard",
     "title": "Personnel Licensing",
     "titleEn": "Personnel Licensing",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 1 人员执照的颁发；现行版次 14th Edition, 2022；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -20,7 +20,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 1",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 1",
       "icaoKind": "附件",
@@ -63,7 +63,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 1, 14th Edition, 2022"
+      "citationStringFull": "ICAO Annex 1, 14th Edition, 2022",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -84,11 +85,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "14th Edition, 2022",
         "sourceId": "ICAO-ANNEX-1",
-        "locator": "ICAO Annex 1",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -114,7 +116,7 @@
     "recordType": "standard",
     "title": "Aeronautical Telecommunications",
     "titleEn": "Aeronautical Telecommunications",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 10 航空电信；现行版次 Vol I: 8th Ed, 2023-07 ｜ Vol II: 7th Ed, 2016-07 (Amd 95, 2026-08) ｜ Vol III: 2nd Ed, 2007 (Amd 94, 2026-08) ｜ Vol IV: 6th Ed, 2026-08 ｜ Vol V: 3rd Ed, 2013-07 ｜ Vol VI: 1st Ed, 2021-07；最新修订 Vol II Amd 95 / Vol III Amd 94（2026-08-03）；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -130,7 +132,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 10",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 10",
       "icaoKind": "附件",
@@ -196,7 +198,8 @@
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
       "editionNote": "** Vol VI（RPAS C2 链路）1st Ed 2021-07 是两个渠道都缺的一卷 **",
-      "citationStringFull": "ICAO Annex 10, Vol I: 8th Ed, 2023-07"
+      "citationStringFull": "ICAO Annex 10, Vol I: 8th Ed, 2023-07",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -217,11 +220,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "Vol I: 8th Ed, 2023-07 ｜ Vol II: 7th Ed, 2016-07 (Amd 95, 2026-08) ｜ Vol III: 2nd Ed, 2007 (Amd 94, 2026-08) ｜ Vol IV: 6th Ed, 2026-08 ｜ Vol V: 3rd Ed, 2013-07 ｜ Vol VI: 1st Ed, 2021-07",
         "sourceId": "ICAO-ANNEX-10",
-        "locator": "ICAO Annex 10",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -247,7 +251,7 @@
     "recordType": "standard",
     "title": "Air Traffic Services",
     "titleEn": "Air Traffic Services",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 11 空中交通服务；现行版次 15th Edition, 2018；最新修订 Amd 55 (2026-08-03)；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -263,7 +267,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 11",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 11",
       "icaoKind": "附件",
@@ -301,7 +305,8 @@
       "latestAmendment": "Amd 55 (2026-08-03)",
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 11, 15th Edition, 2018"
+      "citationStringFull": "ICAO Annex 11, 15th Edition, 2018",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -322,11 +327,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "15th Edition, 2018",
         "sourceId": "ICAO-ANNEX-11",
-        "locator": "ICAO Annex 11",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -352,7 +358,7 @@
     "recordType": "standard",
     "title": "Search and Rescue",
     "titleEn": "Search and Rescue",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 12 搜寻与援救；现行版次 9th Edition, 2024；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -368,7 +374,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 12",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 12",
       "icaoKind": "附件",
@@ -406,7 +412,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 12, 9th Edition, 2024"
+      "citationStringFull": "ICAO Annex 12, 9th Edition, 2024",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -427,11 +434,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "9th Edition, 2024",
         "sourceId": "ICAO-ANNEX-12",
-        "locator": "ICAO Annex 12",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -457,7 +465,7 @@
     "recordType": "standard",
     "title": "Aircraft Accident and Incident Investigation",
     "titleEn": "Aircraft Accident and Incident Investigation",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 13 航空器事故和事故征候调查；现行版次 13th Edition, 2024；最新修订 Amd 20 (2026-08-03)；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -473,7 +481,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 13",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 13",
       "icaoKind": "附件",
@@ -511,7 +519,8 @@
       "latestAmendment": "Amd 20 (2026-08-03)",
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 13, 13th Edition, 2024"
+      "citationStringFull": "ICAO Annex 13, 13th Edition, 2024",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -532,11 +541,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "13th Edition, 2024",
         "sourceId": "ICAO-ANNEX-13",
-        "locator": "ICAO Annex 13",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -562,7 +572,7 @@
     "recordType": "standard",
     "title": "Aerodromes",
     "titleEn": "Aerodromes",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 14 机场；现行版次 Vol I: 9th Ed, 2022-07 ｜ Vol II: 5th Ed, 2020-07；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -578,7 +588,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 14",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 14",
       "icaoKind": "附件",
@@ -625,7 +635,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 14, Vol I: 9th Ed, 2022-07"
+      "citationStringFull": "ICAO Annex 14, Vol I: 9th Ed, 2022-07",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -646,11 +657,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "Vol I: 9th Ed, 2022-07 ｜ Vol II: 5th Ed, 2020-07",
         "sourceId": "ICAO-ANNEX-14",
-        "locator": "ICAO Annex 14",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -676,7 +688,7 @@
     "recordType": "standard",
     "title": "Aeronautical Information Services",
     "titleEn": "Aeronautical Information Services",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 15 航空情报服务；现行版次 16th Edition, 2018；最新修订 Amd 45 (2026-08-03)；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -692,7 +704,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 15",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 15",
       "icaoKind": "附件",
@@ -730,7 +742,8 @@
       "latestAmendment": "Amd 45 (2026-08-03)",
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 15, 16th Edition, 2018"
+      "citationStringFull": "ICAO Annex 15, 16th Edition, 2018",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -751,11 +764,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "16th Edition, 2018",
         "sourceId": "ICAO-ANNEX-15",
-        "locator": "ICAO Annex 15",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -781,7 +795,7 @@
     "recordType": "standard",
     "title": "Environmental Protection",
     "titleEn": "Environmental Protection",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 16 环境保护；现行版次 Vol I: 8th Ed, 2017-07 (Amd 15) ｜ Vol II: 5th Ed, 2023-07 (Amd 12) ｜ Vol III: 2nd Ed, 2026-08 ｜ Vol IV: 2nd Ed, 2023-07 (Amd 2)；最新修订 Vol I Amd 15 / Vol II Amd 12 / Vol IV Amd 2（2026-08-03）；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -797,7 +811,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 16",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 16",
       "icaoKind": "附件",
@@ -856,7 +870,8 @@
       "latestAmendment": "Vol I Amd 15 / Vol II Amd 12 / Vol IV Amd 2（2026-08-03）",
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 16, Vol I: 8th Ed, 2017-07 (Amd 15)"
+      "citationStringFull": "ICAO Annex 16, Vol I: 8th Ed, 2017-07 (Amd 15)",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -877,11 +892,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "Vol I: 8th Ed, 2017-07 (Amd 15) ｜ Vol II: 5th Ed, 2023-07 (Amd 12) ｜ Vol III: 2nd Ed, 2026-08 ｜ Vol IV: 2nd Ed, 2023-07 (Amd 2)",
         "sourceId": "ICAO-ANNEX-16",
-        "locator": "ICAO Annex 16",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -907,7 +923,7 @@
     "recordType": "standard",
     "title": "Security: Safeguarding International Civil Aviation Against Acts of Unlawful Interference",
     "titleEn": "Security: Safeguarding International Civil Aviation Against Acts of Unlawful Interference",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 17 保安：保护国际民用航空免遭非法干扰行为；现行版次 12th Edition, 2022；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -924,7 +940,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 17",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 17",
       "icaoKind": "附件",
@@ -962,7 +978,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 17, 12th Edition, 2022"
+      "citationStringFull": "ICAO Annex 17, 12th Edition, 2022",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -983,11 +1000,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "12th Edition, 2022",
         "sourceId": "ICAO-ANNEX-17",
-        "locator": "ICAO Annex 17",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1013,7 +1031,7 @@
     "recordType": "standard",
     "title": "The Safe Transport of Dangerous Goods by Air",
     "titleEn": "The Safe Transport of Dangerous Goods by Air",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 18 危险品的安全航空运输；现行版次 4th Edition, 2011；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1029,7 +1047,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 18",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 18",
       "icaoKind": "附件",
@@ -1067,7 +1085,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 18, 4th Edition, 2011"
+      "citationStringFull": "ICAO Annex 18, 4th Edition, 2011",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -1088,11 +1107,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "4th Edition, 2011",
         "sourceId": "ICAO-ANNEX-18",
-        "locator": "ICAO Annex 18",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1118,7 +1138,7 @@
     "recordType": "standard",
     "title": "Rules of the Air",
     "titleEn": "Rules of the Air",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 2 空中规则；现行版次 11th Edition, 2024；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1134,7 +1154,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 2",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 2",
       "icaoKind": "附件",
@@ -1172,7 +1192,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 2, 11th Edition, 2024"
+      "citationStringFull": "ICAO Annex 2, 11th Edition, 2024",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -1193,11 +1214,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "11th Edition, 2024",
         "sourceId": "ICAO-ANNEX-2",
-        "locator": "ICAO Annex 2",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1223,7 +1245,7 @@
     "recordType": "standard",
     "title": "Meteorological Service for International Air Navigation",
     "titleEn": "Meteorological Service for International Air Navigation",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 3 国际空中航行气象服务；现行版次 20th Edition, 2018；最新修订 Amd 80 (2021-11-04)；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1239,7 +1261,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 3",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 3",
       "icaoKind": "附件",
@@ -1278,7 +1300,8 @@
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
       "editionNote": "Store 列表未单列，版次依 2018-07 第 20 版；修订号以官方核对为准",
-      "citationStringFull": "ICAO Annex 3, 20th Edition, 2018"
+      "citationStringFull": "ICAO Annex 3, 20th Edition, 2018",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -1299,11 +1322,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "20th Edition, 2018",
         "sourceId": "ICAO-ANNEX-3",
-        "locator": "ICAO Annex 3",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1329,7 +1353,7 @@
     "recordType": "standard",
     "title": "Aeronautical Charts",
     "titleEn": "Aeronautical Charts",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 4 航图；现行版次 11th Edition, 2009；最新修订 Amd 61 (2021-11-04)；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1345,7 +1369,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 4",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 4",
       "icaoKind": "附件",
@@ -1383,7 +1407,8 @@
       "latestAmendment": "Amd 61 (2021-11-04)",
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 4, 11th Edition, 2009"
+      "citationStringFull": "ICAO Annex 4, 11th Edition, 2009",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -1404,11 +1429,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "11th Edition, 2009",
         "sourceId": "ICAO-ANNEX-4",
-        "locator": "ICAO Annex 4",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1434,7 +1460,7 @@
     "recordType": "standard",
     "title": "Units of Measurement to be Used in Air and Ground Operations",
     "titleEn": "Units of Measurement to be Used in Air and Ground Operations",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 5 空中和地面运行中所使用的计量单位；现行版次 5th Edition, 2010；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1450,7 +1476,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 5",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 5",
       "icaoKind": "附件",
@@ -1488,7 +1514,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 5, 5th Edition, 2010"
+      "citationStringFull": "ICAO Annex 5, 5th Edition, 2010",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -1509,11 +1536,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "5th Edition, 2010",
         "sourceId": "ICAO-ANNEX-5",
-        "locator": "ICAO Annex 5",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1539,7 +1567,7 @@
     "recordType": "standard",
     "title": "Operation of Aircraft",
     "titleEn": "Operation of Aircraft",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 6 航空器的运行；现行版次 Part I: 12th Ed, 2022-07 ｜ Part II: 12th Ed, 2026-08 ｜ Part III: 12th Ed, 2026-08；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1555,7 +1583,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 6",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 6",
       "icaoKind": "附件",
@@ -1610,7 +1638,8 @@
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
       "editionNote": "三部分版次不同步，Part II/III 于 2026-08 换版",
       "citationStringFull": "ICAO Annex 6, Part I: 12th Ed, 2022-07",
-      "partIVnote": "Part IV《遥控驾驶航空器系统》第 1 版 2024，Order No. AN 16-4，ISBN 978-92-9275-371-9；RPAS 国际运行的 SARPs，低空经济核心文件，校内 100 条馆藏目录中未收"
+      "partIVnote": "Part IV《遥控驾驶航空器系统》第 1 版 2024，Order No. AN 16-4，ISBN 978-92-9275-371-9；RPAS 国际运行的 SARPs，低空经济核心文件，校内 100 条馆藏目录中未收",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -1631,11 +1660,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "Part I: 12th Ed, 2022-07 ｜ Part II: 12th Ed, 2026-08 ｜ Part III: 12th Ed, 2026-08",
         "sourceId": "ICAO-ANNEX-6",
-        "locator": "ICAO Annex 6",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1661,7 +1691,7 @@
     "recordType": "standard",
     "title": "Aircraft Nationality and Registration Marks",
     "titleEn": "Aircraft Nationality and Registration Marks",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 7 航空器国籍和登记标志；现行版次 6th Edition, 2012；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1677,7 +1707,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 7",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 7",
       "icaoKind": "附件",
@@ -1715,7 +1745,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 7, 6th Edition, 2012"
+      "citationStringFull": "ICAO Annex 7, 6th Edition, 2012",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -1736,11 +1767,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "6th Edition, 2012",
         "sourceId": "ICAO-ANNEX-7",
-        "locator": "ICAO Annex 7",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1766,7 +1798,7 @@
     "recordType": "standard",
     "title": "Airworthiness of Aircraft",
     "titleEn": "Airworthiness of Aircraft",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 8 航空器适航性；现行版次 13th Edition, 2022；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1782,7 +1814,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 8",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 8",
       "icaoKind": "附件",
@@ -1820,7 +1852,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 8, 13th Edition, 2022"
+      "citationStringFull": "ICAO Annex 8, 13th Edition, 2022",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -1841,11 +1874,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "13th Edition, 2022",
         "sourceId": "ICAO-ANNEX-8",
-        "locator": "ICAO Annex 8",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1871,7 +1905,7 @@
     "recordType": "standard",
     "title": "Facilitation",
     "titleEn": "Facilitation",
-    "summary": null,
+    "summary": "国际民航组织《国际民用航空公约》Annex 9 简化手续；现行版次 17th Edition, 2025；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1887,7 +1921,7 @@
       "publicationDateBasis": "edition"
     },
     "citationString": "Annex 9",
-    "sourceUrl": "https://store.icao.int/en/shop-by-areas",
+    "sourceUrl": "https://store.icao.int/en/annexes",
     "recordLevel": {
       "icaoNumber": "Annex 9",
       "icaoKind": "附件",
@@ -1925,7 +1959,8 @@
       "latestAmendment": null,
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
-      "citationStringFull": "ICAO Annex 9, 17th Edition, 2025"
+      "citationStringFull": "ICAO Annex 9, 17th Edition, 2025",
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
     },
     "assertions": [
       {
@@ -1946,11 +1981,12 @@
       },
       {
         "field": "edition",
-        "value": "2005-06 (ICAO Annexes 1 to 18 booklet)",
+        "value": "17th Edition, 2025",
         "sourceId": "ICAO-ANNEX-9",
-        "locator": "ICAO Annex 9",
+        "locator": "ICAO Store 产品页逐条核验（原值为 booklet 印制年份，2026-10-23 更正）",
         "evidenceLevel": "L1",
-        "verifiedAt": "2026-10-21"
+        "verifiedAt": "2026-10-23",
+        "previousValue": "2005-06 (ICAO Annexes 1 to 18 booklet)"
       },
       {
         "field": "language",
@@ -1984,7 +2020,7 @@
     "status": "effective",
     "citationString": "Annex 19",
     "sourceUrl": "https://www.icao.int/safety/SMS/Pages/default.aspx",
-    "summary": "《国际民用航空公约》附件 19《安全管理》。本库对其编号与名称的采集来源为第三方公众号图文版，官方英文名 Safety Management 待以 ICAO 官网核验。",
+    "summary": "国际民航组织《国际民用航空公约》Annex 19 安全管理；现行版次 3rd Edition, 2025；本站只存元数据与官方链接，不收录正文。",
     "recordLevel": {
       "icaoNumber": "Annex 19",
       "icaoKind": "annex",

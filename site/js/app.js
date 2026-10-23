@@ -629,8 +629,14 @@
         `<div class="fulltext-body">${esc(d.fullText)}</div>` +
         (rl0.fullTextNote ? `<p class="muted detail-note">${esc(rl0.fullTextNote)}</p>` : '') +
         `</div>`);
-    } else if (d.summary && d.summary.length > 220) {
+    } else if (d.summary) {
+      // 不论长短都显示。原实现只在摘要超过 220 字时才渲染，
+      // 结果标准类（摘要 80-120 字）点开详情只剩一张字段表，读起来像空的。
       parts.push(`<p class="detail-summary">${esc(d.summary)}</p>`);
+    } else {
+      // 既无正文也无摘要：说清楚本站收什么，而不是留白
+      parts.push('<p class="detail-summary muted">本条为元数据记录：本站只存标识、版次与来源链接，' +
+        '不含正文。正文请点下方来源链接到官方站点查阅。</p>');
     }
     const asserts = d.assertions || [];
     if (asserts.length) {
