@@ -8,11 +8,15 @@
 (function () {
   'use strict';
 
-  // 数据根目录有两种形态，靠一次探测决定，两种部署共用同一份代码：
-  //   本地：仓库根起服务 → ../data（site/ 与 data/ 同级）
-  //   Pages：发布目录里 index.html 与 data/ 同级 → ./data
-  const DATA_BASES = ['../data', './data', '../../data'];
-  let DATA_BASE = '../data';
+  // 数据根目录有两种形态，靠路径判断 + 探测兜底，两种部署共用同一份代码：
+  //   本地：仓库根起服务，页面在 /site/index.html → ../data
+  //   Pages：index.html 在发布目录根部 → ./data
+  // 先按路径给出首选，省掉一次必然 404 的探测；再用探测兜住路径不规则的情况。
+  const DATA_BASES = (function () {
+    const nested = /\/site\/?$/.test(location.pathname);   // /site/ 目录下的本地布局
+    return nested ? ['../data', './data'] : ['./data', '../data'];
+  })();
+  let DATA_BASE = DATA_BASES[0];
 
   async function resolveDataBase() {
     for (const b of DATA_BASES) {
