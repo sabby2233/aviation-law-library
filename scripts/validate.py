@@ -20,7 +20,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from record_id import RECORD_ID_RE, ALLOWED_TRANSITIONS  # noqa: E402  单一真源，避免规则漂移
+from record_id import RECORD_ID_RE, ALLOWED_TRANSITIONS, STATUSES  # noqa: E402  单一真源，避免规则漂移
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -387,10 +387,18 @@ def check_penalty(manifest, rep):
 
 
 def check_status_machine(manifest, rep):
-    """STA-01 状态转换合法性；STA-02 撤销记录须保留修订记录"""
+    """STA-01 状态转换合法性；STA-02 撤销记录须保留修订记录；STA-03 状态须在词表内
+
+    STA-03 的由来：18 条 ICAO 记录的状态写成 "in_force"，不在 record_id.STATUSES 里。
+    STA-01 只校验 revisionLog 里的转换对，所以这类越界值一路放行；而前端
+    statusLabel() 查不到映射就返回原值，筛选项里便直接露出英文 "in_force"。
+    词表是单一真源，任何记录的状态都必须落在其中，否则等于绕过状态机。
+    """
     for r in manifest.get("records", []):
         rid = r.get("recordId", "?")
         st = r.get("status")
+        if st and st not in STATUSES:
+            rep.fail("STA-03", f"记录 {rid} 的状态 {st!r} 不在状态词表内")
         if st in ("invalidated", "repealed", "settled"):
             if not r.get("revisionLog"):
                 rep.fail("STA-02", f"记录 {rid} 状态为 {st} 但无修订记录（须保留可追溯的终结说明）")

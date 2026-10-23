@@ -155,6 +155,35 @@ console.log('\n【3b】ICAO 附件：五种写法归一 + 未收录告警');
       && lv.every((x) => x !== 'L3') && hasCore;
   })());
 
+  // ── ICAO Doc（PANS 与手册）：2026-10-23 入库四份 ──
+  // 这四份都是"文件名骗人"的高发区（如 an10v1.pdf 实为第 VI 卷），
+  // 因此断言直接钉在 recordId 与关键字段上，不认文件名。
+  const docById = (rid) => manifest.records.find((r) => r.recordId === rid);
+  check('Doc 8400 按文件号命中唯一一条', icaoHits('Doc 8400') === 1);
+  check('Doc 8400 规范键 icao:doc:8400 可查', icaoHits('icao:doc:8400') === 1);
+  check('Doc 8400 记录了「未含 Amd 35」', (() => {
+    const r = docById('AVA-ICAO-STD-DOC-8400');
+    return !!r && (r.assertions || []).some(
+      (a) => a.field === 'amendment_missing' && /Amd 35/.test(a.value));
+  })());
+  check('Doc 9760 标为已被取代且有修订记录', (() => {
+    const r = docById('AVA-ICAO-STD-DOC-9760');
+    return !!r && r.status === 'superseded' && (r.revisionLog || []).length === 1;
+  })());
+  check('Doc 8168 第 III 卷适用日为 2018-11-08', (() => {
+    const r = docById('AVA-ICAO-STD-DOC-8168-3');
+    return !!r && r.dates && r.dates.effectiveDate === '2018-11-08';
+  })());
+  check('Doc 8126 记录了 Amd 1（2024-07-30）', (() => {
+    const r = docById('AVA-ICAO-STD-DOC-8126');
+    return !!r && (r.assertions || []).some(
+      (a) => a.field === 'amendment_included' && /2024-07-30/.test(a.value));
+  })());
+  // 状态词表：STA-03 的同一条纪律在检索层的落地检查。
+  // in_force 曾让前端 statusLabel() 无从映射，筛选项里露出英文原值。
+  check('全库无状态词表外的取值（in_force）',
+    manifest.records.every((r) => r.status !== 'in_force'));
+
   // 确实不存在的附件号：必须零命中 + 明确告警
   check('未收录附件（Annex 20）零命中', icaoHits('Annex 20') === 0);
   check('未收录附件给出告警', warn('Annex 20').length > 0);
@@ -399,6 +428,13 @@ console.log('\n【14】欧盟法域标识符精确查');
   const icaoRules = rules.rules.filter((r) => r.ns === 'icao').length;
   check('ICAO 命名空间规则已就绪（≥3 条）', icaoRules >= 3, `实际 ${icaoRules}`);
   const icaoRecs = manifest.records.filter((r) => r.jurisdiction === 'ICAO').length;
+  // 2026-10-23 起 ICAO 层不再只有附件：四份 Doc 入库后总数变为 23。
+  // 原来的断言写死「ICAO 记录 = 19」，把"附件数"与"该法域记录总数"混为一谈，
+  // 一旦补入 Doc 就会假红。这里改成分别核对两个不变量。
+  const annexRecs = manifest.records.filter(
+    (r) => r.jurisdiction === 'ICAO'
+      && String((r.recordLevel || {}).icaoNumber || '').startsWith('Annex')).length;
+  const docRecs = icaoRecs - annexRecs;
   if (icaoRecs === 0) {
     check('ICAO 附件查询报未收录（数据未接入）',
       r('Annex 17').length === 0 && warn('Annex 17').length > 0,
@@ -407,10 +443,12 @@ console.log('\n【14】欧盟法域标识符精确查');
       r('Doc 9944').length === 0 && warn('Doc 9944').length > 0);
   } else {
     // 附件的五种写法与未收录告警已在【3b】统一断言，此处不重复
-    console.log(`  · ICAO 数据已接入（${icaoRecs} 条附件），五种写法断言见【3b】`);
-    // 19 = booklet 的 Annex 1–18（官方标准名）+ 微信相册补入的 Annex 19（L3 待核验）
-    check('ICAO 附件已入库 19 条（18 官方 booklet + 1 相册补入）',
-      icaoRecs === 19, `实际 ${icaoRecs}`);
+    console.log(`  · ICAO 数据已接入（附件 ${annexRecs} 条 + Doc ${docRecs} 条），五种写法断言见【3b】`);
+    // 19 = booklet 的 Annex 1–18（官方标准名）+ Annex 19（官方第 2 版 PDF，已核验 L1）
+    check('ICAO 附件已入库 19 条（Annex 1–19）',
+      annexRecs === 19, `实际 ${annexRecs}`);
+    check('ICAO Doc 已入库 4 条（8400 / 8126 / 9760 / 8168-3）',
+      docRecs === 4, `实际 ${docRecs}`);
   }
 }
 

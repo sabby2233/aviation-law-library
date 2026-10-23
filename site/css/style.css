@@ -366,6 +366,8 @@ body {
 .rev-transition { font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; color: var(--warn); }
 .rev-date { color: var(--text-3); }
 .detail-note { margin: 8px 0 0; }
+.detail-subhead { margin: 0 0 6px; font-size: 12px; }
+.subhead-hint { opacity: .8; }
 .muted { color: var(--text-3); }
 
 /* ── 空态与页脚 ─────────────────────────────────────── */

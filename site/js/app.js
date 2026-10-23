@@ -525,6 +525,11 @@
 
     // 核验状态标签：二手来源或关键字段待核验时明示
     const notes = [];
+    // 状态徽章：非现行状态必须在卡片上就看得见。
+    // 此前「已被取代」只写在详情里，卡片上 Doc 9760 与现行文本长得一模一样，
+    // 读者扫一眼列表就可能把第四版当第五版引用。
+    const stNote = r.status && !['effective', 'adopted', 'final'].includes(r.status)
+      ? statusLabel(r.status) : null;
     // 案例性质优先显示：读者最容易被「调查」误当成「已处罚」
     if (r.caseOutcome === 'investigation') notes.push('监管调查·未决');
     if (r.caseOutcome === 'other') notes.push('性质待判读');
@@ -565,6 +570,7 @@
             : esc(r.title)}
         </h3>
         <span class="badge type-${esc(r.recordType)}">${esc(typeLabel)}</span>
+        ${stNote ? `<span class="badge pending" title="状态：${esc(statusLabel(r.status))}">${esc(stNote)}</span>` : ''}
         ${lv ? `<span class="badge lv${lv.slice(1)}" title="证据等级">${esc(lv)}</span>` : ''}
         ${notes.map((n) => {
           const text = typeof n === 'string' ? n : n.text;
@@ -630,9 +636,14 @@
         (rl0.fullTextNote ? `<p class="muted detail-note">${esc(rl0.fullTextNote)}</p>` : '') +
         `</div>`);
     } else if (d.summary) {
-      // 不论长短都显示。原实现只在摘要超过 220 字时才渲染，
-      // 结果标准类（摘要 80-120 字）点开详情只剩一张字段表，读起来像空的。
-      parts.push(`<p class="detail-summary">${esc(d.summary)}</p>`);
+      // 卡片上的摘要固定 3 行截断（style.css 的 .record-summary，-webkit-line-clamp: 3），
+      // 约 200 字以内在卡片上已完整可读，详情里再放一遍只是重复。
+      // 因此只有两种情况在这里补摘要：超出卡片可视范围的，或该记录没有断言可看——
+      // 原实现是">220 才显示"，结果标准类（摘要 80–120 字）点开只剩一张字段表，读起来像空的。
+      const n0 = (d.assertions || []).length;
+      if (d.summary.length > 200 || n0 === 0) {
+        parts.push(`<p class="detail-summary">${esc(d.summary)}</p>`);
+      }
     } else {
       // 既无正文也无摘要：说清楚本站收什么，而不是留白
       parts.push('<p class="detail-summary muted">本条为元数据记录：本站只存标识、版次与来源链接，' +
@@ -640,6 +651,9 @@
     }
     const asserts = d.assertions || [];
     if (asserts.length) {
+      // 详情开头直接是一张表时读者不知道在看什么，补一行小标题说明这是断言表
+      parts.push(`<p class="muted detail-subhead">字段与证据 · ${asserts.length} 条断言 ` +
+        `<span class="subhead-hint">（每条均标出定位，可回原文复核）</span></p>`);
       parts.push('<table class="detail-table"><thead><tr><th>字段</th><th>值</th>' +
         '<th>证据</th><th>定位</th></tr></thead><tbody>' +
         asserts.map((a) => `<tr><td class="mono">${esc(a.field)}</td>` +
