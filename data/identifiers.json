@@ -1,138 +1,146 @@
 {
-  "version": "1.0",
-  "note": "标识符规范化规则表。规则是数据不是代码——加一条 DPA 文号规则只需加一段 JSON，不必改任何 JS/Python。查询侧与入库侧共用同一份，保证归一一致。",
-  "rules": [
-    {
-      "id": "us-cfr",
-      "ns": "cfr",
-      "label": "美国联邦法规汇编条款",
-      "pattern": "^(\\d{1,2})\\s*CFR\\s+(?:part\\s+)?(\\d+(?:\\.\\d+)?)$",
-      "key": "cfr:$1:$2",
-      "note": "14 CFR 39 / 14 CFR Part 39 / 14 CFR §39.13 归一。注意 39 CFR 39 会落到 cfr:39:39（库中无），不会与 cfr:14:39 混淆"
-    },
-    {
-      "id": "us-fr",
-      "ns": "fr",
-      "label": "美国联邦公报文号",
-      "pattern": "^(\\d{1,3})\\s*F\\.?R\\.?\\s+(\\d+)$",
-      "key": "fr:$1:$2",
-      "note": "91 FR 66283 / 91 F.R. 66283 归一"
-    },
-    {
-      "id": "us-fr-docnum",
-      "ns": "frdoc",
-      "label": "联邦公报文号",
-      "pattern": "^(?:FR[- ]?)?(\\d{4})-(\\d{3,6})$",
-      "key": "frdoc:$1-$2"
-    },
-    {
-      "id": "us-faa-ad",
-      "ns": "ad",
-      "label": "FAA 适航指令号",
-      "pattern": "^AD\\s?(\\d{4})-(\\d{2})-(\\d{2})$",
-      "key": "ad:$1-$2-$3"
-    },
-    {
-      "id": "us-docket",
-      "ns": "docket",
-      "label": "美国行政案卷号",
-      "pattern": "^(FAA|MCAI|DOT)-(\\d{4})-(\\d+)$",
-      "key": "docket:$1-$2-$3"
-    },
-    {
-      "id": "icao-annex",
-      "ns": "icao",
-      "label": "ICAO 附件",
-      "pattern": "^(?:Annex(?:e[sn]?)?|附件)\\s*第?\\s*(\\d{1,2})\\s*(?:条)?\\s*(?:\\(([^)]{2,60})\\))?$",
-      "key": "icao:annex:$1",
-      "note": "吸收五种写法：Annex 8 / Annex8 / 附件 8 / 附件8 / 附件第 8 条；大小写不敏感。括号内的主题说明不入键（同一附件可能有多个表述，如 Annex 8 (Airworthiness of Aircraft)）"
-    },
-    {
-      "id": "icao-annex-zh",
-      "ns": "icao",
-      "label": "ICAO 附件（中文表述）",
-      "pattern": "^(?:芝加哥公约)?附件\\s*第?\\s*(\\d{1,2})\\s*条?$",
-      "key": "icao:annex:$1",
-      "note": "中文引注里的附件表述（『附件第 17 条』『芝加哥公约附件 17』）与英文形态归一到同一键"
-    },
-    {
-      "id": "icao-doc",
-      "ns": "icao",
-      "label": "ICAO 文件号",
-      "pattern": "^(?:Doc(?:ument)?\\.?\\s+|ICAO\\s+Doc\\s+)(\\d{3,5}(?:-\\d{1,4})?)(?:\\s*/\\s*(?:Rev(?:ision)?\\.?\\s*)?(\\d{1,2}))?$",
-      "key": "icao:doc:$1",
-      "note": "Doc 9944 / Document 9944 / ICAO Doc 9944 归一；Rev 不入键，故不同版次归到同一文件"
-    },
-    {
-      "id": "icao-pans",
-      "ns": "icao",
-      "label": "ICAO PANS 程序文件",
-      "pattern": "^(PANS[- ]?(?:ATM|AOC|AG|MET|SAD|CAO))\\s*(?:Doc\\.?\\s*)?(\\d{3,5})(?:\\s*/\\s*(?:Rev\\.?\\s*)?(\\d{1,2}))?$",
-      "key": "icao:pans:$1:$2",
-      "note": "PANS-ATM Doc 8610 / PANS-ATM 8610 归一。程序与手册分属不同文件号体系，故单列命名空间"
-    },
-    {
-      "id": "eu-article",
-      "ns": "euarticle",
-      "label": "欧盟法规条文号",
-      "pattern": "^(?:Article|Articles|Art\\.?)\\s+(\\d+[a-z]?)$",
-      "key": "euarticle:$1",
-      "note": "Article 5 / Art. 5a 归一。注意条文号只在同一部法规内唯一，故键不含法源标识——查『Article 5』会跨法规聚合，精确查某法源的某条须用 celex: 键定位法源后再比对条文清单"
-    },
-    {
-      "id": "eu-celex",
-      "ns": "celex",
-      "label": "欧盟 CELEX 编号",
-      "pattern": "^(?:CELEX\\s*:?\\s*)?\\d(\\d{4})([A-Z])0*(\\d{1,4})$",
-      "key": "celex:$3",
-      "note": "CELEX 为 10 位：系列(1) + 年(4) + 类型(1) + 序号(3~4)，如 32014L0065 = 系列 3 + 2014 年 + L 类 + 第 0065 号。正则里的 0* 用来吃掉序号的前导零，使 celex:0065 与 celex:65 归一到同一键——否则用户按『CELEX:…0065』或『…65』两种写法会查空"
-    },
-    {
-      "id": "eu-regulation",
-      "ns": "eureg",
-      "label": "欧盟法规/指令编号",
-      "pattern": "^(?:(?:Council\\s+|Commission\\s+)?(?:Implementing\\s+|Delegated\\s+)?(?:Regulation|Directive)\\s*)?\\(?\\s*(EU|EU Euratom|EEC|EC)?\\s*\\)?\\s*(\\d{2,4})/(\\d{1,4})(?:/(EC|EU|EEC))?\\s*$",
-      "key": "eureg:$2:$3",
-      "note": "同时吸收四种写法：(EU) 2019/947 / Regulation (EU) 2019/947 / Directive 95/46/EC / 95/46/EC。Regulation 与 Directive 不入键——同编号体系下二者互斥风险低，入键会降低可检索性"
-    },
-    {
-      "id": "cn-ccar",
-      "ns": "ccar",
-      "label": "中国民航规章部",
-      "pattern": "^CCAR[-\\s]?(\\d+)(?:\\s*部)?$",
-      "key": "ccar:$1",
-      "note": "不带版次的基础部号键，供『CCAR-91 部』这类按部检索"
-    },
-    {
-      "id": "cn-ccar-rev",
-      "ns": "ccar",
-      "label": "中国民航规章部（含版次）",
-      "pattern": "^CCAR[-\\s]?(\\d+[A-Z]*)((?:[-\\s][A-Z]{1,4})*)$",
-      "key": "ccar:$1$2",
-      "note": "CCAR-290-R4 / CCAR-66TM-I-R5 归一。$2 保留版次后缀，故 CCAR-290-R4 与 CCAR-290 是不同键——前者精确、后者按部聚合"
-    },
-    {
-      "id": "cn-ccar-plain",
-      "ns": "ccar",
-      "label": "中国民航规章部（纯数字）",
-      "pattern": "^(\\d{2,4})\\s*部$",
-      "key": "ccar:$1",
-      "note": "『CCAR-91 部』『91 部』"
-    },
-    {
-      "id": "cn-gb",
-      "ns": "gb",
-      "label": "中国国家标准",
-      "pattern": "^GB\\s?(\\d{4,5})-(\\d{4})$",
-      "key": "gb:$1:$2"
-    },
-    {
-      "id": "es-aepd",
-      "ns": "dpunr",
-      "label": "西班牙 AEPD 决定编号",
-      "pattern": "^(?:PS[-/]?)(\\d{4,6})[-/]?(\\d{4})$",
-      "key": "dpunr:es:ps-$1-$2",
-      "note": "PS-00300-2019 / PS/00300/2019 归一"
-    }
-  ]
+ "version": "1.0",
+ "note": "标识符规范化规则表。规则是数据不是代码——加一条 DPA 文号规则只需加一段 JSON，不必改任何 JS/Python。查询侧与入库侧共用同一份，保证归一一致。",
+ "rules": [
+  {
+   "id": "us-cfr",
+   "ns": "cfr",
+   "label": "美国联邦法规汇编条款",
+   "pattern": "^(\\d{1,2})\\s*CFR\\s+(?:part\\s+)?(\\d+(?:\\.\\d+)?)$",
+   "key": "cfr:$1:$2",
+   "note": "14 CFR 39 / 14 CFR Part 39 / 14 CFR §39.13 归一。注意 39 CFR 39 会落到 cfr:39:39（库中无），不会与 cfr:14:39 混淆"
+  },
+  {
+   "id": "us-fr",
+   "ns": "fr",
+   "label": "美国联邦公报文号",
+   "pattern": "^(\\d{1,3})\\s*F\\.?R\\.?\\s+(\\d+)$",
+   "key": "fr:$1:$2",
+   "note": "91 FR 66283 / 91 F.R. 66283 归一"
+  },
+  {
+   "id": "us-fr-docnum",
+   "ns": "frdoc",
+   "label": "联邦公报文号",
+   "pattern": "^(?:FR[- ]?)?(\\d{4})-(\\d{3,6})$",
+   "key": "frdoc:$1-$2"
+  },
+  {
+   "id": "us-faa-ad",
+   "ns": "ad",
+   "label": "FAA 适航指令号",
+   "pattern": "^AD\\s?(\\d{4})-(\\d{2})-(\\d{2})$",
+   "key": "ad:$1-$2-$3"
+  },
+  {
+   "id": "us-docket",
+   "ns": "docket",
+   "label": "美国行政案卷号",
+   "pattern": "^(FAA|MCAI|DOT)-(\\d{4})-(\\d+)$",
+   "key": "docket:$1-$2-$3"
+  },
+  {
+   "id": "icao-annex",
+   "ns": "icao",
+   "label": "ICAO 附件",
+   "pattern": "^(?:Annex(?:e[sn]?)?|附件)\\s*第?\\s*(\\d{1,2})\\s*(?:条)?\\s*(?:\\(([^)]{2,60})\\))?$",
+   "key": "icao:annex:$1",
+   "note": "吸收五种写法：Annex 8 / Annex8 / 附件 8 / 附件8 / 附件第 8 条；大小写不敏感。括号内的主题说明不入键（同一附件可能有多个表述，如 Annex 8 (Airworthiness of Aircraft)）"
+  },
+  {
+   "id": "icao-annex-zh",
+   "ns": "icao",
+   "label": "ICAO 附件（中文表述）",
+   "pattern": "^(?:芝加哥公约)?附件\\s*第?\\s*(\\d{1,2})\\s*条?$",
+   "key": "icao:annex:$1",
+   "note": "中文引注里的附件表述（『附件第 17 条』『芝加哥公约附件 17』）与英文形态归一到同一键"
+  },
+  {
+   "id": "icao-doc",
+   "ns": "icao",
+   "label": "ICAO 文件号",
+   "pattern": "^(?:Doc(?:ument)?\\.?\\s+|ICAO\\s+Doc\\s+)(\\d{3,5}(?:-\\d{1,4})?)(?:\\s*/\\s*(?:Rev(?:ision)?\\.?\\s*)?(\\d{1,2}))?$",
+   "key": "icao:doc:$1",
+   "note": "Doc 9944 / Document 9944 / ICAO Doc 9944 归一；Rev 不入键，故不同版次归到同一文件"
+  },
+  {
+   "id": "icao-pans",
+   "ns": "icao",
+   "label": "ICAO PANS 程序文件",
+   "pattern": "^(PANS[- ]?(?:ATM|AOC|AG|MET|SAD|CAO))\\s*(?:Doc\\.?\\s*)?(\\d{3,5})(?:\\s*/\\s*(?:Rev\\.?\\s*)?(\\d{1,2}))?$",
+   "key": "icao:pans:$1:$2",
+   "note": "PANS-ATM Doc 8610 / PANS-ATM 8610 归一。程序与手册分属不同文件号体系，故单列命名空间"
+  },
+  {
+   "id": "eu-article",
+   "ns": "euarticle",
+   "label": "欧盟法规条文号",
+   "pattern": "^(?:Article|Articles|Art\\.?)\\s+(\\d+[a-z]?)$",
+   "key": "euarticle:$1",
+   "note": "Article 5 / Art. 5a 归一。注意条文号只在同一部法规内唯一，故键不含法源标识——查『Article 5』会跨法规聚合，精确查某法源的某条须用 celex: 键定位法源后再比对条文清单"
+  },
+  {
+   "id": "eu-celex",
+   "ns": "celex",
+   "label": "欧盟 CELEX 编号",
+   "pattern": "^(?:CELEX\\s*:?\\s*)?\\d(\\d{4})([A-Z])0*(\\d{1,4})$",
+   "key": "celex:$3",
+   "note": "CELEX 为 10 位：系列(1) + 年(4) + 类型(1) + 序号(3~4)，如 32014L0065 = 系列 3 + 2014 年 + L 类 + 第 0065 号。正则里的 0* 用来吃掉序号的前导零，使 celex:0065 与 celex:65 归一到同一键——否则用户按『CELEX:…0065』或『…65』两种写法会查空"
+  },
+  {
+   "id": "eu-regulation",
+   "ns": "eureg",
+   "label": "欧盟法规/指令编号",
+   "pattern": "^(?:(?:Council\\s+|Commission\\s+)?(?:Implementing\\s+|Delegated\\s+)?(?:Regulation|Directive)\\s*)?\\(?\\s*(EU|EU Euratom|EEC|EC)?\\s*\\)?\\s*(\\d{2,4})/(\\d{1,4})(?:/(EC|EU|EEC))?\\s*$",
+   "key": "eureg:$2:$3",
+   "note": "同时吸收四种写法：(EU) 2019/947 / Regulation (EU) 2019/947 / Directive 95/46/EC / 95/46/EC。Regulation 与 Directive 不入键——同编号体系下二者互斥风险低，入键会降低可检索性"
+  },
+  {
+   "id": "cn-ccar",
+   "ns": "ccar",
+   "label": "中国民航规章部",
+   "pattern": "^CCAR[-\\s]?(\\d+)(?:\\s*部)?$",
+   "key": "ccar:$1",
+   "note": "不带版次的基础部号键，供『CCAR-91 部』这类按部检索"
+  },
+  {
+   "id": "cn-ccar-rev",
+   "ns": "ccar",
+   "label": "中国民航规章部（含版次）",
+   "pattern": "^CCAR[-\\s]?(\\d+[A-Z]*)((?:[-\\s][A-Z]{1,4})*)$",
+   "key": "ccar:$1$2",
+   "note": "CCAR-290-R4 / CCAR-66TM-I-R5 归一。$2 保留版次后缀，故 CCAR-290-R4 与 CCAR-290 是不同键——前者精确、后者按部聚合"
+  },
+  {
+   "id": "cn-ccar-plain",
+   "ns": "ccar",
+   "label": "中国民航规章部（纯数字）",
+   "pattern": "^(\\d{2,4})\\s*部$",
+   "key": "ccar:$1",
+   "note": "『CCAR-91 部』『91 部』"
+  },
+  {
+   "id": "cn-gb",
+   "ns": "gb",
+   "label": "中国国家标准",
+   "pattern": "^GB\\s?(\\d{4,5})-(\\d{4})$",
+   "key": "gb:$1:$2"
+  },
+  {
+   "id": "es-aepd",
+   "ns": "dpunr",
+   "label": "西班牙 AEPD 决定编号",
+   "pattern": "^(?:PS[-/]?)(\\d{4,6})[-/]?(\\d{4})$",
+   "key": "dpunr:es:ps-$1-$2",
+   "note": "PS-00300-2019 / PS/00300/2019 归一"
+  },
+  {
+   "id": "record-id",
+   "ns": "id",
+   "label": "本库记录 ID",
+   "pattern": "^(AVA-[A-Z]{2,4}-[A-Z0-9]+(?:-[A-Z0-9]+)*)$",
+   "key": "id:$1",
+   "note": "裸记录 ID（AVA-US-CFR-91-91-1301）直接走 id: 通道精确命中。此前 ID 不在任何标识符规则里，只能落到全文通道：AVA-ICAO-STD-ANNEX-3 命中 0 条，AVA-US-FR-R-2024-072670 反而返回 190 条无关记录——连字符被切成 ava/es/adp/a/001 多个词，组间取并集。ID 是本库自己的永久标识，必须像文号一样精确可查，未命中即零命中。"
+  }
+ ]
 }

@@ -138,6 +138,25 @@ console.log('\n【3b】ICAO 附件：五种写法归一 + 未收录告警');
   check('括号主题名写法可解析（Annex 8 (Airworthiness of Aircraft)）',
     icaoHits('Annex 8 (Airworthiness of Aircraft)') === 1);
 
+  // ── 记录 ID 通道（2026-10-26 修）──
+  // 此前裸 ID 不在任何标识符规则里，只能落到全文通道：连字符被切成 ava/es/adp/a/001，
+  // 组间取并集，于是 AVA-ICAO-STD-ANNEX-3 命中 0 条、AVA-US-FR-R-2024-072670 返回 190 条。
+  // ID 是本库的永久标识（每张卡片与页脚都印着），必须像文号一样精确可查。
+  const idHits = (t) => Search.search(idx, { text: t }).results;
+  for (const rid of ['AVA-ES-ADP-A-001', 'AVA-ICAO-STD-ANNEX-3', 'AVA-US-FR-R-2024-072670']) {
+    const got = idHits(rid);
+    check(`裸记录 ID 精确命中：${rid}`, got.length === 1 && got[0].record.recordId === rid,
+      `命中 ${got.length} 条`);
+  }
+  check('记录 ID 小写输入同样命中同一条', (() => {
+    const got = idHits('ava-es-adp-a-001');
+    return got.length === 1 && got[0].record.recordId === 'AVA-ES-ADP-A-001';
+  })());
+  check('不存在的记录 ID 零命中且告警', (() => {
+    const r = Search.search(idx, { text: 'AVA-NOT-EXIST-1' });
+    return r.results.length === 0 && (r.warnings || []).length > 0;
+  })());
+
   // Annex 19 是 2006 年才制定的，官方 booklet（2005-06）不含，最初只能从微信相册补入（L3）。
   // 2026-10-23 拿到用户提供的第 2 版 PDF 后，改为从版权页与修订记录页取断言，升到 L1 已核验。
   // 这里断言的是「当前的真实状态」，而不是把早期的临时状态钉死。

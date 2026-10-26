@@ -92,7 +92,10 @@ const Search = (function (global) {
         const m = t.match(r.re);
         if (m) {
           try {
-            return r.key.replace(/\$(\d+)/g, (_, i) => (m[i] !== undefined ? m[i] : ''));
+            const key = r.key.replace(/\$(\d+)/g, (_, i) => (m[i] !== undefined ? m[i] : ''));
+            // 记录 ID 统一大写：keyIndex 里存的是 AVA-… 原样大写，
+            // 小写输入若原样拼键会查不到（正则本身是 i 模式，大小写都能匹配）
+            return key.startsWith('id:') ? 'id:' + key.slice(3).toUpperCase() : key;
           } catch (e) {
             return null;
           }
@@ -337,11 +340,13 @@ const Search = (function (global) {
 
   /** 规范键查询：精确命中或前缀命中；未命中返回 null（不回落） */
   function lookupKey(idx, ns, val) {
-    const exact = idx.keyIndex.get(ns + ':' + val);
+    // 记录 ID 与命名空间大小写不敏感地对齐到库内写法
+    const v = ns === 'id' ? String(val || '').toUpperCase() : val;
+    const exact = idx.keyIndex.get(ns + ':' + v);
     if (exact) return exact;
 
     // 前缀
-    const prefix = ns + ':' + val;
+    const prefix = ns + ':' + v;
     const bucket = idx.prefixBuckets.get(prefix);
     if (bucket && bucket.size) {
       const union = new Set();
