@@ -422,6 +422,13 @@ const Search = (function (global) {
     return out;
   }
 
+  /** 记录涉及的证据等级：精简索引用 evidenceLevels 字段，全量用断言派生。
+   *  两侧必须给出同一个集合，否则证据等级筛选在首屏与全量下结果不同。 */
+  function evidenceLevelsOf(r) {
+    if (Array.isArray(r.evidenceLevels) && r.evidenceLevels.length) return r.evidenceLevels;
+    return (r.assertions || []).map((a) => a.evidenceLevel).filter(Boolean);
+  }
+
   /** 应用过滤条件并排序 */
   function finish(idx, q, candidates, warnings, zeroHit, explicitKeyMode) {
     const results = [];
@@ -441,13 +448,13 @@ const Search = (function (global) {
       }
 
       if (q.evidenceLevel && q.evidenceLevel.length) {
-        const levels = (r.assertions || []).map((a) => a.evidenceLevel);
+        const levels = evidenceLevelsOf(r);
         if (!levels.some((l) => q.evidenceLevel.includes(l))) continue;
       }
 
       if (q.pendingOnly) {
         const d = r.dates || {};
-        const lv2 = (r.assertions || []).map((a) => a.evidenceLevel);
+        const lv2 = evidenceLevelsOf(r);
         const isPending =
           lv2.includes('L3') ||
           (r.recordType === 'case' && !d.decisionDate) ||

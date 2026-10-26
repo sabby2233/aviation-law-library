@@ -1,0 +1,15 @@
+{
+  "name": "aviation-law-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "航空法律资料库 —— 事实与引证检索工具（站点与构建脚本）",
+  "scripts": {
+    "build:api": "node scripts/build_api.js",
+    "test:search": "node site/test_search.js",
+    "test:parity": "node site/test_browse_parity.js",
+    "verify:live": "node site/verify_live.js"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}

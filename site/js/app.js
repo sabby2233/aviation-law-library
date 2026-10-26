@@ -37,46 +37,118 @@
 
   const state = {
     index: null,
+    indexReady: false,
+    rules: [],
     records: [],
     meta: {},
     topics: [],
     selectedTopics: new Set(),
+    expanded: null,      // 当前展开详情的记录 ID（进 URL，便于分享单条记录）
   };
 
   const el = (id) => document.getElementById(id);
 
   // ── 加载 ─────────────────────────────────────────────
+  // 分两段：先取列表包（browse.json，约 0.5 MB）立刻出列表，
+  // 再取检索词包（terms.json，约 1.5 MB）补齐索引。
+  // 原来两样混在一个 2.05 MB 的包里，首屏要等全部下完才动。
   async function load() {
     try {
       DATA_BASE = await resolveDataBase();
-      const [manifestRes, rulesRes] = await Promise.all([
+      const [browseRes, rulesRes] = await Promise.all([
         fetch(dataUrl('browse.json')),
         fetch(dataUrl('identifiers.json')).catch(() => null),
       ]);
-      if (!manifestRes.ok) throw new Error('HTTP ' + manifestRes.status);
-      const manifest = await manifestRes.json();
+      if (!browseRes.ok) throw new Error('HTTP ' + browseRes.status);
+      const browse = await browseRes.json();
       const rules = rulesRes && rulesRes.ok ? await rulesRes.json() : { rules: [] };
 
-      state.records = manifest.records || [];
-      state.meta = manifest.meta || {};
-      state.index = Search.buildIndex(state.records, rules.rules || []);
-      state.topics = topTopics(state.index, 18);
+      state.rules = rules.rules || [];
+      state.records = browse.records || [];
+      state.meta = browse.meta || {};
+      state.topics = topTopicsOf(18);
       renderHeader();
       renderFacets();
       renderNav();
       bindEvents();
-      run();
+      applyHash();
+      setIndexState('loading');
+      run();                      // 先出列表（此时只有筛选可用）
+      loadTerms();                // 索引随后台补齐
     } catch (e) {
       el('result-count').textContent = '数据加载失败：' + e.message;
       el('results').innerHTML =
         '<p class="empty">数据文件未找到。请先运行采集脚本生成 data/browse.json，' +
         '并用本地服务器打开本页（直接双击 index.html 会被浏览器同源策略拦截 fetch）。</p>';
+      setIndexState('failed', e.message);
     }
   }
 
-  function topTopics(index, n) {
-    const counts = Search.topicCounts(index);
-    return Object.entries(counts)
+  /** 取检索词包并重建索引 */
+  async function loadTerms() {
+    try {
+      const r = await fetch(dataUrl('terms.json'));
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const pack = await r.json();
+      const pos = new Map(pack.ids.map((id, i) => [id, i]));
+      state.records.forEach((rec) => {
+        const i = pos.get(rec.recordId);
+        if (i != null) rec.terms = pack.terms[i];
+      });
+      state.index = Search.buildIndex(state.records, state.rules);
+      state.indexReady = true;
+      setIndexState('ready');
+      // 只有含文本检索时才需要重绘：没有文本词时，本地筛选与索引检索的结果完全一致，
+      // 而重绘意味着把 4229 张卡片再插一遍 DOM——那是首屏最重的一步，不能做两次。
+      if (currentQuery().text) run();
+      expandFromHash();
+    } catch (e) {
+      setIndexState('failed', e.message);
+    }
+  }
+
+  /** 索引状态：加载中禁用检索框并说明，加载完放开 */
+  function setIndexState(s, detail) {
+    const input = el('q');
+    const hint = el('index-state');
+    if (s === 'ready') {
+      input.disabled = false;
+      hint.textContent = '';
+      hint.classList.add('hidden');
+      return;
+    }
+    input.disabled = true;
+    hint.classList.remove('hidden');
+    if (s === 'loading') {
+      hint.textContent = '列表已就绪；全文检索索引正在加载（约 1.5 MB），加载完成后即可检索。';
+    } else {
+      hint.textContent = '检索索引加载失败：' + (detail || '未知错误') +
+        '。列表与筛选仍可使用，检索暂不可用。';
+    }
+  }
+
+  /** 分面计数直接数记录，不依赖检索索引。
+   *  索引包（terms.json）现在延后加载，首屏的筛选器必须立刻可用。 */
+  function facetOf(key) {
+    const counts = {};
+    for (const r of state.records) {
+      const v = r[key];
+      const vals = Array.isArray(v) ? v : (v ? [v] : []);
+      for (const x of vals) counts[x] = (counts[x] || 0) + 1;
+    }
+    return counts;
+  }
+
+  function topicCountsOf() {
+    const counts = {};
+    for (const r of state.records) {
+      for (const t of r.topics || []) counts[t] = (counts[t] || 0) + 1;
+    }
+    return counts;
+  }
+
+  function topTopicsOf(n) {
+    return Object.entries(topicCountsOf())
       .sort((a, b) => b[1] - a[1])
       .slice(0, n);
   }
@@ -201,7 +273,7 @@
   }
 
   function renderFacets() {
-    const juris = Search.facetCounts(state.index, 'jurisdiction');
+    const juris = facetOf('jurisdiction');
     const sel = el('f-jurisdiction');
     Object.keys(juris).sort().forEach((k) => {
       const o = document.createElement('option');
@@ -209,7 +281,7 @@
       sel.appendChild(o);
     });
 
-    const st = Search.facetCounts(state.index, 'status');
+    const st = facetOf('status');
     const sel2 = el('f-status');
     Object.keys(st).sort().forEach((k) => {
       const o = document.createElement('option');
@@ -240,7 +312,7 @@
   // 不会再出现两处状态各自为政、互相覆盖的老问题。
   function renderNav() {
     const total = state.records.length;
-    const types = Search.facetCounts(state.index, 'recordType');
+    const types = facetOf('recordType');
     const typeBox = el('nav-type');
     [
       ['', '全部记录', total],
@@ -254,7 +326,7 @@
 
     // 法域只列前 6：41 个法域全铺开就是第二个下拉框，导航要能一眼扫完。
     // 其余法域仍可在上方下拉框里选。
-    const juris = Search.facetCounts(state.index, 'jurisdiction');
+    const juris = facetOf('jurisdiction');
     const top = Object.entries(juris).sort((a, b) => b[1] - a[1]).slice(0, 6);
     const jurBox = el('nav-jur');
     jurBox.appendChild(navButton('jurisdiction', '', '全部法域', total));
@@ -321,6 +393,27 @@
       run();
     });
 
+    // 复制单条记录的固定链接
+    el('results').addEventListener('click', async (ev) => {
+      const cb = ev.target.closest('.btn-copy');
+      if (!cb) return;
+      const url = location.origin + location.pathname + '#rec=' + cb.dataset.copy;
+      try {
+        await navigator.clipboard.writeText(url);
+        cb.textContent = '已复制';
+        setTimeout(() => { cb.textContent = '复制链接'; }, 1600);
+      } catch (e) {
+        window.prompt('复制这条记录的链接：', url);
+      }
+    });
+
+    // 浏览器前进/后退，或用户直接改 hash：回到对应状态
+    window.addEventListener('hashchange', () => {
+      applyHash();
+      run();
+      expandFromHash();
+    });
+
     // 详情按需加载（事件委托：结果列表会重绘，不能逐个绑定）
     el('results').addEventListener('click', (ev) => {
       const btn = ev.target.closest('.btn-detail');
@@ -328,10 +421,72 @@
       const rec = btn.closest('.record');
       const box = rec && rec.querySelector('.record-detail');
       if (!box) return;
-      if (!box.hidden) { box.hidden = true; btn.textContent = '展开详情 ▾'; return; }
+      if (!box.hidden) {
+        box.hidden = true; btn.textContent = '展开详情 ▾';
+        state.expanded = null; syncHash();
+        return;
+      }
       btn.textContent = '收起 ▴';
+      state.expanded = btn.dataset.id; syncHash();
       loadDetail(btn.dataset.id, box);
     });
+  }
+
+  // ── URL 状态 ─────────────────────────────────────────
+  // 检索词、筛选条件、展开的记录都写进 hash：
+  // 读者可以把某条记录或某个筛选结果的链接直接发给别人，刷新也不会丢。
+  function hashParams() {
+    const q = currentQuery();
+    const p = new URLSearchParams();
+    if (q.text) p.set('q', q.text);
+    if (q.jurisdiction) p.set('jur', q.jurisdiction);
+    if (q.recordType) p.set('type', q.recordType);
+    if (q.status) p.set('status', q.status);
+    if (q.evidenceLevel && q.evidenceLevel.length) p.set('ev', q.evidenceLevel[0]);
+    if (q.pendingOnly) p.set('pending', '1');
+    if (q.from) p.set('from', q.from);
+    if (q.to) p.set('to', q.to);
+    if (q.topics.length) p.set('topics', q.topics.join(','));
+    if (state.expanded) p.set('rec', state.expanded);
+    return p;
+  }
+
+  function syncHash() {
+    const s = hashParams().toString();
+    const h = s ? '#' + s : '';
+    if (location.hash !== h) {
+      history.replaceState(null, '', h || location.pathname + location.search);
+    }
+  }
+
+  function applyHash() {
+    const p = new URLSearchParams(location.hash.replace(/^#/, ''));
+    el('q').value = p.get('q') || '';
+    el('f-jurisdiction').value = p.get('jur') || '';
+    el('f-type').value = p.get('type') || '';
+    el('f-status').value = p.get('status') || '';
+    el('f-evidence').value = p.get('ev') || '';
+    el('f-pending').value = p.get('pending') || '';
+    el('f-from').value = p.get('from') || '';
+    el('f-to').value = p.get('to') || '';
+    state.selectedTopics = new Set((p.get('topics') || '').split(',').filter(Boolean));
+    state.expanded = p.get('rec') || null;
+    document.querySelectorAll('.topic-chip').forEach((c) => {
+      c.classList.toggle('on', state.selectedTopics.has(c.dataset.topic));
+    });
+  }
+
+  /** hash 里指定了记录就自动展开并滚到它 */
+  function expandFromHash() {
+    const rid = state.expanded;
+    if (!rid) return;
+    const btn = document.querySelector('.record .btn-detail[data-id="' + CSS.escape(rid) + '"]');
+    if (!btn) return;
+    const rec = btn.closest('.record');
+    const box = rec && rec.querySelector('.record-detail');
+    if (!box || !box.hidden) return;
+    btn.click();                       // 走既有展开逻辑，状态与 URL 由那里统一维护
+    rec.scrollIntoView({ block: 'center' });
   }
 
   // ── 检索与渲染 ───────────────────────────────────────
@@ -352,9 +507,52 @@
 
   function run() {
     const q = currentQuery();
-    const res = Search.search(state.index, q);
+    let hits, warnings = [];
+    if (state.index) {
+      const res = Search.search(state.index, q);
+      hits = res.results;
+      warnings = res.warnings;
+    } else {
+      hits = localFilter(q);
+      // URL 里带检索词（如分享链接 ?q=…）时，索引未就绪这一瞬不能装作已检索过：
+      // 此时只按筛选条件过滤，必须说明文字检索尚未生效。
+      if (q.text) warnings = ['全文检索索引仍在加载，当前结果仅按筛选条件显示'];
+    }
     syncNav();
-    render(res.results, q, res.warnings);
+    render(hits, q, warnings);
+    syncHash();
+  }
+
+  /** 索引未就绪时的本地筛选：只按字段过滤，文本检索暂不可用。
+   *  判据与 search.js 的 finish() 逐条对齐，证据等级同样取 evidenceLevels。 */
+  function localFilter(q) {
+    const out = [];
+    for (const r of state.records) {
+      if (q.jurisdiction && r.jurisdiction !== q.jurisdiction) continue;
+      if (q.recordType && r.recordType !== q.recordType) continue;
+      if (q.status && r.status !== q.status) continue;
+      if (q.topics && q.topics.length) {
+        const rt = r.topics || [];
+        if (!q.topics.some((t) => rt.includes(t))) continue;
+      }
+      const lv = r.evidenceLevels || (r.evidenceLevel ? [r.evidenceLevel] : []);
+      if (q.evidenceLevel && q.evidenceLevel.length) {
+        if (!lv.some((l) => q.evidenceLevel.includes(l))) continue;
+      }
+      if (q.pendingOnly) {
+        const d = r.dates || {};
+        const isPending = lv.includes('L3') ||
+          (r.recordType === 'case' && !d.decisionDate) ||
+          (r.penalty && r.penalty.amountOriginal && r.penalty.amountFinal === null);
+        if (!isPending) continue;
+      }
+      const d = r.dates || {};
+      const df = r.recordType === 'case' ? d.decisionDate : d.publicationDate;
+      if (q.from && (!df || df < q.from)) continue;
+      if (q.to && (!df || df > q.to)) continue;
+      out.push({ record: r });
+    }
+    return out;
   }
 
   function render(hits, q, warnings) {
@@ -474,6 +672,9 @@
     if (d.effectiveDate) facts.push(['生效', d.effectiveDate]);
     if (d.lastAmendedDate) facts.push(['末次修订', d.lastAmendedDate]);
     if (r.citationString) facts.push(['文号', r.citationString, true]);
+    // Federal Register：同一引注可能对应两个文件（两份规则可同页起排），
+    // 只给「91 FR 37787」读者分不出是哪一份，补上文件号才可区分。
+    if (r.documentNumber) facts.push(['文件号', r.documentNumber, true]);
     if (r.jurisdiction) facts.push(['法域', jurLabel(r.jurisdiction)]);
 
     // 各源的专有字段：CCAR 部号与有效性、法通网效力位阶、eCFR 条文层级
@@ -595,6 +796,8 @@
       </div>
       <div class="record-links">
         <button class="btn-detail" type="button" data-id="${esc(r.recordId)}">展开详情 ▾</button>
+        <button class="btn-copy" type="button" data-copy="${esc(r.recordId)}"
+                title="复制这条记录的固定链接（#rec=记录ID）">复制链接</button>
         ${links.join('')}
       </div>
     `;

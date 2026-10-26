@@ -48,7 +48,10 @@ if (!fs.existsSync(browsePath)) {
   console.log('data/browse.json 不存在，请先运行 python scripts/build_browse.py');
   process.exit(2);
 }
-const browse = JSON.parse(fs.readFileSync(browsePath, 'utf-8'));
+const browseRaw = JSON.parse(fs.readFileSync(browsePath, 'utf-8'));
+// browse 会被下面的 terms 挂载步骤就地污染（那是建索引所必需的），
+// 所以另存一份原始副本，拆包不变量检查必须查原始文件，否则测的是「我自己刚挂上去的东西」。
+const browse = JSON.parse(JSON.stringify(browseRaw));
 
 console.log('='.repeat(66));
 console.log('首屏精简索引 · 召回一致性测试');
@@ -56,6 +59,22 @@ console.log('='.repeat(66));
 console.log(`  全量 ${manifest.records.length} 条 | 精简 ${browse.records.length} 条`);
 
 const idxFull = Search.buildIndex(manifest.records, rules.rules || []);
+
+// 检索词已从 browse.json 拆到 data/terms.json（首屏包从 2.05 MB 降到 0.51 MB），
+// 精简索引要挂上这个包才能建出与全量一致的索引——这正是本次拆包要守住的不变量。
+const termsPath = path.join(BASE, 'data', 'terms.json');
+if (!fs.existsSync(termsPath)) {
+  console.log('data/terms.json 不存在，请先运行 python scripts/build_browse.py');
+  process.exit(2);
+}
+const termsPack = JSON.parse(fs.readFileSync(termsPath, 'utf-8'));
+{
+  const pos = new Map(termsPack.ids.map((id, i) => [id, i]));
+  for (const r of browse.records) {
+    const i = pos.get(r.recordId);
+    if (i != null) r.terms = termsPack.terms[i];
+  }
+}
 const idxBrow = Search.buildIndex(browse.records, rules.rules || []);
 
 // ── 1. 记录集合必须一致 ─────────────────────────────────
@@ -109,6 +128,20 @@ const QUERIES = [
   }
   check('全部查询召回一致', same === QUERIES.length,
     `${same}/${QUERIES.length}` + (diffs.length ? ' 差异：' + diffs.slice(0, 3).join('; ') : ''));
+}
+
+// ── 3b. 拆包不变量 ──────────────────────────────────────
+console.log('\n【3b】检索词拆包');
+{
+  const withTerms = browseRaw.records.filter((r) => Array.isArray(r.terms) && r.terms.length).length;
+  check('browse.json 内不再携带 terms（首屏包不得回涨）', withTerms === 0, `仍带 terms 的记录 ${withTerms} 条`);
+  check('terms.json 覆盖全部记录', termsPack.ids.length === browseRaw.records.length,
+    `${termsPack.ids.length} vs ${browseRaw.records.length}`);
+  const idSet = new Set(browseRaw.records.map((r) => r.recordId));
+  const miss = termsPack.ids.filter((x) => !idSet.has(x)).length;
+  check('terms.json 的 id 全部对得上记录', miss === 0, `对不上 ${miss} 个`);
+  const emptyTerms = termsPack.terms.filter((t) => !Array.isArray(t) || !t.length).length;
+  check('没有空检索词的记录', emptyTerms === 0, `空词 ${emptyTerms} 条`);
 }
 
 // ── 4. 详情文件必须齐备且桶号正确 ───────────────────────

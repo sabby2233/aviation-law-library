@@ -16,6 +16,7 @@ venv/
 # ── 构建产物：可由 scripts/ 重新生成，且每次构建含时间戳，入库会制造假 diff ──
 data/manifest.json
 data/browse.json
+data/terms.json
 data/details/
 site/api/
 

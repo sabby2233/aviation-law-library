@@ -52,7 +52,7 @@ def main():
 
     # 2. 数据与索引
     (out / "data").mkdir()
-    for f in ("browse.json", "identifiers.json"):
+    for f in ("browse.json", "terms.json", "identifiers.json"):
         src = ROOT / "data" / f
         if not src.exists():
             raise SystemExit(f"缺少 {src}：先跑 build_browse.py")

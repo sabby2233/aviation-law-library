@@ -426,3 +426,11 @@ body {
   .record-facts span { white-space: normal; min-width: 0; }
   .badge.key { white-space: normal; overflow-wrap: anywhere; }
 }
+
+/* ── 索引加载态与复制链接 ───────────────────────────── */
+.index-state { margin: 8px 0 0; font-size: 12px; }
+.btn-copy {
+  background: none; border: 1px solid var(--line); color: var(--text-2);
+  border-radius: 5px; padding: 4px 9px; font-size: 12px; cursor: pointer;
+}
+.btn-copy:hover { color: var(--accent); border-color: var(--accent); }

@@ -127,6 +127,7 @@ def brief(rec, terms):
     lvl = None
     ref_values = []
     seen = set()
+    levels = []
     for a in rec.get("assertions") or []:
         v = str(a.get("value") or "").strip()
         if v and v not in seen:
@@ -134,6 +135,8 @@ def brief(rec, terms):
             ref_values.append(v)
         if a.get("evidenceLevel") and not lvl:
             lvl = a.get("evidenceLevel")
+        if a.get("evidenceLevel") and a["evidenceLevel"] not in levels:
+            levels.append(a["evidenceLevel"])
 
     rl = rec.get("recordLevel") or {}
     d = rec.get("dates") or {}
@@ -162,11 +165,15 @@ def brief(rec, terms):
                   ("publicationDate", "effectiveDate", "decisionDate",
                    "lastAmendedDate") if d.get(k)},
         "evidenceLevel": lvl,
+        # 该记录涉及的全部证据等级（不止最低的那个）：证据等级筛选要按
+        # 「记录含此等级」判定，只给最低级会让 L3 记录在 L3 筛选下消失。
+        "evidenceLevels": levels,
         "sourceUrl": rec.get("sourceUrl"),
         "summary": (rec.get("summary") or "")[:SUMMARY_PREVIEW],
         # 全文标记：卡片上标出「有全文 N 字」，让读者知道详情里有完整条文可读
         "hasFullText": bool(rec.get("fullText")),
-        "terms": sorted(terms),
+        # 注意：**terms 不在这里**。检索词占记录字节的 63%，把它单独放进
+        # data/terms.json，首屏只加载列表包、索引随后台补齐（见 main()）。
         "refValues": ref_values,
         "keyRefs": key_refs,
     }
@@ -192,6 +199,14 @@ def brief(rec, terms):
         out["penalty"] = rec["penalty"]
     if rec.get("recordType") == "case" and not d.get("decisionDate"):
         out["pendingDecisionDate"] = True
+    # FR 文件号：同一份 Federal Register 引注可能对应两个文件（两份规则可同页起排），
+    # 卡片上只显示「91 FR 37787」读者分不出是哪一份，附上文件号才可区分。
+    for a in rec.get("assertions") or []:
+        if a.get("field") == "document_number":
+            v = str(a.get("value") or "").strip()
+            if v:
+                out["documentNumber"] = v
+            break
     return out
 
 
@@ -226,9 +241,11 @@ def main():
             print(f"清理孤儿详情文件 {removed} 个")
 
     briefs = []
+    terms_list = []
     detail_files = 0
     for rec in records:
         t = terms_of(rec)
+        terms_list.append(sorted(t))
         briefs.append(brief(rec, t))
         # 详情：去掉已在精简索引里的 terms，其余原样保留
         detail = {k: v for k, v in rec.items() if k != "assertions"}
@@ -245,6 +262,7 @@ def main():
             "browseGeneratedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "detailFilePattern": "data/details/{bucket}/{recordId}.json",
             "detailBuckets": 32,
+            "termsFile": "data/terms.json",
         },
         "records": briefs,
     }
@@ -252,9 +270,21 @@ def main():
     with out.open("w", encoding="utf-8") as f:
         json.dump(browse, f, ensure_ascii=False, separators=(",", ":"))
 
+    # 检索词单独成包：它占记录字节的 63%，与列表混在一起会让首屏多传 1 MB 上下。
+    # 拆开后首屏先渲染列表，索引随后台补齐——用户看到的列表几乎立刻出现，
+    # 检索框在索引就绪前显示加载态。
+    terms_pack = {
+        "ids": [b["recordId"] for b in briefs],
+        "terms": terms_list,
+    }
+    terms_out = DATA / "terms.json"
+    with terms_out.open("w", encoding="utf-8") as f:
+        json.dump(terms_pack, f, ensure_ascii=False, separators=(",", ":"))
+
     full_mb = manifest_path.stat().st_size / 1024 / 1024
     browse_mb = out.stat().st_size / 1024 / 1024
-    avg_terms = sum(len(b["terms"]) for b in briefs) / max(1, len(briefs))
+    terms_mb = terms_out.stat().st_size / 1024 / 1024
+    avg_terms = sum(len(t) for t in terms_list) / max(1, len(terms_list))
     detail_sizes = [p.stat().st_size for p in DETAILS.rglob("*.json")]
     avg_detail = sum(detail_sizes) / max(1, len(detail_sizes))
 
@@ -262,6 +292,8 @@ def main():
     print(f"  体积 {browse_mb:.2f} MB（原 manifest {full_mb:.2f} MB，"
           f"降至 {browse_mb / full_mb:.0%}）")
     print(f"  平均检索词 {avg_terms:.1f} 个/条")
+    print(f"检索词包：{terms_out.relative_to(ROOT)}  {terms_mb:.2f} MB"
+          f"（首屏后加载）")
     print(f"详情文件：{detail_files} 个 → {DETAILS.relative_to(ROOT)}/")
     print(f"  单文件平均 {avg_detail / 1024:.1f} KB"
           f"（合计 {sum(detail_sizes) / 1024 / 1024:.1f} MB，按需加载）")
