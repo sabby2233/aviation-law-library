@@ -242,14 +242,27 @@ const euArticles = manifest.records
   .filter((r) => r.jurisdiction === 'EU')
   .reduce((n, r) => n + ((r.recordLevel || {}).articleCount || 0), 0);
 const ecfrCount = byId((r) => r.recordId.includes('-CFR-'));
-const frCount = byId((r) => r.recordId.includes('-FR-'));
-const caacCount = byId((r) => r.recordId.startsWith('AVA-CN-CCAR'));
+// 只认美国 FR 记录。原用 includes('-FR-')，把法属案件 AVA-FR-ADP-A-001/002 也算进来（570 vs 实际 568）
+const frCount = byId((r) => r.recordId.startsWith('AVA-US-FR-'));
+// 民航局栏目采集的规章：CCAR 部号命名之外还有 AVA-CN-GZ-* 形式的废止决定，
+// 只数 AVA-CN-CCAR 会漏 3 条（292 vs 实际 295）。按来源登记前缀判定。
+const caacCount = byId((r) => (r.assertions || []).some(
+  (a) => String(a.sourceId || '').startsWith('CAAC-')));
 const lexcomCount = byId((r) => r.recordId.startsWith('AVA-CN-LAW'));
 const caseCount = byId((r) => r.recordType === 'case');
 const foreignTotal = 974;   // 法通网域外译本源库总量（实测）
 const foreignKept = byId((r) => r.recordType === 'standard');
 const l3Count = manifest.records.filter((r) =>
   (r.assertions || []).some((a) => a.evidenceLevel === 'L3')).length;
+// 案例类专用口径：agent.md 里说「案例中 N 条为二手来源」必须是案例数，
+// 不能拿全库 l3Count 充数（标准类的 L3 断言也算进去会虚高）。
+const caseL3 = manifest.records.filter((r) => r.recordType === 'case'
+  && (r.assertions || []).some((a) => a.evidenceLevel === 'L3')).length;
+const caseNoDate = manifest.records.filter((r) => r.recordType === 'case'
+  && !((r.dates || {}).decisionDate)).length;
+const icaoAnnex = manifest.records.filter((r) => r.jurisdiction === 'ICAO'
+  && String((r.recordLevel || {}).icaoNumber || '').startsWith('Annex')).length;
+const icaoDoc = icaoCount - icaoAnnex;
 const osr = manifest.meta.officialSourceRatio || {};
 const ratioText = Object.entries(osr)
   .map(([k, v]) => `${k} ${v.withPrimarySource}/${v.records}`)
@@ -271,15 +284,18 @@ const md = `# 航空法律资料库 · Agent 接入说明
 | 中国民航局规章栏目 | CCAR 规章与规范性文件（含 CCAR 部号、有效性） | ${caacCount} | L0 官方一手 |
 | 司法部「法通」网 | 我国涉外法律法规 + 域外法律中文译本 | ${lexcomCount} | L0 / L1 |
 | **欧盟 EUR-Lex / Cellar** | EASA 基础条例、无人机与 U-space 规则包、GDPR（含条文标题） | ${euCount} | L0 官方一手 |
-| **ICAO 附件** | 芝加哥公约附件 1–18（中英标准名 + 分卷结构，仅元数据） | ${icaoCount} | L1 用户提供 |
+| **ICAO 附件与文件** | 附件 1–19 全部实体 ${icaoAnnex} 条 + PANS/手册 ${icaoDoc} 条（8400 / 8126 / 9760 / 8168-3），仅元数据 | ${icaoCount} | L1 用户提供 |
 | 航空数据保护执法案例 | 各国 DPA 处罚与法院判决 | ${caseCount} | 多数待核验 |
 
 **已知边界（先读这一段）**
 
 - 本库是**本站收录范围**，不是航空法律领域的全集。当前 ${manifest.records.length} 条记录。
-- **案例类的决定日全部缺失**（${caseCount} 条），只能用公布日，引用时须说明是公布日。
-- 案例中 ${l3Count} 条为二手来源（律所简报、媒体），检索界面以虚线徽章标出，引用前必须回官方一手。
-- 罚款金额中 \`amountFinal\` 为 null 者，表示**拟议罚款额**，不是最终罚款额。
+- 案例 ${caseCount} 条中 **${caseNoDate} 条缺决定日**，卡片显示「决定日 未知（待核验）」；
+  这些记录不得用公布日顶替决定日。
+- 案例中 **${caseL3} 条**的断言引用了二手来源（律所简报、媒体），界面以虚线徽章标出，
+  引用前必须回官方一手。
+- 罚款金额中 \`amountFinal\` 为 null 者，含义是**未记录减免后的数额**，不是「拟议罚款额」；
+  该案件若有原始罚额，\`amountOriginal\` 即最终应付额（有减免时两者不等，卡片显示两格）。
 - 中国民航规章的「失效/废止/历史版本」只表明**官方栏目标注的状态**，
   废止的确切日期与替代规章未在栏目中给出，需回规章原文核实。
 - 法通网的**域外法律中文译本**是"走出去"导向的对外国法库，
@@ -287,17 +303,20 @@ const md = `# 航空法律资料库 · Agent 接入说明
   本库只收录其中与航空数据治理交叉的数据与网络安全类 ${foreignKept} 条。
 - 跨币种**不可合计**（见 \`penalty.currency\`）。
 - **域外航空法**目前覆盖美国（eCFR 现行条文）、欧盟（EASA 条例 + 无人机/U-space 规则包）
-  与 ICAO（附件 1–18 的标准名与引注），
+  与 ICAO（附件 1–19 与 4 份 Doc 的标准名、版次与引注），
   欧盟部分共 ${euArticles} 条条文标题。
-- **ICAO 附件已接入**（Annex 1–18，${icaoCount} 条）：中英文标准名取自 ICAO 官方
-  《Annexes 1 to 18》booklet 并逐条校验，**仅存元数据与引注，不存条文正文**
-  ——SARPs 保留版权、不得印刷分发。
-- **ICAO 程序文件未接入**：\`Doc 9944\`、\`PANS-ATM Doc 8610\` 这类查询会明确返回
-  「本站未收录」——这是正确行为，不是故障。booklet 只提及 PANS 是一类程序文件，
-  未给出任何文件号，无法凭空构造。
+- **ICAO 已接入 ${icaoCount} 条**：附件 1–19 共 ${icaoAnnex} 条（中英标准名、分卷结构），
+  另加 PANS 与手册 ${icaoDoc} 条（Doc 8400 / 8126 / 9760 / 8168-3）。
+  **全部只存元数据与引注，不存条文正文**——SARPs 与 PANS 保留版权、不得印刷分发。
+- **Doc 9760 标为 \`superseded\`**：手上的第 4 版（2020）已被第 5 版（2025，448 页）取代，
+  不得作为现行文本引用；引用请改第 5 版或直接引 Annex 8。
+- **未接入的仍会明确返回「本站未收录」**：如 \`Doc 9944\`、\`PANS-ATM Doc 8610\`
+  （8610 并非 PANS-ATM 的文件号，PANS-ATM 是 Doc 4444 且已收录）。
+  未收录是正确行为，不是故障。
 - 欧盟法源**只存元数据、机构文件号与条文标题**（如 Article 132「Processing of personal
   data」），**不存条文正文**——EU 决策文本再利用受官方声明约束；文义以 EUR-Lex 原文为准。
-- 一手来源（记录级·分类型）：${ratioText}
+- 一手来源（记录级·分类型，**只计 L0 官方一手**）：${ratioText}
+  标准类为 0 是因为 ICAO 文件在证据分级中属 L1（官方二手/用户提供），不是缺证据。
 
 ## 决策树：先选对接口
 
@@ -377,7 +396,8 @@ curl -s HOST/data/details/13/AVA-US-CFR-89-89-305.json | jq '{title, dates, asse
 ## 硬约束（务必遵守）
 
 1. 零命中 = "本站未收录"，必须原样转述。
-2. \`penalty.amountFinal\` 为 null 时，说"拟议罚款额"，不能说"罚款 X 元"。
+2. \`penalty.amountFinal\` 为 null 时，说"原始罚额、未记录减免"，**不要**说成"拟议罚款额"
+   （该字段不是拟议额；确无减免时它等于最终应付额）。
 3. \`dates.decisionDate\` 为 null 时，说"公布日"。
 4. 跨币种不合计。
 5. 中国规章状态为"失效/废止/历史版本"时，须说明该状态取自民航局规章栏目，
@@ -404,9 +424,10 @@ latest.json    { meta, groups[], records[] }   ← 按源分层，非全库按�
 
 ## 许可
 
-数据内容 CC BY 4.0（署名）；原始文本权利归各权利人，本站不转载，只提供元数据与链接。
+数据内容 CC BY 4.0（署名）；收录的官方文本权利归各权利人。
+其中美国 eCFR / Federal Register（17 U.S.C. §105）、中国民航局规章（《著作权法》第五条）、
+EUR-Lex（2011/833/EU）属可全文收录；**ICAO 附件与 Doc 只存元数据与链接，不收录正文**。
 `;
-fs.writeFileSync(path.join(OUT, 'agent.md'), md, 'utf-8');
 fs.writeFileSync(path.join(OUT, 'agent.md'), md, 'utf-8');
 
 console.log('API 出口生成：' + path.relative(BASE, OUT));
