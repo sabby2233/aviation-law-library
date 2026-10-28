@@ -923,7 +923,7 @@
     "recordType": "standard",
     "title": "Security: Safeguarding International Civil Aviation Against Acts of Unlawful Interference",
     "titleEn": "Security: Safeguarding International Civil Aviation Against Acts of Unlawful Interference",
-    "summary": "国际民航组织《国际民用航空公约》Annex 17 保安：保护国际民用航空免遭非法干扰行为；现行版次 12th Edition, 2022；本站只存元数据与官方链接，不收录正文。",
+    "summary": "国际民航组织《国际民用航空公约》Annex 17 安保：保护国际民用航空免遭非法干扰行为；现行版次 12th Edition, 2022；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -945,7 +945,7 @@
       "icaoNumber": "Annex 17",
       "icaoKind": "附件",
       "canonicalKey": "annex:17",
-      "titleZh": "保安：保护国际民用航空免遭非法干扰行为",
+      "titleZh": "安保 — 保护国际民用航空免遭非法干扰行为",
       "subVolumes": null,
       "edition": "12th Edition, 2022",
       "adoptedDate": null,
@@ -979,7 +979,21 @@
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
       "citationStringFull": "ICAO Annex 17, 12th Edition, 2022",
-      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。",
+      "corrections": [
+        {
+          "correctedAt": "2026-10-29",
+          "field": "titleZh",
+          "from": "保安：保护国际民用航空免遭非法干扰行为",
+          "to": "安保 — 保护国际民用航空免遭非法干扰行为",
+          "basis": "附件17 第十一版（2020年3月）中文版封面 p.3：「附件17 — 安保 保护国际民用航空免遭非法干扰行为」；版权页 p.4：「附件17 —《安保 — 保护国际民用航空免遭非法干扰行为》」",
+          "locator": "中文版 11th ed PDF p.3 封面、p.4 版权页",
+          "evidenceLevel": "L1",
+          "sourceId": "ICAO-ANNEX-17",
+          "note": "第十版（2017年4月）中文封面仍作「保安」，第十一版起改为「安保」。站内原值「保安」来自微信公众号相册（L3 二手），本次以官方中文译本（L1）更正。",
+          "copyNote": "所据为图书馆 2024-04-09 转来的该版官方中/英文译本（本地副本，不入库）"
+        }
+      ]
     },
     "assertions": [
       {
@@ -1024,14 +1038,15 @@
         "verifiedAt": "2026-10-21"
       }
     ],
-    "revisionLog": []
+    "revisionLog": [],
+    "titleZh": "安保 — 保护国际民用航空免遭非法干扰行为"
   },
   {
     "recordId": "AVA-ICAO-STD-ANNEX-18",
     "recordType": "standard",
     "title": "The Safe Transport of Dangerous Goods by Air",
     "titleEn": "The Safe Transport of Dangerous Goods by Air",
-    "summary": "国际民航组织《国际民用航空公约》Annex 18 危险品的安全航空运输；现行版次 4th Edition, 2011；本站只存元数据与官方链接，不收录正文。",
+    "summary": "国际民航组织《国际民用航空公约》Annex 18 危险物品的安全航空运输；现行版次 4th Edition, 2011；本站只存元数据与官方链接，不收录正文。",
     "jurisdiction": "ICAO",
     "topics": [
       "annex",
@@ -1052,7 +1067,7 @@
       "icaoNumber": "Annex 18",
       "icaoKind": "附件",
       "canonicalKey": "annex:18",
-      "titleZh": "危险品的安全航空运输",
+      "titleZh": "危险物品的安全航空运输",
       "subVolumes": null,
       "edition": "4th Edition, 2011",
       "adoptedDate": null,
@@ -1086,7 +1101,21 @@
       "editionCheckedAt": "2026-10-22",
       "editionSource": "https://store.icao.int/en/annexes（2026-10-22 实抓）",
       "citationStringFull": "ICAO Annex 18, 4th Edition, 2011",
-      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。"
+      "linkNote": "链接指向 ICAO Store 附件目录页（境外站点，部分网络环境可能无法直连）；正文需购买或到官方站点查阅。",
+      "corrections": [
+        {
+          "correctedAt": "2026-10-29",
+          "field": "titleZh",
+          "from": "危险品的安全航空运输",
+          "to": "危险物品的安全航空运输",
+          "basis": "附件18 第四版（2011年7月）中文版封面 p.3 载「危险物品的安全航空运输」",
+          "locator": "中文版 4th ed PDF p.3 封面",
+          "evidenceLevel": "L1",
+          "sourceId": "ICAO-ANNEX-18",
+          "note": "站内原值省作「危险品」，官方中文译本用全称「危险物品」。",
+          "copyNote": "所据为图书馆 2024-04-09 转来的该版官方中/英文译本（本地副本，不入库）"
+        }
+      ]
     },
     "assertions": [
       {
@@ -1131,7 +1160,8 @@
         "verifiedAt": "2026-10-21"
       }
     ],
-    "revisionLog": []
+    "revisionLog": [],
+    "titleZh": "危险物品的安全航空运输"
   },
   {
     "recordId": "AVA-ICAO-STD-ANNEX-19",
@@ -1177,10 +1207,30 @@
       "applicabilityDate": "2019-11-07",
       "applicabilityNote": "第 2 版 2016-07 自 2019-11-07 起适用；第 3 版 2025-11 出版，但封面载明 2026-11-26 才取代旧版。截至 2026-10-23，现行适用仍为第 2 版。",
       "orderNumber": "AN19",
-      "isbn": "978-92-9275-818-9",
       "pages": 46,
       "acquiredFrom": "user-provided PDF（icao_annex_19_second-edition.pdf，46 页）",
-      "retrievalChannel": "用户提供的官方副本；读取 p.3 封面、p.4 版权页、p.5 修订记录页"
+      "retrievalChannel": "用户提供的官方副本；读取 p.3 封面、p.4 版权页、p.5 修订记录页",
+      "isbnByLanguage": {
+        "en": "978-92-9249-965-5",
+        "zh": "978-92-9249-983-9"
+      },
+      "corrections": [
+        {
+          "correctedAt": "2026-10-29",
+          "field": "isbn",
+          "from": "978-92-9275-818-9",
+          "to": {
+            "en": "978-92-9249-965-5",
+            "zh": "978-92-9249-983-9"
+          },
+          "basis": "英文版第二版版权页 p.4：ISBN 978-92-9249-965-5；中文版第二版版权页 p.4：ISBN 978-92-9249-983-9",
+          "locator": "英文版 2nd ed p.4 版权页；中文版 2nd ed p.4 版权页",
+          "evidenceLevel": "L1",
+          "sourceId": "ICAO-ANNEX-19",
+          "note": "站内原记 978-92-9275-818-9，与第二版英文/中文版权页均不符（疑为第 3 版 ISBN）。同一附件不同语言版本的 ISBN 不同，单值字段无法表达，改为按语言分列。",
+          "copyNote": "所据为图书馆 2024-04-09 转来的该版官方中/英文译本（本地副本，不入库）"
+        }
+      ]
     },
     "dates": {
       "retrievedAt": "2026-10-21",

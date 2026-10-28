@@ -1,0 +1,150 @@
+{
+  "verifiedAt": "2026-10-29",
+  "sourceId": "ICAO-LIB-2024",
+  "source": "中国民航大学图书馆 2024-04-09 转来的 ICAO 附件包（中文版 30 份 / 英文版 34 份）",
+  "method": "逐份读 p.3 封面、p.4 版权页、p.5 修订记录页；不按文件名判版次",
+  "conclusion": "库内版次普遍早于站内（站内取自 2026-10-22 ICAO Store 实抓），因此本包不用于升级版次；用于三处更正与七处独立复核。",
+  "corrections": [
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-17",
+      "field": "titleZh",
+      "old": "保安：保护国际民用航空免遭非法干扰行为",
+      "new": "安保 — 保护国际民用航空免遭非法干扰行为",
+      "basis": "附件17 第十一版（2020年3月）中文版封面 p.3：「附件17 — 安保 保护国际民用航空免遭非法干扰行为」；版权页 p.4：「附件17 —《安保 — 保护国际民用航空免遭非法干扰行为》」",
+      "note": "第十版（2017年4月）中文封面仍作「保安」，第十一版起改为「安保」。站内原值「保安」来自微信公众号相册（L3 二手），本次以官方中文译本（L1）更正。",
+      "evidenceLevel": "L1",
+      "locator": "中文版 11th ed PDF p.3 封面、p.4 版权页"
+    },
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-18",
+      "field": "titleZh",
+      "old": "危险品的安全航空运输",
+      "new": "危险物品的安全航空运输",
+      "basis": "附件18 第四版（2011年7月）中文版封面 p.3 载「危险物品的安全航空运输」",
+      "note": "站内原值省作「危险品」，官方中文译本用全称「危险物品」。",
+      "evidenceLevel": "L1",
+      "locator": "中文版 4th ed PDF p.3 封面"
+    },
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-19",
+      "field": "isbn",
+      "old": "978-92-9275-818-9",
+      "new": null,
+      "basis": "英文版第二版版权页 p.4：ISBN 978-92-9249-965-5；中文版第二版版权页 p.4：ISBN 978-92-9249-983-9",
+      "note": "站内原记 978-92-9275-818-9，与第二版英文/中文版权页均不符（疑为第 3 版 ISBN）。同一附件不同语言版本的 ISBN 不同，单值字段无法表达，改为按语言分列。",
+      "evidenceLevel": "L1",
+      "locator": "英文版 2nd ed p.4 版权页；中文版 2nd ed p.4 版权页",
+      "isbnByLanguage": {
+        "en": "978-92-9249-965-5",
+        "zh": "978-92-9249-983-9"
+      }
+    }
+  ],
+  "secondSourceConfirmed": [
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-4",
+      "siteValue": "11th Edition, 2009",
+      "libraryValue": "附件4 第十一版 2009年7月 / AN 04 Eleventh Edition, July 2009",
+      "locator": "该版 PDF p.3 封面 / p.4 版权页"
+    },
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-5",
+      "siteValue": "5th Edition, 2010",
+      "libraryValue": "附件5 第五版 2010年7月 / AN 05 Fifth Edition, July 2010",
+      "locator": "该版 PDF p.3 封面 / p.4 版权页"
+    },
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-7",
+      "siteValue": "6th Edition, 2012",
+      "libraryValue": "附件7 第六版 2012年7月 / AN 07 Sixth Edition, July 2012",
+      "locator": "该版 PDF p.3 封面 / p.4 版权页"
+    },
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-11",
+      "siteValue": "15th Edition, 2018",
+      "libraryValue": "附件11 第十五版 2018年7月 / AN 11 Fifteenth Edition, July 2018",
+      "locator": "该版 PDF p.3 封面 / p.4 版权页"
+    },
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-15",
+      "siteValue": "16th Edition, 2018",
+      "libraryValue": "附件15 第十六版 2018年7月 / AN 15 Sixteenth Edition, July 2018",
+      "locator": "该版 PDF p.3 封面 / p.4 版权页"
+    },
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-18",
+      "siteValue": "4th Edition, 2011",
+      "libraryValue": "附件18 第四版 2011年7月 / AN 18 Fourth Edition, July 2011",
+      "locator": "该版 PDF p.3 封面 / p.4 版权页"
+    },
+    {
+      "recordId": "AVA-ICAO-STD-ANNEX-19",
+      "siteValue": "2nd Ed, 2016-07",
+      "libraryValue": "附件19 第二版 2016年7月 / AN 19 Second Edition, July 2016，封面载「自2019-11-07起取代所有以前版本」",
+      "locator": "该版 PDF p.3 封面 / p.4 版权页"
+    }
+  ],
+  "libraryOlderThanSite": [
+    {
+      "annex": "Ann 1",
+      "siteValue": "14th Edition, 2022",
+      "libraryValue": "库内最新为 13th 2020-07"
+    },
+    {
+      "annex": "Ann 2",
+      "siteValue": "11th Edition, 2024",
+      "libraryValue": "库内为 10th 2005-07 + 第1–9号修订（.rar）"
+    },
+    {
+      "annex": "Ann 3",
+      "siteValue": "21st Edition, 2025",
+      "libraryValue": "库内为 20th 2018-07"
+    },
+    {
+      "annex": "Ann 6",
+      "siteValue": "Part I 12th 2022-07",
+      "libraryValue": "库内 Part I 11th 2018-07"
+    },
+    {
+      "annex": "Ann 8",
+      "siteValue": "13th Edition, 2022",
+      "libraryValue": "库内 12th 2018-07"
+    },
+    {
+      "annex": "Ann 9",
+      "siteValue": "17th Edition, 2025",
+      "libraryValue": "库内 15th 2017-10"
+    },
+    {
+      "annex": "Ann 10",
+      "siteValue": "Vol I 8th 2023-07",
+      "libraryValue": "库内 Vol I 7th 2018-07；库内无 Vol VI"
+    },
+    {
+      "annex": "Ann 12",
+      "siteValue": "9th Edition, 2024",
+      "libraryValue": "库内 8th 2004-07（含第1–17号修订，第18号修订 2007-11-22）"
+    },
+    {
+      "annex": "Ann 13",
+      "siteValue": "13th Edition, 2024",
+      "libraryValue": "库内 12th 2020-07"
+    },
+    {
+      "annex": "Ann 14",
+      "siteValue": "Vol I 9th 2022-07 / Vol II 5th 2020-07",
+      "libraryValue": "库内 Vol I 8th 2018-07 / Vol II 5th 2020-07（Vol II 一致）"
+    },
+    {
+      "annex": "Ann 16",
+      "siteValue": "Vol I 8th 2017-07 (Amd 15) / Vol IV 2nd 2023-07",
+      "libraryValue": "库内 Vol I 8th 2017-07 / Vol IV 1st 2018-10"
+    },
+    {
+      "annex": "Ann 17",
+      "siteValue": "12th Edition, 2022",
+      "libraryValue": "库内 11th 2020-03"
+    }
+  ],
+  "notIngested": "SARPs 与 PANS 受版权保护，中文/英文正文均只作本地核对之用，不入库、不入仓、不随站点或仓库分发。"
+}

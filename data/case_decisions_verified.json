@@ -1,0 +1,44 @@
+{
+  "verifiedAt": "2026-10-29",
+  "method": "取官方文书 PDF，读第 1 页页眉/页头的日期字段；与上游数据集比对，分歧以文书为准",
+  "items": [
+    {
+      "recordId": "AVA-SE-ADP-A-001",
+      "decisionDate": "2022-07-18",
+      "authorityCaseNo": "DI-2021-5301",
+      "sourceId": "ADP-SE-A-001",
+      "sourceUrl": "https://www.edpb.europa.eu/system/files/2023-02/se_2022-07decisionpublic_redacted.pdf",
+      "locator": "IMY 最终决定（英文非官方译本）第 1 页页头：「Date of final decision: 2022-07-18」；第 2 页页眉「Date:2022-07-18」；文号 DI-2021-5301，IMI case no. 115747",
+      "evidenceLevel": "L0",
+      "courtOrAuthority": "瑞典隐私保护局（IMY）",
+      "note": "上游数据集记为 2023-02-20，与文书载明的 2022-07-18 不符（该日更可能是 EDPB 存档公布日）。以决定书正文为准。此件为官方决定之英文非官方译本，瑞典文原本为唯一正本——正本未取得，故按译本页头记载采信，证据等级按官方文书（译本）记 L0 并注明译本属性。",
+      "upstreamDate": "2023-02-20",
+      "discrepancy": "upstream_2023-02-20_vs_document_2022-07-18"
+    },
+    {
+      "recordId": "AVA-US-ADP-C-001",
+      "decisionDate": "2022-03-22",
+      "authorityCaseNo": "No. 17 C 9080 (N.D. Ill.)",
+      "sourceId": "ADP-US-C-001",
+      "sourceUrl": "https://www.courthousenews.com/wp-content/uploads/2022/03/privacy-airline-ruling.pdf",
+      "locator": "判决书第 1 页页眉：「Case: 1:17-cv-09080 Document #: 111 Filed: 03/22/22 Page 1 of 15」；文首「UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS EASTERN DIVISION」、「Kislov et al. v. American Airlines, Inc.」「Judge Rebecca R. Pallmeyer」",
+      "evidenceLevel": "L3",
+      "documentIsPrimary": true,
+      "courtOrAuthority": "美国伊利诺伊北区联邦地区法院（N.D. Ill.），Pallmeyer 法官",
+      "note": "上游数据集记为 2022-03-23，与法院文书页眉 Filed 03/22/22 差一日。以文书页眉为准。本件为 Memorandum Opinion and Order（即决判决意见），非终局判决。案件当事人为 Alex Kislov 与 Niko Hearn 诉 American Airlines，涉 BIPA 生物识别信息。",
+      "upstreamDate": "2022-03-23",
+      "discrepancy": "upstream_2022-03-23_vs_document_2022-03-22"
+    }
+  ],
+  "blockedFromThisNetwork": [
+    {
+      "recordId": "AVA-ES-ADP-A-004",
+      "reason": "AEPD 返回「Acceso Bloqueado」，PDF 入口同样 500"
+    },
+    {
+      "recordId": "AVA-FR-ADP-A-001",
+      "reason": "Legifrance 返回 Cloudflare 403；cnil.fr 该文号 404"
+    }
+  ],
+  "notResolved": "其余 19 条：链接指向机构首页/已 404/页面无决定日，逐条原因见各记录 recordLevel.dateGap"
+}

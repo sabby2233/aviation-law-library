@@ -197,6 +197,11 @@ def brief(rec, terms):
     # 罚款与待核验标记
     if rec.get("penalty"):
         out["penalty"] = rec["penalty"]
+    # 决定日缺失的成因，必须进首屏：卡片写「未知（待核验）」时，
+    # 「链接指错」「页面失效」「机构未公布」的可靠性含义完全不同。
+    gap = rl.get("dateGap") or {}
+    if gap.get("reason"):
+        out["dateGapReason"] = gap["reason"]
     if rec.get("recordType") == "case" and not d.get("decisionDate"):
         out["pendingDecisionDate"] = True
     # FR 文件号：同一份 Federal Register 引注可能对应两个文件（两份规则可同页起排），

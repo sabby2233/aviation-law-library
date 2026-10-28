@@ -49,6 +49,7 @@ desktop.ini
 .idea/
 
 # ── 本地运行痕迹 ──
+.scratch/
 *.log
 .pytest_cache/
 

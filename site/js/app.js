@@ -48,6 +48,15 @@
 
   const el = (id) => document.getElementById(id);
 
+  // 决定日缺失的成因分类。与 scripts/annotate_case_date_gaps.py 的 reason 取值一一对应。
+  const DATE_GAP_REASON = {
+    'source-is-index-page': '来源链接指向机构首页/栏目页，未指向决定书',
+    'source-gone': '原链接已失效（404/改址）',
+    'source-blocked': '官方站点反爬拦截，取不到正文',
+    'page-has-no-date': '页面可读但未载决定日（如仅有报道日）',
+    'upstream-uncertain': '上游数据集日期口径未核实',
+  };
+
   // ── 加载 ─────────────────────────────────────────────
   // 分两段：先取列表包（browse.json，约 0.5 MB）立刻出列表，
   // 再取检索词包（terms.json，约 1.5 MB）补齐索引。
@@ -667,8 +676,7 @@
     const facts = [];
     // 决定日缺失时显式说明，不用公布日顶替
     if (d.decisionDate) facts.push(['决定', d.decisionDate]);
-    else if (r.recordType === 'case') facts.push(['决定日', '未知（待核验）']);
-    if (d.publicationDate) facts.push(['公布', d.publicationDate]);
+    else if (r.recordType === 'case') facts.push(['决定日', '未知（待核验）']);    if (d.publicationDate) facts.push(['公布', d.publicationDate]);
     if (d.effectiveDate) facts.push(['生效', d.effectiveDate]);
     if (d.lastAmendedDate) facts.push(['末次修订', d.lastAmendedDate]);
     if (r.citationString) facts.push(['文号', r.citationString, true]);
@@ -736,7 +744,12 @@
     if (r.caseOutcome === 'other') notes.push('性质待判读');
     if (r.caseOutcome === 'sanction' && r.sanctionsVerified) notes.push({ text: '金额已核实', cls: 'verified' });
     if (lv === 'L3') notes.push('二手来源');
-    if (r.recordType === 'case' && !d.decisionDate) notes.push('决定日待核验');
+    if (r.recordType === 'case' && !d.decisionDate) {
+      // 「未知」有三种成因，可靠性含义完全不同：链接指错、页面已失效、机构未公布。
+      // 只写「待核验」等于把工作量藏起来，读者没法判断该不该引用。
+      const why = DATE_GAP_REASON[r.dateGapReason] || '原因未分类';
+      notes.push('决定日待核验：' + why);
+    }
     // 注意：amountFinal === null 不等于「拟议额」。
     // schema 没定义 null 的含义，实际数据里同样情形一半填了 final=original（A-007 等 8 条）、
     // 一半留了 null（A-001 等 7 条）——所以 null 只是「未记录减免后的数额」。

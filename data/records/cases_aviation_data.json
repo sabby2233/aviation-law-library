@@ -554,6 +554,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：AEPD 决定库按 Ryanair + 2023 检索"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-blocked",
+        "detail": "AEPD 返回「Acceso Bloqueado」（反爬拦截），决定书 PS-00319-2022 正文取不到",
+        "probeStatus": "ok",
+        "probeBytes": 1682,
+        "upstreamDate": "2023-01-31",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
       }
     },
     "revisionLog": [],
@@ -1883,6 +1894,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：CNIL sanctions 库（Derichebourg Multiservices, €400,000）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-blocked",
+        "detail": "Legifrance 返回 Cloudflare 人机校验页（Just a moment...），取不到 CNILTEXT000045372972 正文",
+        "probeStatus": "ok",
+        "probeBytes": 5550,
+        "upstreamDate": "2022-03-10",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
       }
     },
     "revisionLog": [],
@@ -2089,6 +2111,17 @@
         "evidence": "仅 botcrawl.com、brinztech.com 等安全营销博客转述「暗网论坛叫卖」，无 Lufthansa 官方声明、无 BfDI 立案公告、无主流媒体报道",
         "sourceUrl": null,
         "note": "**无法证实**。同期真实的航空泄露为 Qantas、Iberia、Collins Aerospace、Air France-KLM、Vietnam Airlines，均无 Lufthansa。细节表述（如「航空业最严重」）系内容农场话术。已降为 L4 线索，不得作为案例引用"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-is-index-page",
+        "detail": "链接指向 BfDI 英文首页，非该案决定页",
+        "probeStatus": "ok",
+        "probeBytes": 67376,
+        "upstreamDate": "2025-11-06",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -2718,6 +2751,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：Garante 决定库 / NOYB 案件页（Ryanair 人脸识别投诉）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "page-has-no-date",
+        "detail": "noyb 页面为投诉通报，日期 2024-12-19 为**投诉提起日**，非监管决定日；罚额为「最高可达」的估算，非已决金额",
+        "probeStatus": "ok",
+        "probeBytes": 38744,
+        "upstreamDate": "2024-12-19",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
       }
     },
     "revisionLog": [],
@@ -3036,9 +3080,13 @@
     ],
     "status": "adopted",
     "dates": {
-      "decisionDate": null,
+      "decisionDate": "2022-07-18",
       "retrievedAt": "2026-10-20",
-      "dateAsReportedInSource": "2023-02-20"
+      "dateAsReportedInSource": "2023-02-20",
+      "decisionDateBasis": "决定书正文/法院文书页眉",
+      "decisionDateLocator": "IMY 最终决定（英文非官方译本）第 1 页页头：「Date of final decision: 2022-07-18」；第 2 页页眉「Date:2022-07-18」；文号 DI-2021-5301，IMI case no. 115747",
+      "upstreamDateRejected": "2023-02-20",
+      "upstreamDateRejectedReason": "与文书载明日期不符，以文书为准"
     },
     "penalty": null,
     "citationString": "Swedish DPA Reprimand against SAS (Data Subject Access Request)",
@@ -3090,6 +3138,22 @@
         "locator": "行政处罚决定（IMY），见官方链接",
         "evidenceLevel": "L0",
         "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "decision_date",
+        "value": "2022-07-18",
+        "sourceId": "ADP-SE-A-001",
+        "locator": "IMY 最终决定（英文非官方译本）第 1 页页头：「Date of final decision: 2022-07-18」；第 2 页页眉「Date:2022-07-18」；文号 DI-2021-5301，IMI case no. 115747",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-29"
+      },
+      {
+        "field": "decision_date",
+        "value": "2022-07-18",
+        "sourceId": "ADP-SE-A-001",
+        "locator": "IMY 最终决定（英文非官方译本）第 1 页页头：「Date of final decision: 2022-07-18」；第 2 页页眉「Date:2022-07-18」；文号 DI-2021-5301，IMI case no. 115747",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-29"
       }
     ],
     "sourceUrl": "https://www.edpb.europa.eu/system/files/2023-02/se_2022-07decisionpublic_redacted.pdf",
@@ -3115,6 +3179,18 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：IMY 决定库（SAS 数据主体访问请求）"
+      },
+      "decisionVerified": {
+        "verifiedAt": "2026-10-29",
+        "decisionDate": "2022-07-18",
+        "authorityCaseNo": "DI-2021-5301",
+        "courtOrAuthority": "瑞典隐私保护局（IMY）",
+        "locator": "IMY 最终决定（英文非官方译本）第 1 页页头：「Date of final decision: 2022-07-18」；第 2 页页眉「Date:2022-07-18」；文号 DI-2021-5301，IMI case no. 115747",
+        "evidenceLevel": "L0",
+        "documentIsPrimary": null,
+        "sourceUrl": "https://www.edpb.europa.eu/system/files/2023-02/se_2022-07decisionpublic_redacted.pdf",
+        "note": "上游数据集记为 2023-02-20，与文书载明的 2022-07-18 不符（该日更可能是 EDPB 存档公布日）。以决定书正文为准。此件为官方决定之英文非官方译本，瑞典文原本为唯一正本——正本未取得，故按译本页头记载采信，证据等级按官方文书（译本）记 L0 并注明译本属性。",
+        "discrepancy": "upstream_2023-02-20_vs_document_2022-07-18"
       }
     },
     "revisionLog": [],
@@ -3241,6 +3317,17 @@
         "evidence": "Chambers Data Protection & Privacy 2020（Turkey chapter）列明 KVKK 对 Cathay Pacific Airways Limited 罚款 TRY 550,000（约 EUR 83,300）",
         "sourceUrl": "https://herguner.av.tr/wp-content/uploads/2020/05/Chambers-Partners-Data-Protection-and-Privacy-Guide-2020.pdf",
         "note": "决定日未在权威来源中检索到，保持空缺，不以报道日填充"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "page-has-no-date",
+        "detail": "KVKK 页面返回站点导航模板，决定正文未随 HTML 下发（疑前端异步加载）",
+        "probeStatus": "ok",
+        "probeBytes": 118338,
+        "upstreamDate": "2019-05-16",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-12",
+        "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
       }
     },
     "revisionLog": [],
@@ -3364,6 +3451,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：KVKK 决定库（航空公司复印身份证）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "page-has-no-date",
+        "detail": "同上：KVKK 页面仅返回导航模板",
+        "probeStatus": "ok",
+        "probeBytes": 118338,
+        "upstreamDate": "2019-10-01",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-12",
+        "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
       }
     },
     "revisionLog": [],
@@ -3577,6 +3675,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：DOT 执法记录 / aviation consumer reports"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-blocked",
+        "detail": "transportation.gov 返回 Access Denied（403），取不到 DOT Order 2023-6-3",
+        "probeStatus": "ok",
+        "probeBytes": 426,
+        "upstreamDate": "2023-06-01",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
       }
     },
     "revisionLog": [],
@@ -3687,6 +3796,17 @@
         "evidence": "多家媒体与 Digital Guardian 报道：2021 年圣诞节前与 27 州 AG 达成 AOD，和解金约 $2.4M；涉 2016-08 至 2017-03 SynXis 中央预订系统入侵、约 130 万张支付卡",
         "sourceUrl": "https://www.digitalguardian.com/blog/sabre-agrees-24m-settlement-following-2017-data-breach",
         "note": "机构与金额纠正：FTC 未对 Sabre 发布同意令。原记「FTC Consent Order」错误，实为多州 AG 和解。与 Carnival 条目同属「把州级执法误记为 FTC」的系统性错误"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-gone",
+        "detail": "FTC 该案页面现返回「Page Not Found」，案卷已改版或改址",
+        "probeStatus": "ok",
+        "probeBytes": 1301,
+        "upstreamDate": "2023-06-22",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -3789,6 +3909,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：FTC 6(b) order 公告（surveillance pricing）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-gone",
+        "detail": "FTC 该新闻稿页面现返回「Page Not Found」",
+        "probeStatus": "ok",
+        "probeBytes": 1301,
+        "upstreamDate": "2024-01-11",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -3812,9 +3943,13 @@
     ],
     "status": "final",
     "dates": {
-      "decisionDate": null,
+      "decisionDate": "2022-03-22",
       "retrievedAt": "2026-10-20",
-      "dateAsReportedInSource": "2022-03-23"
+      "dateAsReportedInSource": "2022-03-23",
+      "decisionDateBasis": "决定书正文/法院文书页眉",
+      "decisionDateLocator": "判决书第 1 页页眉：「Case: 1:17-cv-09080 Document #: 111 Filed: 03/22/22 Page 1 of 15」；文首「UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS EASTERN DIVISION」、「Kislov et al. v. American Airlines, Inc.」「Judge Rebecca R. Pallmeyer」",
+      "upstreamDateRejected": "2022-03-23",
+      "upstreamDateRejectedReason": "与文书载明日期不符，以文书为准"
     },
     "penalty": null,
     "citationString": "In re United Airlines Biometric Privacy Class Action (BIPA)",
@@ -3866,6 +4001,23 @@
         "locator": "法院判决（N.D. Ill.），见官方链接",
         "evidenceLevel": "L3",
         "verifiedAt": "2026-10-20"
+      },
+      {
+        "field": "decision_date",
+        "value": "2022-03-22",
+        "sourceId": "ADP-US-C-001",
+        "locator": "判决书第 1 页页眉：「Case: 1:17-cv-09080 Document #: 111 Filed: 03/22/22 Page 1 of 15」；文首「UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS EASTERN DIVISION」、「Kislov et al. v. American Airlines, Inc.」「Judge Rebecca R. Pallmeyer」",
+        "evidenceLevel": "L3",
+        "verifiedAt": "2026-10-29",
+        "evidenceNote": "日期取自法院文书页眉 CM/ECF 归档字段（Filed: 03/22/22）；文书本身为法院原件影印，经二手渠道托管取得，故按渠道记 L3"
+      },
+      {
+        "field": "decision_date",
+        "value": "2022-03-22",
+        "sourceId": "ADP-US-C-001",
+        "locator": "判决书第 1 页页眉：「Case: 1:17-cv-09080 Document #: 111 Filed: 03/22/22 Page 1 of 15」；文首「UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS EASTERN DIVISION」、「Kislov et al. v. American Airlines, Inc.」「Judge Rebecca R. Pallmeyer」",
+        "evidenceLevel": "L3",
+        "verifiedAt": "2026-10-29"
       }
     ],
     "sourceUrl": "https://www.courthousenews.com/wp-content/uploads/2022/03/privacy-airline-ruling.pdf",
@@ -3891,6 +4043,18 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：CourtListener / PACER（United Airlines BIPA）"
+      },
+      "decisionVerified": {
+        "verifiedAt": "2026-10-29",
+        "decisionDate": "2022-03-22",
+        "authorityCaseNo": "No. 17 C 9080 (N.D. Ill.)",
+        "courtOrAuthority": "美国伊利诺伊北区联邦地区法院（N.D. Ill.），Pallmeyer 法官",
+        "locator": "判决书第 1 页页眉：「Case: 1:17-cv-09080 Document #: 111 Filed: 03/22/22 Page 1 of 15」；文首「UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS EASTERN DIVISION」、「Kislov et al. v. American Airlines, Inc.」「Judge Rebecca R. Pallmeyer」",
+        "evidenceLevel": "L3",
+        "documentIsPrimary": true,
+        "sourceUrl": "https://www.courthousenews.com/wp-content/uploads/2022/03/privacy-airline-ruling.pdf",
+        "note": "上游数据集记为 2022-03-23，与法院文书页眉 Filed 03/22/22 差一日。以文书页眉为准。本件为 Memorandum Opinion and Order（即决判决意见），非终局判决。案件当事人为 Alex Kislov 与 Niko Hearn 诉 American Airlines，涉 BIPA 生物识别信息。",
+        "discrepancy": "upstream_2022-03-23_vs_document_2022-03-22"
       }
     },
     "revisionLog": [],
@@ -3992,6 +4156,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：CourtListener / PACER（FlightAware 泄露集体诉讼）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "page-has-no-date",
+        "detail": "Bloomberg Law 页面为报道，日期属报道日；起诉状与立案日需回法院记录（CourtListener/PACER）",
+        "probeStatus": "ok",
+        "probeBytes": 121833,
+        "upstreamDate": "2024-08-28",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-12",
+        "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
       }
     },
     "revisionLog": [],
@@ -4400,6 +4575,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：Datatilsynet 决定库（Norwegian Air Shuttle）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-gone",
+        "detail": "Datatilsynet 该新闻页现返回 404",
+        "probeStatus": "ok",
+        "probeBytes": 15170,
+        "upstreamDate": "2024-01-15",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -4502,6 +4688,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：AP 决定库（Schiphol 生物识别）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-gone",
+        "detail": "autoriteitpersoonsgegevens.nl 该页连接超时/拒绝，未能取到",
+        "probeStatus": "fetch_failed",
+        "probeBytes": null,
+        "upstreamDate": "2024-06-15",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -4603,6 +4800,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：NAIH 决定库（Lufthansa）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "page-has-no-date",
+        "detail": "dmp.hu 为律所分析文章，页面日期（2025-04-22）是**文章发布日**，非 NAIH 决定日",
+        "probeStatus": "ok",
+        "probeBytes": 229934,
+        "upstreamDate": "2025-01-15",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
       }
     },
     "revisionLog": [],
@@ -4704,6 +4912,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：FDPIC 决定库（SWISS）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-is-index-page",
+        "detail": "链接指向 EDÖB 决定汇编栏目页，非该案决定页；页面本身还报错",
+        "probeStatus": "ok",
+        "probeBytes": 176506,
+        "upstreamDate": "2024-09-20",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -4805,6 +5024,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：PIPC 决定库（Korean Air）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-is-index-page",
+        "detail": "链接指向 PIPC 英文首页，非该案决定页",
+        "probeStatus": "ok",
+        "probeBytes": 47405,
+        "upstreamDate": "2023-12-20",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -4907,6 +5137,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：DPBI / MeitY 通知（Air India SITA 泄露）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-is-index-page",
+        "detail": "链接指向 MeitY 首页。注：DPBI 系印度数据保护委员会，其决定未必在 MeitY 站发布",
+        "probeStatus": "ok",
+        "probeBytes": 3292,
+        "upstreamDate": "2024-05-15",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -5342,6 +5583,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：DSB 决定库（Austrian Airlines）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-is-index-page",
+        "detail": "链接指向奥地利 DSB 首页，非该案决定页",
+        "probeStatus": "ok",
+        "probeBytes": 16958,
+        "upstreamDate": "2023-06-20",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -5443,6 +5695,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：CNPD 决定库（TAP）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-is-index-page",
+        "detail": "链接指向 CNPD 首页，非该案决定页",
+        "probeStatus": "ok",
+        "probeBytes": 27866,
+        "upstreamDate": "2024-03-15",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -5544,6 +5807,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：DPC 决定库（Ryanair cookie）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-is-index-page",
+        "detail": "链接指向 DPC 首页；页内最新新闻日（2026-10）与本决定无关",
+        "probeStatus": "ok",
+        "probeBytes": 38811,
+        "upstreamDate": "2024-07-10",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -5645,6 +5919,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：UODO 决定库（LOT）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-is-index-page",
+        "detail": "链接指向 UODO 英文首页，非该案决定页",
+        "probeStatus": "ok",
+        "probeBytes": 115745,
+        "upstreamDate": "2023-11-08",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
@@ -5746,6 +6031,17 @@
         "evidence": null,
         "sourceUrl": null,
         "note": "待查渠道：Datatilsynet 决定库（Copenhagen Airports 生物识别）"
+      },
+      "dateGap": {
+        "annotatedAt": "2026-10-29",
+        "reason": "source-is-index-page",
+        "detail": "链接指向丹麦 Datatilsynet 首页（丹麦语），非该案决定页",
+        "probeStatus": "ok",
+        "probeBytes": 85993,
+        "upstreamDate": "2023-08-22",
+        "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
+        "upstreamLastVerified": "2026-06-13",
+        "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
       }
     },
     "revisionLog": [],
