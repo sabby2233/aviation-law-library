@@ -21,6 +21,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from record_id import RECORD_ID_RE, ALLOWED_TRANSITIONS, STATUSES  # noqa: E402  单一真源，避免规则漂移
+# 待核验判据同样只能有一处定义：校验器自己再写一遍，改规则时必然漂移
+# （实际发生过：build_manifest 已剔除 L3，这里仍按旧口径算，报 35 与实际 54 不符）
+from build_manifest import count_pending  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -301,20 +304,13 @@ def check_meta_counts(manifest, rep):
 def check_pending_declared(manifest, rep):
     """MAN-04 待核验条目数必须与实际一致，且站点须能筛出。
 
-    待核验的判据：决定日缺失 / 二手来源(L3) / 金额口径未确认。
+    判据见 build_manifest.count_pending：字段确实缺着，或记录被显式标为未核。
+    注意 L3（来源等级）不计入——那是来源等级，不是核验状态。
     界面提供 pendingOnly 筛选，meta.pendingCount 须与之一致。
     """
     meta = manifest.get("meta", {})
-    actual = 0
-    for r in manifest.get("records", []):
-        d = r.get("dates", {}) or {}
-        lv = [a.get("evidenceLevel") for a in r.get("assertions", [])]
-        p = r.get("penalty") or {}
-        if ("L3" in lv
-                or (r.get("recordType") == "case" and not d.get("decisionDate"))
-                or (p.get("amountOriginal") and p.get("amountFinal") is None)):
-            actual += 1
-    if "pendingCount" in meta and meta["pendingCount"] != actual:
+    actual = count_pending(manifest.get("records", []))
+    if meta.get("pendingCount") != actual:
         rep.fail("MAN-04", f"meta.pendingCount={meta['pendingCount']} 与实际 {actual} 不符")
     rep.stats["pendingCount"] = actual
 

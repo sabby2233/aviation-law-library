@@ -92,6 +92,13 @@ def main():
 
         rl = rec.setdefault("recordLevel", {})
         rl.pop("dateGap", None)          # 已核实，删除「未知原因」标注
+        # 记录级核验状态必须跟着改：只补日期、状态仍写 pending，
+        # 会让「待核验」计数把已核实的条目继续算进去（实际发生过）。
+        # 若上游日期与文书不一致，用 verified_with_correction 如实标注「核过且更正过」。
+        rl["verificationStatus"] = (
+            "verified_with_correction"
+            if it.get("upstreamDate") and it["upstreamDate"] != it["decisionDate"]
+            else "verified")
         rl["decisionVerified"] = {
             "verifiedAt": date.today().isoformat(),
             "decisionDate": it["decisionDate"],

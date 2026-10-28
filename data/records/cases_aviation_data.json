@@ -3242,6 +3242,14 @@
         "locator": "IMY 最终决定（英文非官方译本）第 1 页页头：「Date of final decision: 2022-07-18」；第 2 页页眉「Date:2022-07-18」；文号 DI-2021-5301，IMI case no. 115747",
         "evidenceLevel": "L0",
         "verifiedAt": "2026-10-29"
+      },
+      {
+        "field": "decision_date",
+        "value": "2022-07-18",
+        "sourceId": "ADP-SE-A-001",
+        "locator": "IMY 最终决定（英文非官方译本）第 1 页页头：「Date of final decision: 2022-07-18」；第 2 页页眉「Date:2022-07-18」；文号 DI-2021-5301，IMI case no. 115747",
+        "evidenceLevel": "L0",
+        "verifiedAt": "2026-10-29"
       }
     ],
     "sourceUrl": "https://www.edpb.europa.eu/system/files/2023-02/se_2022-07decisionpublic_redacted.pdf",
@@ -3252,7 +3260,7 @@
       "sourceTier": "L0",
       "lastVerified": "2026-06-12",
       "sourceRecordId": "SE-A-001",
-      "verificationStatus": "pending",
+      "verificationStatus": "verified_with_correction",
       "originalDateUnreliable": true,
       "originalDateNote": "旧仓库 date 字段口径不明（疑似媒体报道日），已改存 dateAsReportedInSource；决定日以官方文书或聚合库取得，见 dates.decisionDateBasis",
       "caseOutcome": "sanction",
@@ -4216,6 +4224,14 @@
         "locator": "判决书第 1 页页眉：「Case: 1:17-cv-09080 Document #: 111 Filed: 03/22/22 Page 1 of 15」；文首「UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS EASTERN DIVISION」、「Kislov et al. v. American Airlines, Inc.」「Judge Rebecca R. Pallmeyer」",
         "evidenceLevel": "L3",
         "verifiedAt": "2026-10-29"
+      },
+      {
+        "field": "decision_date",
+        "value": "2022-03-22",
+        "sourceId": "ADP-US-C-001",
+        "locator": "判决书第 1 页页眉：「Case: 1:17-cv-09080 Document #: 111 Filed: 03/22/22 Page 1 of 15」；文首「UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF ILLINOIS EASTERN DIVISION」、「Kislov et al. v. American Airlines, Inc.」「Judge Rebecca R. Pallmeyer」",
+        "evidenceLevel": "L3",
+        "verifiedAt": "2026-10-29"
       }
     ],
     "sourceUrl": "https://www.courthousenews.com/wp-content/uploads/2022/03/privacy-airline-ruling.pdf",
@@ -4226,7 +4242,7 @@
       "sourceTier": "L3",
       "lastVerified": "2026-06-12",
       "sourceRecordId": "US-C-001",
-      "verificationStatus": "pending",
+      "verificationStatus": "verified_with_correction",
       "originalDateUnreliable": true,
       "originalDateNote": "旧仓库 date 字段口径不明（疑似媒体报道日），已改存 dateAsReportedInSource；决定日以官方文书或聚合库取得，见 dates.decisionDateBasis",
       "caseOutcome": "other",

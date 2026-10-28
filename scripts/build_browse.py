@@ -204,6 +204,9 @@ def brief(rec, terms):
         out["dateGapReason"] = gap["reason"]
     # 事实有几分依据：卡片上「决定日未确认」必须同时交代有没有文书来源，
     # 否则会被读成「整条案件没有依据」。
+    # 记录级核验状态：前端筛选「仅待核验」要用，而精简索引不带整个 recordLevel
+    if rl.get("verificationStatus") == "pending":
+        out["verificationPending"] = True
     ev = rl.get("evidenceStatus") or {}
     fs = ev.get("factSource") or {}
     if fs.get("evidenceLevel"):

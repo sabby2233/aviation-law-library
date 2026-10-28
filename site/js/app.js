@@ -164,6 +164,24 @@
   }
 
   // ── 渲染：页头与页脚 ─────────────────────────────────
+
+  /** 待核验的三个构成。数字本身不解释自己，读者只会问「为什么这么多」。 */
+  function pendingBreakdown() {
+    let noDate = 0, noAmount = 0, unverified = 0;
+    for (const r of state.records) {
+      const d = r.dates || {};
+      if (r.recordType === 'case' && !d.decisionDate) noDate++;
+      if (r.penalty && r.penalty.amountOriginal && r.penalty.amountFinal === null) noAmount++;
+      if (r.verificationPending === true) unverified++;
+    }
+    return { noDate, noAmount, unverified };
+  }
+
+  function pendingTitle() {
+    const b = pendingBreakdown();
+    return `待核验 = 案例缺决定日 ${b.noDate} 条 ＋ 罚款未记录减免后数额 ${b.noAmount} 条 ＋ 记录级核验未完成 ${b.unverified} 条（有重叠，故总数小于三项之和）。\n「来源等级 L3」不计入待核验——那是来源等级，不是核验状态。`;
+  }
+
   function renderHeader() {
     const m = state.meta;
     // 一手来源占比：分类型 + 记录级。旧的单一数字（断言级加权）可被灌水刷高，
@@ -189,7 +207,7 @@
     }
     if (m.pendingCount) {
       parts.push(
-        `<div class="meta-pending"><b>${m.pendingCount}</b>` +
+        `<div class="meta-pending" title="${pendingTitle()}"><b>${m.pendingCount}</b>` +
         `<span class="meta-label">待核验</span></div>`);
     }
     el('header-meta').innerHTML = parts.join('');
@@ -343,13 +361,14 @@
     top.forEach(([k, n]) => jurBox.appendChild(navButton('jurisdiction', k, JUR_LABELS[k] || k, n)));
 
     el('nav-extra').appendChild(
-      navButton('pending', '1', '仅待核验', state.meta.pendingCount || 0));
+      navButton('pending', '1', '仅待核验', state.meta.pendingCount || 0, pendingTitle()));
   }
 
-  function navButton(kind, value, label, count) {
+  function navButton(kind, value, label, count, title) {
     const b = document.createElement('button');
     b.type = 'button';
     b.className = 'nav-item';
+    if (title) b.title = title;
     b.dataset.navKind = kind;
     b.dataset.navValue = value;
     b.innerHTML = `<span class="nav-label">${esc(label)}</span>` +
@@ -551,9 +570,10 @@
       }
       if (q.pendingOnly) {
         const d = r.dates || {};
-        const isPending = lv.includes('L3') ||
+        const isPending =
           (r.recordType === 'case' && !d.decisionDate) ||
-          (r.penalty && r.penalty.amountOriginal && r.penalty.amountFinal === null);
+          (r.penalty && r.penalty.amountOriginal && r.penalty.amountFinal === null) ||
+          r.verificationPending === true;
         if (!isPending) continue;
       }
       const d = r.dates || {};
@@ -567,8 +587,10 @@
 
   function render(hits, q, warnings) {
     const total = state.records.length;
+    // pendingOnly 漏在判断之外时，只勾「仅待核验」会让顶部显示「共 4230 条」
+    // 而实际只渲染 35 张卡——数字与列表自相矛盾。
     const hasFilter = q.text || q.jurisdiction || q.recordType || q.status ||
-      q.evidenceLevel || q.topics.length || q.from || q.to;
+      q.evidenceLevel || q.topics.length || q.from || q.to || q.pendingOnly;
 
     el('result-count').innerHTML = hasFilter
       ? `匹配 <b>${hits.length}</b> 条 / 共 ${total} 条`

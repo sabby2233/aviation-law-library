@@ -454,11 +454,11 @@ const Search = (function (global) {
 
       if (q.pendingOnly) {
         const d = r.dates || {};
-        const lv2 = evidenceLevelsOf(r);
+        // L3 是来源等级、不是核验状态，不能算作待核；只认真正缺着的字段
         const isPending =
-          lv2.includes('L3') ||
           (r.recordType === 'case' && !d.decisionDate) ||
-          (r.penalty && r.penalty.amountOriginal && r.penalty.amountFinal === null);
+          (r.penalty && r.penalty.amountOriginal && r.penalty.amountFinal === null) ||
+          r.verificationPending === true;
         if (!isPending) continue;
       }
 

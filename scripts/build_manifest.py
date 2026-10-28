@@ -77,15 +77,22 @@ def core_field_ratio(records):
 
 
 def count_pending(records):
-    """待核验条目：决定日缺失 / 二手来源 / 金额口径未确认。"""
+    """待核验条目 = 有字段确实缺着，或记录被显式标为未核。
+
+    曾经把「含 L3 断言」也算作待核，这是错的：L3 是**来源等级**，不是**核验状态**。
+    一条事实完全可以「已核对过某个二手源」而等级只有 L3——把它算成待核，
+    会让「待核验」这个数虚高（实测 54 里 20 条是 ICAO 标准记录，
+    其 L3 只出现在「公众号相册收录 N 篇」这种对二手源本身的如实标注上），
+    并且与站内独立的「证据等级」分面重复表达同一件事。
+    """
     n = 0
     for r in records:
         d = r.get("dates", {}) or {}
-        lv = [a.get("evidenceLevel") for a in r.get("assertions", [])]
         p = r.get("penalty") or {}
-        if ("L3" in lv
-                or (r.get("recordType") == "case" and not d.get("decisionDate"))
-                or (p.get("amountOriginal") and p.get("amountFinal") is None)):
+        rl = r.get("recordLevel") or {}
+        if ((r.get("recordType") == "case" and not d.get("decisionDate"))
+                or (p.get("amountOriginal") and p.get("amountFinal") is None)
+                or rl.get("verificationStatus") == "pending"):
             n += 1
     return n
 
