@@ -1,0 +1,97 @@
+name: Collect new aviation data cases
+
+# 定时从监管机构信息流增量发现「航空数据保护」新案。
+#
+# 跑在哪里：GitHub 的 runner 上，不依赖本机开机。这就是「在仓库中自行运行」。
+#
+# 为什么**只开 PR、不直接推 main**：
+#   采集器只产出「二手线索」（sourceTier=L3 / verificationStatus=pending），
+#   决定日、金额、处罚性质都还没核。让这类记录不经人看就进主干，
+#   等于把「未核」伪装成「已核」——这正是当年 data-quality.yml 删掉自动采集的原因。
+#   开 PR 后由人扫一眼再合，合了 Pages 会自动重建发布。
+#
+# 频率：每月 1 日 03:00 UTC。
+#   ⚠ 已知局限：EDPB / CNIL 的 RSS 各只保留约 10 条，若某月发布量超过 10 条，
+#   月初抓取会漏掉被挤出的条目。若要求一条不漏，应改为每周（把 cron 改成
+#   '0 3 * * 1'）；此取舍留给维护者决定。
+
+on:
+  schedule:
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: '写入新案例（取消勾选则仅试跑，不产生 PR）'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 先试跑，把「监测源是否还活着、抓到几条」写进日志，
+      # 这样某个机构的 RSS 哪天失效了，能从运行日志里看见，而不是静默无新增。
+      - name: Probe feeds (dry run)
+        run: python scripts/collect_new_cases.py
+
+      - name: Apply new cases
+        if: github.event_name == 'schedule' || inputs.apply
+        run: python scripts/collect_new_cases.py --apply
+
+      # 采集后必须过数据门禁：状态词表、来源登记、ID 规则都不允许被采集器绕过
+      - name: Rebuild derived artifacts
+        if: github.event_name == 'schedule' || inputs.apply
+        run: python scripts/build_manifest.py
+
+      - name: Validate
+        if: github.event_name == 'schedule' || inputs.apply
+        run: python scripts/validate.py
+
+      - name: Open PR if records changed
+        if: github.event_name == 'schedule' || inputs.apply
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- data/records/cases_aviation_data.json; then
+            echo "无新增案例，不建 PR。"
+            exit 0
+          fi
+          BRANCH="auto/cases-$(date -u +%Y%m%d)"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add data/records/cases_aviation_data.json
+          git commit -m "自动采集：新增航空数据保护案例线索（待核）"
+          git push -u origin "$BRANCH" --force
+          cat > /tmp/pr-body.md <<'BODY'
+          由 collect-cases 定时任务产生。
+
+          这些记录是未核线索：sourceTier=L3、verificationStatus=pending，
+          decisionDate 一律留空（信息流里的日期是新闻日，不是决定日）。
+
+          合并前请逐条确认：
+          - [ ] 确实是「航空 + 数据保护」案件，而非泛泛的隐私新闻
+          - [ ] 标题与链接指向具体执法/处罚，而非政策宣示或合规指南
+          - [ ] 已知决定编号的，补进 citationString，方便日后回查
+
+          合并后 Pages 工作流会自动重建发布。
+          BODY
+          gh pr create \
+            --title "自动采集：新增航空数据保护案例线索（待核）" \
+            --body-file /tmp/pr-body.md

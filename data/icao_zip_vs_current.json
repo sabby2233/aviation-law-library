@@ -1,0 +1,316 @@
+{
+  "generatedAt": "2026-10-29",
+  "zip": "ICAO附件2024-4-9图书馆发来.zip（中文版 30 份 / 英文版 34 份）",
+  "baseline": "站内 recordLevel.edition（2026-10-22/23 取自 ICAO Store 与官方 PDF 封面）",
+  "liveRecheck": "2026-10-29 抓 store.icao.int/en/annexes；该页仅暴露 11 个产品，无适用日字段",
+  "caveat": "Store 目录页为分页展示，未能一次性取得全部 19 份附件的现行版次与适用日；标 ★ 者为本次复核，其余依据站内 2026-10-22 基线。",
+  "rows": [
+    {
+      "item": "Annex 1",
+      "inZip": "12th 2018-07、13th 2020-07",
+      "current": "14th 2022-07",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "包内有第十二、第十三两版，现行第十四版；两版均已废止",
+      "liveReconfirmed": true,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 2",
+      "inZip": "10th 2005-07（另附第1–9号修订 .rar）",
+      "current": "11th 2024-07",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "包内为 2005 年第十版，现行第十一版（2024）；相差近 19 年",
+      "liveReconfirmed": true,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 3",
+      "inZip": "20th 2018-07",
+      "current": "21st 2025",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "第二十版 2018；现行第二十一版 2025（已按官方 PDF 封面核到 © ICAO 2025）",
+      "liveReconfirmed": false,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 4",
+      "inZip": "11th 2009-07",
+      "current": "11th 2009-07",
+      "verdict": "same",
+      "versionsBehind": 0,
+      "note": "一致，且本次实抓复核",
+      "liveReconfirmed": true,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 5",
+      "inZip": "5th 2010-07",
+      "current": "5th 2010-07",
+      "verdict": "same",
+      "versionsBehind": 0,
+      "note": "一致，且本次实抓复核",
+      "liveReconfirmed": true,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 6 Part I",
+      "inZip": "11th 2018-07",
+      "current": "12th 2022-07",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第十二版 2022",
+      "liveReconfirmed": false,
+      "siteBaseline": "Part I: 12th Ed, 2022-07 ｜ Part II: 12th Ed, 2026-08 ｜ Part III: 12th Ed, 2026-08"
+    },
+    {
+      "item": "Annex 6 Part II",
+      "inZip": "10th 2018-07",
+      "current": "12th 2026-08",
+      "verdict": "behind",
+      "versionsBehind": 2,
+      "note": "落后两版：包内第十版 2018 → 现行第十二版（站内基线记 2026-08 换版）",
+      "liveReconfirmed": false,
+      "siteBaseline": "Part I: 12th Ed, 2022-07 ｜ Part II: 12th Ed, 2026-08 ｜ Part III: 12th Ed, 2026-08"
+    },
+    {
+      "item": "Annex 6 Part III",
+      "inZip": "9th 2018-07、10th 2020-07",
+      "current": "12th 2026-08",
+      "verdict": "behind",
+      "versionsBehind": 2,
+      "note": "落后两版；包内第十版 2020 为当时最新，现行已至第十二版",
+      "liveReconfirmed": false,
+      "siteBaseline": "Part I: 12th Ed, 2022-07 ｜ Part II: 12th Ed, 2026-08 ｜ Part III: 12th Ed, 2026-08"
+    },
+    {
+      "item": "Annex 7",
+      "inZip": "6th 2012-07",
+      "current": "6th 2012-07",
+      "verdict": "same",
+      "versionsBehind": 0,
+      "note": "一致，且本次实抓复核",
+      "liveReconfirmed": true,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 8",
+      "inZip": "12th 2018-07",
+      "current": "13th 2022-07",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第十三版 2022，且本次实抓复核",
+      "liveReconfirmed": true,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 9",
+      "inZip": "15th 2017-10",
+      "current": "17th 2025-03",
+      "verdict": "behind",
+      "versionsBehind": 2,
+      "note": "落后两版：包内第十五版 2017 → 现行第十七版 2025-03",
+      "liveReconfirmed": true,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 10 Vol I",
+      "inZip": "7th 2018-07",
+      "current": "8th 2023-07",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第八版 2023，且本次实抓复核",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2023-07 ｜ Vol II: 7th Ed, 2016-07 (Amd 95, 2026-08) ｜ Vol III: 2nd Ed, 2007 (Amd 94, 2026-08) ｜ Vol IV: 6th Ed, 2026-08 ｜ Vol V: 3rd Ed, 2013-07 ｜ Vol VI: 1st Ed, 2021-07"
+    },
+    {
+      "item": "Annex 10 Vol II",
+      "inZip": "7th 2016-07",
+      "current": "7th 2016-07 + Amd 95（2026-08）",
+      "verdict": "amd",
+      "versionsBehind": 0,
+      "note": "版次相同，但现行已并入第 95 号修正案；包内为该版原始印次",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2023-07 ｜ Vol II: 7th Ed, 2016-07 (Amd 95, 2026-08) ｜ Vol III: 2nd Ed, 2007 (Amd 94, 2026-08) ｜ Vol IV: 6th Ed, 2026-08 ｜ Vol V: 3rd Ed, 2013-07 ｜ Vol VI: 1st Ed, 2021-07"
+    },
+    {
+      "item": "Annex 10 Vol III",
+      "inZip": "2nd 2007-07",
+      "current": "2nd 2007 + Amd 94（2026-08）",
+      "verdict": "amd",
+      "versionsBehind": 0,
+      "note": "版次相同，但现行已并入第 94 号修正案",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2023-07 ｜ Vol II: 7th Ed, 2016-07 (Amd 95, 2026-08) ｜ Vol III: 2nd Ed, 2007 (Amd 94, 2026-08) ｜ Vol IV: 6th Ed, 2026-08 ｜ Vol V: 3rd Ed, 2013-07 ｜ Vol VI: 1st Ed, 2021-07"
+    },
+    {
+      "item": "Annex 10 Vol IV",
+      "inZip": "5th 2014-07",
+      "current": "6th 2026-08",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第六版（站内基线记 2026-08 换版）",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2023-07 ｜ Vol II: 7th Ed, 2016-07 (Amd 95, 2026-08) ｜ Vol III: 2nd Ed, 2007 (Amd 94, 2026-08) ｜ Vol IV: 6th Ed, 2026-08 ｜ Vol V: 3rd Ed, 2013-07 ｜ Vol VI: 1st Ed, 2021-07"
+    },
+    {
+      "item": "Annex 10 Vol V",
+      "inZip": "3rd 2013-07",
+      "current": "3rd 2013-07",
+      "verdict": "same",
+      "versionsBehind": 0,
+      "note": "一致",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2023-07 ｜ Vol II: 7th Ed, 2016-07 (Amd 95, 2026-08) ｜ Vol III: 2nd Ed, 2007 (Amd 94, 2026-08) ｜ Vol IV: 6th Ed, 2026-08 ｜ Vol V: 3rd Ed, 2013-07 ｜ Vol VI: 1st Ed, 2021-07"
+    },
+    {
+      "item": "Annex 10 Vol VI",
+      "inZip": "缺",
+      "current": "1st 2021-07",
+      "verdict": "missing",
+      "versionsBehind": null,
+      "note": "包内没有第六卷；且中文版整套缺 Annex 10 全部卷次",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2023-07 ｜ Vol II: 7th Ed, 2016-07 (Amd 95, 2026-08) ｜ Vol III: 2nd Ed, 2007 (Amd 94, 2026-08) ｜ Vol IV: 6th Ed, 2026-08 ｜ Vol V: 3rd Ed, 2013-07 ｜ Vol VI: 1st Ed, 2021-07"
+    },
+    {
+      "item": "Annex 11",
+      "inZip": "15th 2018-07",
+      "current": "15th 2018-07",
+      "verdict": "same",
+      "versionsBehind": 0,
+      "note": "一致",
+      "liveReconfirmed": false,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 12",
+      "inZip": "8th 2004-07（修订1–17已编入，第18号 2007-11-22）",
+      "current": "9th 2024",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "包内为 2004 年第八版加至第 18 号修订；现行第九版 2024",
+      "liveReconfirmed": false,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 13",
+      "inZip": "11th 2016-07、12th 2020-07",
+      "current": "13th 2024",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第十三版 2024",
+      "liveReconfirmed": false,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 14 Vol I",
+      "inZip": "8th 2018-07",
+      "current": "9th 2022-07",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第九版 2022",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 9th Ed, 2022-07 ｜ Vol II: 5th Ed, 2020-07"
+    },
+    {
+      "item": "Annex 14 Vol II",
+      "inZip": "4th 2013-07（直升机场）；另有 8th 2018「机场设计和运行」",
+      "current": "5th 2020-07（Heliports）",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "直升机场卷为第四版 2013，现行第五版 2020；中文版另有第八版「第II卷 机场设计和运行」属另一分卷命名",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 9th Ed, 2022-07 ｜ Vol II: 5th Ed, 2020-07"
+    },
+    {
+      "item": "Annex 15",
+      "inZip": "16th 2018-07",
+      "current": "16th 2018-07",
+      "verdict": "same",
+      "versionsBehind": 0,
+      "note": "一致",
+      "liveReconfirmed": false,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 16 Vol I",
+      "inZip": "8th 2017-07",
+      "current": "8th 2017-07 + Amd 15",
+      "verdict": "amd",
+      "versionsBehind": 0,
+      "note": "版次相同，但现行已并入第 15 号修正案",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2017-07 (Amd 15) ｜ Vol II: 5th Ed, 2023-07 (Amd 12) ｜ Vol III: 2nd Ed, 2026-08 ｜ Vol IV: 2nd Ed, 2023-07 (Amd 2)"
+    },
+    {
+      "item": "Annex 16 Vol II",
+      "inZip": "4th 2017-07",
+      "current": "5th 2023-07 + Amd 12",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第五版 2023 并已并入第 12 号修正案",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2017-07 (Amd 15) ｜ Vol II: 5th Ed, 2023-07 (Amd 12) ｜ Vol III: 2nd Ed, 2026-08 ｜ Vol IV: 2nd Ed, 2023-07 (Amd 2)"
+    },
+    {
+      "item": "Annex 16 Vol III",
+      "inZip": "1st 2017-07",
+      "current": "2nd 2026-08",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第二版（站内基线记 2026-08 换版）",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2017-07 (Amd 15) ｜ Vol II: 5th Ed, 2023-07 (Amd 12) ｜ Vol III: 2nd Ed, 2026-08 ｜ Vol IV: 2nd Ed, 2023-07 (Amd 2)"
+    },
+    {
+      "item": "Annex 16 Vol IV",
+      "inZip": "1st 2018-10",
+      "current": "2nd 2023-07 + Amd 2",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第二版 2023 并已并入第 2 号修正案",
+      "liveReconfirmed": false,
+      "siteBaseline": "Vol I: 8th Ed, 2017-07 (Amd 15) ｜ Vol II: 5th Ed, 2023-07 (Amd 12) ｜ Vol III: 2nd Ed, 2026-08 ｜ Vol IV: 2nd Ed, 2023-07 (Amd 2)"
+    },
+    {
+      "item": "Annex 17",
+      "inZip": "10th 2017-04、11th 2020-03",
+      "current": "12th 2022",
+      "verdict": "behind",
+      "versionsBehind": 1,
+      "note": "现行第十二版 2022",
+      "liveReconfirmed": false,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 18",
+      "inZip": "4th 2011-07",
+      "current": "4th 2011",
+      "verdict": "same",
+      "versionsBehind": 0,
+      "note": "一致",
+      "liveReconfirmed": false,
+      "siteBaseline": null
+    },
+    {
+      "item": "Annex 19",
+      "inZip": "2nd 2016-07",
+      "current": "2nd 2016-07（现行适用）｜3rd 2025-11 于 2026-11-26 生效",
+      "verdict": "pending",
+      "versionsBehind": 1,
+      "note": "★ 11 月生效项：第 3 版 2025-11 出版，封面载明 2026-11-26 取代第 2 版。包内第 2 版在 2026-11-26 之前仍为现行，之后即落后一版",
+      "liveReconfirmed": false,
+      "siteBaseline": null
+    }
+  ],
+  "tally": {
+    "behind": 18,
+    "same": 7,
+    "amd": 3,
+    "missing": 1,
+    "pending": 1
+  }
+}

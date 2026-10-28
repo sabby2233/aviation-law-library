@@ -76660,5 +76660,43 @@
     "locatorScheme": "cfr-section",
     "snapshotUrl": null,
     "archiveStatus": "not-archived"
+  },
+  {
+    "sourceId": "FEED-EDPB",
+    "url": "https://www.edpb.europa.eu/rss.xml",
+    "authority": "European Data Protection Board",
+    "jurisdiction": "EU",
+    "documentType": "news_feed",
+    "documentNo": "EDPB 新闻信息流（RSS）",
+    "evidenceLevel": "L3",
+    "retrievedAt": "2026-10-29",
+    "retrievalChannel": "rss",
+    "retrievalQuery": "RSS 定时抓取",
+    "language": "en",
+    "title": "EDPB 新闻信息流（RSS）",
+    "verificationStatus": "pending",
+    "locatorScheme": "rss-item",
+    "snapshotUrl": null,
+    "archiveStatus": "not-archived",
+    "note": "仅用于发现线索；FTC/ICO/Datatilsynet/UODO/EDÖB 的 RSS 实测已失效（404/超时），未列入监测。"
+  },
+  {
+    "sourceId": "FEED-CNIL",
+    "url": "https://www.cnil.fr/fr/rss.xml",
+    "authority": "CNIL",
+    "jurisdiction": "FR",
+    "documentType": "news_feed",
+    "documentNo": "CNIL 新闻信息流（RSS）",
+    "evidenceLevel": "L3",
+    "retrievedAt": "2026-10-29",
+    "retrievalChannel": "rss",
+    "retrievalQuery": "RSS 定时抓取",
+    "language": "fr",
+    "title": "CNIL 新闻信息流（RSS）",
+    "verificationStatus": "pending",
+    "locatorScheme": "rss-item",
+    "snapshotUrl": null,
+    "archiveStatus": "not-archived",
+    "note": "仅用于发现线索；FTC/ICO/Datatilsynet/UODO/EDÖB 的 RSS 实测已失效（404/超时），未列入监测。"
   }
 ]

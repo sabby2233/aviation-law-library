@@ -6048,5 +6048,48 @@
     "caseOutcome": "investigation",
     "caseOutcomeNote": "监管机构调查或程序进行中，**尚无处罚决定**，不得作为已决执法案例或判例引用",
     "sanctionsVerified": false
+  },
+  {
+    "recordId": "AVA-IT-ADP-ITALIANDPAFI-4F77",
+    "recordType": "case",
+    "title": "Italian DPA fines Emirates EUR 180 000 for infringements concerning passengers’ health data",
+    "summary": "[待核线索] 该条来自 EDPB 信息流（2026-10-09），标题与摘要为信息流原文，**尚未回官方决定书核对**。 原文摘要：Italian DPA fines Emirates EUR 180 000 for infringements concerning passengers’ health data ikerinar Fri, 09/10/2026 - 09:26",
+    "jurisdiction": "IT",
+    "topics": [
+      "GDPR",
+      "airline",
+      "feed-lead"
+    ],
+    "status": "adopted",
+    "citationString": "EDPB 信息流条目（待核）",
+    "sourceUrl": "https://www.edpb.europa.eu/news/italian-dpa-fines-emirates-eur-180-000-for-infringements-concerning-passengers-health-data_en",
+    "dates": {
+      "retrievedAt": "2026-10-28",
+      "newsDate": "2026-10-09"
+    },
+    "caseOutcome": "unknown",
+    "sanctionsVerified": false,
+    "recordLevel": {
+      "sourceTier": "L3",
+      "verificationStatus": "pending",
+      "channel": "EDPB RSS 信息流",
+      "note": "自动发现线索，未经人工核验；决定日、金额、处罚性质均须回官方文书确认",
+      "dateGap": {
+        "annotatedAt": "2026-10-28",
+        "reason": "lead-from-feed",
+        "detail": "由 EDPB 信息流自动发现，尚未定位官方决定书",
+        "nextStep": "按机构站内检索该企业名，取决定书编号与落款日"
+      }
+    },
+    "assertions": [
+      {
+        "field": "feed_title",
+        "value": "Italian DPA fines Emirates EUR 180 000 for infringements concerning passengers’ health data",
+        "sourceId": "FEED-EDPB",
+        "locator": "EDPB RSS，条目链接 https://www.edpb.europa.eu/news/italian-dpa-fines-emirates-eur-180-000-for-infringements-concerning-passengers-health-data_en",
+        "evidenceLevel": "L3",
+        "verifiedAt": "2026-10-28"
+      }
+    ]
   }
 ]
