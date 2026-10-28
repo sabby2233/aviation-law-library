@@ -1,0 +1,81 @@
+{
+  "experiment": "换网络出口能否核到 21 条待核案例",
+  "conductedAt": "2026-10-29",
+  "question": "本机抓不到的官方页面，换到 GitHub runner（境外出口）能否抓到",
+  "method": "同一份 scripts/probe_case_dates.py，本机与 GitHub Actions ubuntu-latest 各跑一次，比对返回字节数与页面标题",
+  "verdict": "不能。换出口无改善，这些封锁不是地域性的。",
+  "evidence": [
+    {
+      "recordId": "AVA-ES-ADP-A-004",
+      "host": "aepd.es",
+      "localBytes": 1682,
+      "runnerBytes": 1682,
+      "pageTitle": "Acceso Bloqueado - Agencia Española de Protección de Datos",
+      "cause": "反爬（IP 无关，两侧一致）"
+    },
+    {
+      "recordId": "AVA-FR-ADP-A-001",
+      "host": "legifrance.gouv.fr",
+      "localBytes": 5550,
+      "runnerBytes": 5593,
+      "pageTitle": "Just a moment...",
+      "cause": "Cloudflare 人机校验（两侧一致）"
+    },
+    {
+      "recordId": "AVA-US-ADP-A-003",
+      "host": "ftc.gov",
+      "localBytes": 1301,
+      "runnerBytes": 1301,
+      "pageTitle": "Page Not Found",
+      "cause": "页面已删除（FTC 全站改版）"
+    },
+    {
+      "recordId": "AVA-NL-ADP-A-001",
+      "host": "autoriteitpersoonsgegevens.nl",
+      "localBytes": null,
+      "runnerBytes": 18750,
+      "pageTitle": "404 | Autoriteit Persoonsgegevens",
+      "cause": "本机超时、runner 可达但页面本身 404 —— 唯一差异，结论仍是核不到"
+    }
+  ],
+  "alsoTried": [
+    {
+      "channel": "web.archive.org",
+      "result": "HTTP 000，绕代理仍不通（网络层阻断）"
+    },
+    {
+      "channel": "r.jina.ai 文本代理",
+      "result": "HTTP 000"
+    },
+    {
+      "channel": "api.allorigins.win",
+      "result": "HTTP 000"
+    },
+    {
+      "channel": "本机代理",
+      "result": "出口单一，仅 127.0.0.1:62986 一条；proxy 非原因"
+    },
+    {
+      "channel": "cnil.fr 站内检索",
+      "result": "页面 200 但结果为前端异步加载，静态取不到"
+    },
+    {
+      "channel": "ftc.gov/search",
+      "result": "HTTP 404（站点已改版）"
+    },
+    {
+      "channel": "CourtListener API v4",
+      "result": "HTTP 401，需 token"
+    },
+    {
+      "channel": "gdprhub.eu",
+      "result": "bot 校验页"
+    },
+    {
+      "channel": "EDPB 一店式决定登记册",
+      "result": "可达，但仅暴露最近约 11 条且不含企业名"
+    }
+  ],
+  "conclusion": "要核这 21 条，只剩三条路：①在机构站内人工定位正确的文书 URL（现记录的链接多数指错或已删）；②用带鉴权的 API（CourtListener 需 token）；③向机构直接索取文书。换网络出口、换代理、换 IP 均无效，故不再在这方面投入。",
+  "kept": "probe-cases.yml 保留为每月一次的可达性巡检：若某站恢复了，会从日志里第一个看到。"
+}

@@ -83,6 +83,11 @@ jobs:
           处理方式：判断哪个日期是**决定日**而非报道日/文章发布日，再运行
           `python scripts/apply_case_decisions.py` 补入记录。不要把新闻日当决定日。
           BODY
-          gh pr create \
-            --title "取证：从境外出口重探待核案例的决定日" \
-            --body-file /tmp/pr-body.md
+          # 仓库若未开启「Allow GitHub Actions to create and approve pull requests」，
+          # gh 会报 createPullRequest 被拒。此时不该让整个任务失败——分支已推上去，
+          # 证据已经保住，只要把对比链接打出来，人工点一下即可。
+          if ! gh pr create --title "取证：从境外出口重探待核案例的决定日" --body-file /tmp/pr-body.md; then
+            echo "::warning::无法自动创建 PR（仓库设置未允许 Actions 创建 PR）。"
+            echo "证据已推送到分支 $BRANCH，请手动开 PR："
+            echo "https://github.com/$GITHUB_REPOSITORY/compare/main...$BRANCH?expand=1"
+          fi
