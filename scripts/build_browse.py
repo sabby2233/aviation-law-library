@@ -202,6 +202,13 @@ def brief(rec, terms):
     gap = rl.get("dateGap") or {}
     if gap.get("reason"):
         out["dateGapReason"] = gap["reason"]
+    # 事实有几分依据：卡片上「决定日未确认」必须同时交代有没有文书来源，
+    # 否则会被读成「整条案件没有依据」。
+    ev = rl.get("evidenceStatus") or {}
+    fs = ev.get("factSource") or {}
+    if fs.get("evidenceLevel"):
+        out["factSourceLevel"] = fs["evidenceLevel"]
+        out["factSourceType"] = fs.get("documentType")
     if rec.get("recordType") == "case" and not d.get("decisionDate"):
         out["pendingDecisionDate"] = True
     # FR 文件号：同一份 Federal Register 引注可能对应两个文件（两份规则可同页起排），

@@ -565,6 +565,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-ES-A-004",
+          "documentType": "enforcement_decision",
+          "title": "AEPD Sanción a Ryanair DAC - Documento de Identidad",
+          "authority": "Agencia Española de Protección de Datos (AEPD)",
+          "evidenceLevel": "L1",
+          "url": "https://www.aepd.es/resoluciones/PS-00319-2022"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-blocked",
+          "note": "AEPD 返回「Acceso Bloqueado」（反爬拦截），决定书 PS-00319-2022 正文取不到"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -1905,6 +1927,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-FR-A-001",
+          "documentType": "enforcement_decision",
+          "title": "CNIL Délibération SAN-2022-009 - Derichebourg Multiservices",
+          "authority": "Commission Nationale de l'Informatique et des Libertés (CNIL)",
+          "evidenceLevel": "L0",
+          "url": "https://www.legifrance.gouv.fr/cnil/id/CNILTEXT000045372972"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-blocked",
+          "note": "Legifrance 返回 Cloudflare 人机校验页（Just a moment...），取不到 CNILTEXT000045372972 正文"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -2122,6 +2166,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-DE-A-001",
+          "documentType": "enforcement_decision",
+          "title": "BfDI - Lufthansa Datenleck",
+          "authority": "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)",
+          "evidenceLevel": "L3",
+          "url": "https://www.bfdi.bund.de/EN/Home/home_node.html"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-is-index-page",
+          "note": "链接指向 BfDI 英文首页，非该案决定页"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -2762,6 +2828,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-IT-A-003",
+          "documentType": "enforcement_decision",
+          "title": "NOYB Querela contro Ryanair - Riconoscimento Facciale Obbligatorio",
+          "authority": "Garante per la Protezione dei Dati Personali",
+          "evidenceLevel": "L3",
+          "url": "https://noyb.eu/en/want-book-ryanair-flight-prepare-face-scan"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "page-has-no-date",
+          "note": "noyb 页面为投诉通报，日期 2024-12-19 为**投诉提起日**，非监管决定日；罚额为「最高可达」的估算，非已决金额"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -3328,6 +3416,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-12",
         "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-TR-A-001",
+          "documentType": "enforcement_decision",
+          "title": "KVKK İdari Para Cezası - Cathay Pacific Airways",
+          "authority": "Kişisel Verileri Koruma Kurulu (KVKK)",
+          "evidenceLevel": "L1",
+          "url": "https://www.kvkk.gov.tr/Icerik/6638/Cathay-Pacific-Hava-Yollari-Limited-Sirketi-Hakkinda-Veri-Koruma-Kurulu-Karari"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "page-has-no-date",
+          "note": "KVKK 页面返回站点导航模板，决定正文未随 HTML 下发（疑前端异步加载）"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -3462,6 +3572,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-12",
         "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-TR-A-002",
+          "documentType": "enforcement_decision",
+          "title": "KVKK İdari Para Cezası - Havayolu Şirketi (Kimlik Fotokopisi)",
+          "authority": "Kişisel Verileri Koruma Kurulu (KVKK)",
+          "evidenceLevel": "L1",
+          "url": "https://www.kvkk.gov.tr/Icerik/6639/Havayolu-Sirketi-Hakkinda-Veri-Koruma-Kurulu-Karari"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "page-has-no-date",
+          "note": "同上：KVKK 页面仅返回导航模板"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -3686,6 +3818,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-US-A-002",
+          "documentType": "enforcement_decision",
+          "title": "DOT Order 2023-6-3 - American Airlines Privacy Policy",
+          "authority": "U.S. Department of Transportation (DOT)",
+          "evidenceLevel": "L3",
+          "url": "https://www.transportation.gov/airconsumer/aviation-consumer-protection"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-blocked",
+          "note": "transportation.gov 返回 Access Denied（403），取不到 DOT Order 2023-6-3"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -3807,6 +3961,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-US-A-003",
+          "documentType": "enforcement_decision",
+          "title": "In the Matter of Sabre Corporation",
+          "authority": "Federal Trade Commission (FTC)",
+          "evidenceLevel": "L1",
+          "url": "https://www.ftc.gov/enforcement/cases-proceedings/2023152/sabre-corporation"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-gone",
+          "note": "FTC 该案页面现返回「Page Not Found」，案卷已改版或改址"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -3920,6 +4096,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-US-A-004",
+          "documentType": "enforcement_decision",
+          "title": "FTC Surveillance Pricing Study - Airlines",
+          "authority": "Federal Trade Commission (FTC)",
+          "evidenceLevel": "L3",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-surveillance-pricing-study"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-gone",
+          "note": "FTC 该新闻稿页面现返回「Page Not Found」"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -4167,6 +4365,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-12",
         "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-US-C-002",
+          "documentType": "enforcement_decision",
+          "title": "FlightAware Data Breach Class Action",
+          "authority": "U.S. District Court for the Western District of Texas",
+          "evidenceLevel": "L3",
+          "url": "https://news.bloomberglaw.com/litigation/flightaware-hit-with-class-action-over-breach-of-scraped-data"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "page-has-no-date",
+          "note": "Bloomberg Law 页面为报道，日期属报道日；起诉状与立案日需回法院记录（CourtListener/PACER）"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -4586,6 +4806,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-NO-A-001",
+          "documentType": "enforcement_decision",
+          "title": "Datatilsynet - Norwegian Air Shuttle Datahåndtering",
+          "authority": "Norwegian Data Protection Authority (Datatilsynet)",
+          "evidenceLevel": "L1",
+          "url": "https://www.datatilsynet.no/en/about-the-datatilsynet/news/2024/norwegian-air-shuttle-asa/"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-gone",
+          "note": "Datatilsynet 该新闻页现返回 404"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -4699,6 +4941,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-NL-A-001",
+          "documentType": "enforcement_decision",
+          "title": "AP - Schiphol Airport Biometrische Gegevens",
+          "authority": "Autoriteit Persoonsgegevens (Dutch DPA)",
+          "evidenceLevel": "L3",
+          "url": "https://www.autoriteitpersoonsgegevens.nl/en/current/dutch-dpa-investigates-biometric-data-at-schiphol-airport"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-gone",
+          "note": "autoriteitpersoonsgegevens.nl 该页连接超时/拒绝，未能取到"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -4811,6 +5075,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需换用可直接取文的通道（官方 PDF 直链、公开镜像或书面申请）"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-HU-A-001",
+          "documentType": "enforcement_decision",
+          "title": "NAIH - Lufthansa Adatszivárgás",
+          "authority": "National Authority for Data Protection and Freedom of Information (NAIH)",
+          "evidenceLevel": "L3",
+          "url": "https://dmp.hu/en/data-protection/analysis-of-the-naih-2024-cases-with-fines/"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "page-has-no-date",
+          "note": "dmp.hu 为律所分析文章，页面日期（2025-04-22）是**文章发布日**，非 NAIH 决定日"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -4923,6 +5209,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-CH-A-001",
+          "documentType": "enforcement_decision",
+          "title": "FDPIC - Swiss International Air Lines",
+          "authority": "Federal Data Protection and Information Commissioner (FDPIC)",
+          "evidenceLevel": "L3",
+          "url": "https://www.edoeb.admin.ch/edoeb/en/home/documentation/decisions.html"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-is-index-page",
+          "note": "链接指向 EDÖB 决定汇编栏目页，非该案决定页；页面本身还报错"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -5035,6 +5343,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-KR-A-001",
+          "documentType": "enforcement_decision",
+          "title": "PIPC - Korean Air 개인정보 유출",
+          "authority": "Personal Information Protection Commission (PIPC)",
+          "evidenceLevel": "L1",
+          "url": "https://www.pipc.go.kr/eng/index.do"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-is-index-page",
+          "note": "链接指向 PIPC 英文首页，非该案决定页"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -5148,6 +5478,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-IN-A-001",
+          "documentType": "enforcement_decision",
+          "title": "DPBI - Air India Data Breach (SITA)",
+          "authority": "Digital Personal Data Protection Board of India (DPDPA)",
+          "evidenceLevel": "L3",
+          "url": "https://www.meity.gov.in/"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-is-index-page",
+          "note": "链接指向 MeitY 首页。注：DPBI 系印度数据保护委员会，其决定未必在 MeitY 站发布"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -5594,6 +5946,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-AT-A-001",
+          "documentType": "enforcement_decision",
+          "title": "DSB - Austrian Airlines PNR-Datenverarbeitung",
+          "authority": "Austrian Data Protection Authority (DSB)",
+          "evidenceLevel": "L1",
+          "url": "https://www.dsb.gv.at/"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-is-index-page",
+          "note": "链接指向奥地利 DSB 首页，非该案决定页"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -5706,6 +6080,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-PT-A-001",
+          "documentType": "enforcement_decision",
+          "title": "CNPD - TAP Air Portugal Violação de Dados",
+          "authority": "Comissão Nacional de Proteção de Dados (CNPD)",
+          "evidenceLevel": "L1",
+          "url": "https://www.cnpd.pt/"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-is-index-page",
+          "note": "链接指向 CNPD 首页，非该案决定页"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -5818,6 +6214,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-IE-A-001",
+          "documentType": "enforcement_decision",
+          "title": "DPC - Ryanair Cookie Compliance Investigation",
+          "authority": "Data Protection Commission (DPC) Ireland",
+          "evidenceLevel": "L3",
+          "url": "https://www.dataprotection.ie/"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-is-index-page",
+          "note": "链接指向 DPC 首页；页内最新新闻日（2026-10）与本决定无关"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -5930,6 +6348,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-PL-A-001",
+          "documentType": "enforcement_decision",
+          "title": "UODO - LOT Polish Airlines Data Breach",
+          "authority": "Urząd Ochrony Danych Osobowych (UODO)",
+          "evidenceLevel": "L1",
+          "url": "https://uodo.gov.pl/en"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-is-index-page",
+          "note": "链接指向 UODO 英文首页，非该案决定页"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -6042,6 +6482,28 @@
         "upstreamDateCaveat": "上游数据集记录的日期，其口径（决定日／公布日／报道日）未经核实，故不写入 decisionDate；仅作后续核查线索保留。",
         "upstreamLastVerified": "2026-06-13",
         "nextStep": "需按案号回监管机构决定库定位决定书正文，或回法院记录（PACER/CourtListener）取裁判日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "ADP-DK-A-001",
+          "documentType": "enforcement_decision",
+          "title": "Datatilsynet - Copenhagen Airports Biometric Data",
+          "authority": "Danish Data Protection Authority (Datatilsynet)",
+          "evidenceLevel": "L3",
+          "url": "https://www.datatilsynet.dk/"
+        },
+        "summaryProvenance": "摘要为中文转述：采集时据登记文书整理，非逐字引用；罚款金额、受影响人数等数值未在本次逐项复核。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "source-is-index-page",
+          "note": "链接指向丹麦 Datatilsynet 首页（丹麦语），非该案决定页"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "revisionLog": [],
@@ -6079,6 +6541,28 @@
         "reason": "lead-from-feed",
         "detail": "由 EDPB 信息流自动发现，尚未定位官方决定书",
         "nextStep": "按机构站内检索该企业名，取决定书编号与落款日"
+      },
+      "evidenceStatus": {
+        "annotatedAt": "2026-10-29",
+        "factSource": {
+          "sourceId": "FEED-EDPB",
+          "documentType": "news_feed",
+          "title": "EDPB 新闻信息流（RSS）",
+          "authority": "European Data Protection Board",
+          "evidenceLevel": "L3",
+          "url": "https://www.edpb.europa.eu/rss.xml"
+        },
+        "summaryProvenance": "摘要取自信息流条目的标题与摘要（英文原文），尚未据官方决定书整理。",
+        "stillMissing": [
+          "decisionDate"
+        ],
+        "recheck": {
+          "possible": false,
+          "checkedAt": "2026-10-29",
+          "reason": "lead-from-feed",
+          "note": "由 EDPB 信息流自动发现，尚未定位官方决定书"
+        },
+        "plainStatus": "案件事实有登记文书支撑，缺决定日"
       }
     },
     "assertions": [

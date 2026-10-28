@@ -53,7 +53,7 @@
     'source-is-index-page': '来源链接指向机构首页/栏目页，未指向决定书',
     'source-gone': '原链接已失效（404/改址）',
     'source-blocked': '官方站点反爬拦截，取不到正文',
-    'page-has-no-date': '页面可读但未载决定日（如仅有报道日）',
+    'page-has-no-date': '页面未载决定日',
     'upstream-uncertain': '上游数据集日期口径未核实',
     'lead-from-feed': '监管机构信息流自动发现，尚未定位官方决定书',
   };
@@ -748,8 +748,15 @@
     if (r.recordType === 'case' && !d.decisionDate) {
       // 「未知」有三种成因，可靠性含义完全不同：链接指错、页面已失效、机构未公布。
       // 只写「待核验」等于把工作量藏起来，读者没法判断该不该引用。
+      // 同时必须说清「事实有没有来源」——有文书来源与什么都没有，可信度差一个量级。
       const why = DATE_GAP_REASON[r.dateGapReason] || '原因未分类';
-      notes.push('决定日待核验：' + why);
+      // 信息流线索不是「文书来源」，措辞必须分开，否则等于把新闻标题抬成执法文书
+      const fs = r.factSourceLevel
+        ? (r.factSourceType === 'news_feed'
+            ? `仅有 ${r.factSourceLevel} 信息流线索`
+            : `事实有 ${r.factSourceLevel} 文书来源`)
+        : '事实暂无文书来源';
+      notes.push(`决定日未确认｜${fs}｜${why}`);
     }
     // 注意：amountFinal === null 不等于「拟议额」。
     // schema 没定义 null 的含义，实际数据里同样情形一半填了 final=original（A-007 等 8 条）、
@@ -879,6 +886,23 @@
         '</tbody></table>');
     }
     const rl = d.recordLevel || {};
+    // 证据状态：把「缺决定日」与「没有来源」分开说。
+    // 此前只显示「待核验」，读者会以为整条案件没有依据——实际是文书齐备、只缺一个日期字段。
+    const es = rl.evidenceStatus;
+    if (es && es.factSource) {
+      const fs = es.factSource;
+      parts.push(
+        '<div class="detail-evidence">' +
+        `<b>${fs.documentType === 'news_feed' ? '线索来源' : '事实依据'}</b>：` +
+        `<span class="mono">${esc(fs.evidenceLevel || '')}</span> ` +
+        `${esc(fs.documentType || '')}《${esc(fs.title || '')}》` +
+        `<span class="muted">（登记号 ${esc(fs.sourceId || '')}）</span>` +
+        `<div class="muted">${esc(es.summaryProvenance || '')}</div>` +
+        `<div class="muted">仍未确认：${esc((es.stillMissing || []).join('、'))}。` +
+        `能否回原文复核：${es.recheck && es.recheck.possible ? '可以' : '当前不可以'}` +
+        `${es.recheck && es.recheck.note ? '——' + esc(es.recheck.note) : ''}</div>` +
+        '</div>');
+    }
     const rev = d.revisionLog || [];
     if (rev.length) {
       parts.push('<div class="detail-rev"><b>修订与终结说明</b>' +

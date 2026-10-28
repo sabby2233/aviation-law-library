@@ -434,3 +434,21 @@ body {
   border-radius: 5px; padding: 4px 9px; font-size: 12px; cursor: pointer;
 }
 .btn-copy:hover { color: var(--accent); border-color: var(--accent); }
+
+/* ── 详情：事实依据块（区分「缺决定日」与「无来源」）──────── */
+.detail-evidence {
+  margin: 10px 0 0; padding: 10px 12px;
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  border-radius: 0 6px 6px 0; font-size: 13px; line-height: 1.65;
+}
+.detail-evidence .muted { display: block; margin-top: 4px; }
+
+/* ── 详情：事实依据块（区分「缺决定日」与「无来源」）──────── */
+.detail-evidence {
+  margin: 10px 0 0; padding: 10px 12px;
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  border-radius: 0 6px 6px 0; font-size: 13px; line-height: 1.65;
+}
+.detail-evidence .muted { display: block; margin-top: 4px; }
