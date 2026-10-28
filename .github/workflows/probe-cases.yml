@@ -1,0 +1,88 @@
+name: Probe pending case dates
+
+# 用 GitHub runner 的**境外出口**去抓那些从本机取不到的官方页面。
+#
+# 为什么这样做：
+#   本机只有一条出口（127.0.0.1 代理），实测 AEPD 封 IP、Legifrance 撞 Cloudflare、
+#   FTC 全站改版 404、archive.org 在网络层就不通（绕代理也 000）。
+#   「换网络出口」在本地做不到，但 runner 本身就是另一个出口，且免费。
+#
+# 本流程**只取证、不写入记录**：
+#   探测结果（HTTP 状态、页面标题、命中的日期片段）提交到分支并开 PR，
+#   由人判断哪个日期是「决定日」而不是「报道日」后再补进记录。
+#   自动填日期的风险：新闻页的日期会被误当决定日，这类错误比缺日期更糟。
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 1 * *'   # 每月 1 日 04:00 UTC，与采集任务错开一小时
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          # 只有本流程需要解析 PDF；不写进主 requirements，避免拖慢其余工作流
+          pip install pdfplumber
+
+      - name: Probe pending cases
+        run: python scripts/probe_case_dates.py
+
+      - name: Summarize reachability
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p = pathlib.Path("data/case_date_probe.json")
+          if not p.exists():
+              print("无探测结果"); raise SystemExit(0)
+          rows = json.loads(p.read_text(encoding="utf-8"))
+          ok = [r for r in rows if r.get("status") == "ok"]
+          bad = [r for r in rows if r.get("status") != "ok"]
+          print(f"探测 {len(rows)} 条：可读文本 {len(ok)} 条，取不到/无文本 {len(bad)} 条")
+          for r in rows:
+              print(f"  {r['recordId']:26s} {r.get('status'):12s} {r.get('bytes') or '':>8} "
+                    f"{'PDF' if r.get('isPdf') else 'HTML'}")
+          PY
+
+      - name: Open PR with evidence
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- data/case_date_probe.json; then
+            echo "证据无变化，不建 PR。"
+            exit 0
+          fi
+          BRANCH="auto/probe-$(date -u +%Y%m%d)"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add data/case_date_probe.json
+          git commit -m "取证：从境外出口重探待核案例的决定日"
+          git push -u origin "$BRANCH" --force
+          cat > /tmp/pr-body.md <<'BODY'
+          由 `probe-cases` 工作流从 GitHub runner（境外出口）重探待核案例页面。
+
+          **只含证据，不改记录。** `data/case_date_probe.json` 里每条含：
+          - `status`：ok / fetch_failed / no_text
+          - `snippets`：命中「决定日/落款日」的上下文与日期候选
+          - `textHead`：正文开头，用于判断页面性质
+
+          处理方式：判断哪个日期是**决定日**而非报道日/文章发布日，再运行
+          `python scripts/apply_case_decisions.py` 补入记录。不要把新闻日当决定日。
+          BODY
+          gh pr create \
+            --title "取证：从境外出口重探待核案例的决定日" \
+            --body-file /tmp/pr-body.md

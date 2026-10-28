@@ -10,14 +10,14 @@ name: Collect new aviation data cases
 #   等于把「未核」伪装成「已核」——这正是当年 data-quality.yml 删掉自动采集的原因。
 #   开 PR 后由人扫一眼再合，合了 Pages 会自动重建发布。
 #
-# 频率：每月 1 日 03:00 UTC。
+# 频率：每周一 03:00 UTC（北京时间周一 11:00）。
 #   ⚠ 已知局限：EDPB / CNIL 的 RSS 各只保留约 10 条，若某月发布量超过 10 条，
 #   月初抓取会漏掉被挤出的条目。若要求一条不漏，应改为每周（把 cron 改成
 #   '0 3 * * 1'）；此取舍留给维护者决定。
 
 on:
   schedule:
-    - cron: '0 3 1 * *'
+    - cron: '0 3 * * 1'
   workflow_dispatch:
     inputs:
       apply:
