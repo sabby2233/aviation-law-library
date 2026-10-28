@@ -95,8 +95,12 @@ def main():
                 # 通用映射只在缺 detail 时兜底——否则会把 JS 渲染页说成「报道文章」，不准确。
                 "note": gap.get("detail") or RECHECK_BLOCK.get(reason, "未分类"),
             },
+            # 一句话结论必须与来源类型一致：信息流条目不是文书，
+            # 不能因为「登记了来源」就说「有文书支撑」。
             "plainStatus": (
-                "案件事实有登记文书支撑，缺决定日" if src else "仅有线索，无登记文书"
+                "仅有信息流线索，案件事实与决定日均未核"
+                if (src or {}).get("documentType") == "news_feed"
+                else ("案件事实有登记文书支撑，缺决定日" if src else "无登记来源")
             ),
         }
         rl["evidenceStatus"] = evidence

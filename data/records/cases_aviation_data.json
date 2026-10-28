@@ -6562,7 +6562,7 @@
           "reason": "lead-from-feed",
           "note": "由 EDPB 信息流自动发现，尚未定位官方决定书"
         },
-        "plainStatus": "案件事实有登记文书支撑，缺决定日"
+        "plainStatus": "仅有信息流线索，案件事实与决定日均未核"
       }
     },
     "assertions": [
